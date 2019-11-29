@@ -1,0 +1,26 @@
+{
+  "name": "fonte-imagem",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "gridsome": "^0.7.0",
+    "typeface-montserrat": "0.0.75",
+    "vue-disqus": "^3.0.5",
+    "bootstrap-scss": "^4.3.1",
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/transformer-remark": "^0.4.0"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-brands-svg-icons": "^5.11.2",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/vue-fontawesome": "^0.1.7",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "style-resources-loader": "^1.2.1"
+  }
+}
