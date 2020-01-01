@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="777px" viewBox="0 0 1440 777" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Group 14</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="18.5664875%" x2="57.3795316%" y2="59.8324076%" id="linearGradient-1">
+            <stop stop-color="#3ED6BE" offset="0%"></stop>
+            <stop stop-color="#03756D" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1---Home">
+            <g id="Group-31" transform="translate(-83.000000, -656.000000)">
+                <g id="Fill-5">
+                    <g id="Group-14" transform="translate(83.000000, 656.000000)">
+                        <path d="M0,-1.13686838e-13 L1635,-1.13686838e-13 C1475.2168,246.362928 1296.41924,428.714491 1098.60732,547.054688 C979.774371,618.146031 762.226092,720.006762 519.50203,755.164062 C351.182419,779.544271 178.015075,783.489583 0,767 L0,-1.13686838e-13 Z" id="Rectangle-Copy" fill="#1B6B91" opacity="0.09"></path>
+                        <path d="M0,-1.13686838e-13 L1393,-1.13686838e-13 C1256.86667,246.362928 1104.53333,428.714491 936,547.054688 C834.755779,618.146031 649.407307,720.006762 442.609375,755.164062 C299.203125,779.544271 151.666667,783.489583 0,767 L0,-1.13686838e-13 Z" id="Rectangle" fill="url(#linearGradient-1)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

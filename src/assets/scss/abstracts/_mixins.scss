@@ -1,0 +1,65 @@
+@mixin colored-button($color: $accent-color-1) {
+    @extend .button;
+    background-color: $color;
+    color: #fff;
+    border-radius: .22rem;
+    box-shadow: 0 1rem 3rem -8px rgba($color, .5);
+    
+    &:hover {
+        background-color: darken($color, 6%);
+    }
+}
+
+
+@mixin outline-button($color: $accent-color-1, $hover-color: #fff) {
+    @extend .button;
+    color: $color;
+    text-transform: capitalize;
+    font-size: .88rem;
+    line-height: 1;
+    border: 1px solid $color;
+    border-radius: 50px;
+    min-width: 10.5rem;
+    padding: 1rem;
+    background-color: transparent;
+    letter-spacing: 0;
+
+    &:hover {
+        background-color: $color;
+        color: $hover-color;
+    }
+
+    &:hover::before {
+        background-color: $hover-color;
+    }
+
+    &:hover::after {
+        border-color: $color;
+    }    
+
+    &::before {
+        content: "";
+        position: absolute;
+        width: 27px;
+        height: 27px;
+        background-color: $color;
+        border-radius: 50%;
+        top: 25%;
+        right: .75rem;
+        z-index: 100;
+    }    
+
+    &::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border: 3px solid $hover-color;
+        transform: rotate(-45deg);
+        border-top: transparent;
+        border-left: transparent;
+        top: 42%;
+        right: 1.3rem;
+        z-index: 200;
+    }
+}

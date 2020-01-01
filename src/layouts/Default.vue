@@ -1,6 +1,5 @@
 <template>
-  <div>
-    <div class='scroll-top' :class="{ 'is-visible': scroll >= 200 }"  @click="scrollTop"></div>    
+  <div class="tint">  
     <div class="container">
       <div class="layout">
         <Header />            
@@ -64,54 +63,30 @@ export default {
 
 <style lang="scss">
 
-.fade-enter-active {
-  transition: opacity 0.5s;
-}
-
-.fade-enter {
-  opacity: 0;
-}
-
-.scroll-top {
-  display: none;
-
-  @media (min-width: 992px) {
-
-    display: block;
-    position: fixed;
-    bottom: 1.5rem;
-    right: 1rem;
-    width: 2.22rem;
-    height: 2.22rem;
-    z-index: 99999;
-    background-color: #fff;
-    box-shadow: 0 1rem 2rem rgba($primary-color, 0.35);
-
-    opacity:0;
-    visibility: hidden;
-    transition: opacity 0.4s linear;
-
-    &:hover {
-      cursor: pointer;
-    }
-
-    &::after {
+.tint {
+  overflow: hidden;
+  position: relative;
+  &::before {
       content: "";
       position: absolute;
-      // background: url("../assets/images/ic-arrow.svg") no-repeat center;
-      transform: rotate(-90deg);
-      width: inherit;
-      height: inherit;
-      top: 0%;
-      left: 0%;
-      transition: all .2s ease;
-    }
+      width: 140%;
+      height: 0;
+      @media(min-width: 576px) {
+          height: 66rem;
+      }      
+      @media(min-width: 768px) {
+          height: 73rem;
+      }
+      @media(min-width: 992px) {
+          height: 48rem;
+      }
+      @media(min-width: 1200px) {
+          height: 37rem;
+      }      
+      background: linear-gradient(to bottom, rgba(248,250,255,1) 0%, rgba(252,253,255,1) 100%);
+      left: -20%;
+      bottom: 0;
   }  
-}
-
-.is-visible {
-    opacity: 1;
-    visibility: visible;
 }
 
 </style>

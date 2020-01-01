@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1189px" height="728px" viewBox="0 0 1189 728" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Mask</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M515.135519,334.610734 L130.135519,1001.4503 C636.981953,1364.89985 1167.72842,1374.95333 1722.37493,1031.61073 L1310.14684,793.610734 L515.135519,334.610734 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1---Home" transform="translate(-251.000000, 0.000000)">
+            <g id="Group-31" transform="translate(-82.000000, -655.000000)">
+                <g id="Fill-5">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#1B6B91" opacity="0.0918251812" transform="translate(926.255226, 808.201405) rotate(-30.000000) translate(-926.255226, -808.201405) " xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

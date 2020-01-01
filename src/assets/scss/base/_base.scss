@@ -1,0 +1,95 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-size: $base-font-size;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    color: $text-color;
+}
+
+a {
+    text-decoration: none !important;
+    transition: all .2s ease;
+    color: $accent-color-1;
+    font-weight: 500;
+
+    &:hover {
+        color: darken($accent-color-1, 10%);
+        cursor: pointer;
+    }
+}
+
+.button {
+    position: relative;
+    padding: .6rem 1.5rem;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: .75px;
+    font-size: .77rem;
+    font-weight: 600;
+    border-style: none;
+    transition: all .2s ease;
+    
+    &:focus {
+        outline: 0 !important;
+    }
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.form {
+
+    &__radio-group {
+        width: 8rem;
+        display: inline-block;
+    }
+
+    &__radio-label {
+        cursor: pointer;
+        font-size: 1rem;
+        position: relative;
+        padding-left: 2rem;
+        color: $primary-color;
+    }
+
+    &__radio-button {
+        
+        height: 24px;
+        width: 24px;
+        border: 1px solid $accent-color-1;
+        border-radius: 12px;
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        top: 0;
+
+        &::after {
+            content: "";
+            display: block;
+            height: .8rem;
+            width: .8rem;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0);
+            background-color: $accent-color-1;
+            opacity: 0;
+            transition: all .2s ease;
+        }
+    }
+
+    &__radio-input {
+        display: none;
+    }
+
+    &__radio-input:checked ~ &__radio-label &__radio-button::after {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
