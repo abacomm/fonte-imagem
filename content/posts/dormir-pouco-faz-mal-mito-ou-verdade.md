@@ -4,7 +4,7 @@ excerpt: >-
   Saiba como podemos vencer essa mal com opinião do ganhador do Oscar da
   medicina
 date: 2020-01-02T21:58:26.858Z
-author: Ilan Gottlieb
+author: Adriana Lessa Brandão
 category: Fisioterapia
 featured_image: /uploads/img-materia01-1.jpg
 tags:
