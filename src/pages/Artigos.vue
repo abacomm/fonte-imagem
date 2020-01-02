@@ -18,6 +18,15 @@
       </div>
     </div>
     <div class="row">
+      <div class="col-xl-4 col-lg-6 col-md-6" v-for="edge in $static.allPost.edges" :key="edge.node.id">
+        <ArticleCards 
+          image="https://images.unsplash.com/photo-1573487849427-587d8d9b5f73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1663&q=80"
+          :date="edge.node.date"
+          category="Cardiologia"
+          :title="edge.node.title"
+          :text="edge.node.excerpt"
+        />          
+      </div>      
       <div class="col-xl-4 col-lg-6 col-md-6">
         <ArticleCards 
           image="https://images.unsplash.com/photo-1573487849427-587d8d9b5f73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1663&q=80"
@@ -53,6 +62,22 @@
     </div>    
   </Layout>
 </template>
+
+<static-query>
+{
+  allPost {
+    edges {
+      node {
+        id
+        title
+        date (format: "DD/MM/YYYY", locale: "pt-BR")
+        excerpt
+        path
+      }
+    }
+  } 
+}
+</static-query>
 
 <script>
 import ArticleCards from '../components/ArticleCards.vue'
@@ -131,65 +156,4 @@ export default {
   color: $primary-color;
 }
 
-// .article-card {
-//   max-width: 20.44rem;
-//   overflow: hidden;
-//   border-radius: .22rem;
-//   margin-bottom: 3rem;
-//   box-shadow: 0 20px 50px -10px rgba($primary-color, .2);
-
-//   &__image {
-//     img {
-//       width: 100%;
-//       height: 10.6rem;
-//       object-fit: cover;
-//     }
-//   }
-
-//   &__credits, &__title, &__text {
-//     padding: 0 1.5rem;
-//   }
-
-//   &__credits {
-//     display: flex;
-//     flex-wrap: nowrap;
-//     align-items: center;
-//     margin: 1.5rem 0 1rem;
-//     * {
-//       text-transform: uppercase;
-//       font-size: .66rem;
-//       letter-spacing: .7px;
-//     }
-//   }
-
-//   &__date {
-
-//   }
-
-//   &__divider {
-//     margin: 0 .5rem;
-//     width: 6px;
-//     height: 6px;
-//     border-radius: 50%;
-//     background-color: $text-color;
-//   }
-
-//   &__category {
-//     color: $accent-color-1;
-//   }
-
-//   &__title {
-//     color: $primary-color;
-//     font-size: 1rem;
-//     line-height: 1.5rem;
-//     margin-bottom: .5rem;
-//   }
-
-//   &__text {
-//     font-size: .77rem;
-//     line-height: 1.16rem;
-//     margin-bottom: 1.5rem;
-//   }
-
-// }
 </style>

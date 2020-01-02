@@ -12,11 +12,13 @@ function addStyleResource (rule) {
 
 module.exports = {
   siteName: 'Fonte Imagem',
+  siteDescription: "A clínica referência em diagnóstico por imagem no Rio de Janeiro",
 
   templates: {
     Post: '/artigos/:title',
     Tag: '/tag/:id',
     Author: '/author/:id',
+    Category: '/category/:id',
   },
 
   plugins: [
@@ -33,7 +35,11 @@ module.exports = {
           author:{
             typeName: 'Author',
             create: true
-          }          
+          },
+          category:{
+            typeName: 'Category',
+            create: true
+          }                     
         }        
       }
     }     

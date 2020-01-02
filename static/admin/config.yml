@@ -1,0 +1,58 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
+  # This line should *not* be indented
+publish_mode: editorial_workflow
+
+# This line should *not* be indented
+media_folder: "static/uploads" # Media files will be stored in the repo under images/uploads
+public_folder: "uploads" # The src attribute for uploaded media will begin with /images/uploads
+
+# logo_url: https://energyfuture.com.br/assets/img/img-logo-ef.48baba85.svg
+
+collections:
+  - name: "blog" # Used in routes, e.g., /admin/collections/blog
+    label: "Artigos" # Used in the UI
+    folder: "content/posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Título", name: "title", widget: "string"}
+      - {label: "Subtítulo", name: "excerpt", widget: "string"}
+      - {label: "Data da publicação", name: "date", widget: "datetime"}
+      - {label: "Imagem de Destaque", name: "featured_image", widget: "image", hint: "Imagem que fica em destaque na parte superior do post"}
+      - {label: "Tags", name: "tags", widget: "list", allow_add: true, default: ["empreendedorismo", "fontes renováveis", "investimentos", "inovação", "setor elétrico", "startup", "tecnologias"], hint: "As tags ajudam à identificar o tipo do conteúdo. Separe-as com vírgula e utilize apenas aquelas que tiverem relação com o assunto publicado"}
+      - {label: "Corpo da mensagem", name: "body", widget: "markdown"}
+      - label: "Autor"
+        name: "author"
+        widget: "relation"
+        collection: "authors"
+        searchFields: ["name"]
+        displayFields: ["name"]
+      - label: "Categoria"
+        name: "category"
+        widget: "relation"
+        collection: "categories"
+        searchFields: ["name"]
+        displayFields: ["name"]        
+        
+
+  - name: "authors" 
+    label: "Autores" 
+    folder: "content/authors"
+    create: true
+    slug: "{{slug}}"
+    identifier_field: "name"
+    fields:
+      - {label: "Nome", name: "name", widget: "string"}
+      - {label: "Profile", name: "profile", widget: "markdown"}
+      
+  - name: "categories" 
+    label: "Categorias" 
+    folder: "content/categories"
+    create: true
+    slug: "{{slug}}"
+    identifier_field: "name"
+    fields:
+      - {label: "Nome", name: "name", widget: "string"}     

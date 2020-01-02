@@ -57,16 +57,20 @@ export default {
             .join('&')
         },
         handleSubmit(e) {
-            fetch('/', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                body: this.encode({
-                    'form-name': e.target.getAttribute('name'),
-                    ...this.formData,
-                }),
-            })
-            .then(() => this.$router.push('/sucesso'))
-            .catch(error => alert(error))
+            if (this.formData.opcao === 'Resultado' && this.formData.protocolo != '') {
+                window.open('https://netpacs.fonteimagem.com.br/Netpacs-paciente/#/login-externo/' + this.formData.protocolo, '_blank');
+            } else {            
+                fetch('/', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                    body: this.encode({
+                        'form-name': e.target.getAttribute('name'),
+                        ...this.formData,
+                    }),
+                })
+                .then(() => this.$router.push('/sucesso'))
+                .catch(error => alert(error))
+            }
         }
     }        
 }

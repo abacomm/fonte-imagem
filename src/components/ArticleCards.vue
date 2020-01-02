@@ -9,7 +9,7 @@
             <span class="article-card__divider"></span>
             <g-link class="article-card__category" to="/"> {{ category }} </g-link>
         </div>
-        <h1 class="article-card__title"><g-link to="/">{{ title }}</g-link></h1>
+        <g-link to="/"><h1 class="article-card__title">{{ title }}</h1></g-link>
         <p class="article-card__text">{{ text }}</p>
     </article>           
 </template>
