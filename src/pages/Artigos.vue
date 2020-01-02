@@ -18,7 +18,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-xl-4 col-lg-6 col-md-6" v-for="edge in $static.allPost.edges" :key="edge.node.id">
+      <!-- <div class="col-xl-4 col-lg-6 col-md-6" v-for="edge in $static.allPost.edges" :key="edge.node.id">
         <ArticleCards 
           image="https://images.unsplash.com/photo-1573487849427-587d8d9b5f73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1663&q=80"
           :date="edge.node.date"
@@ -26,7 +26,7 @@
           :title="edge.node.title"
           :text="edge.node.excerpt"
         />          
-      </div>      
+      </div>       -->
       <div class="col-xl-4 col-lg-6 col-md-6">
         <ArticleCards 
           image="https://images.unsplash.com/photo-1573487849427-587d8d9b5f73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1663&q=80"
@@ -62,7 +62,7 @@
     </div>    
   </Layout>
 </template>
-
+<!--
 <static-query>
 {
   allPost {
@@ -78,6 +78,7 @@
   } 
 }
 </static-query>
+-->
 
 <script>
 import ArticleCards from '../components/ArticleCards.vue'
