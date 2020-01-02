@@ -3,7 +3,7 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 
   # This line should *not* be indented
-publish_mode: editorial_workflow
+# publish_mode: editorial_workflow
 
 # This line should *not* be indented
 media_folder: "static/uploads" # Media files will be stored in the repo under images/uploads
@@ -21,9 +21,6 @@ collections:
       - {label: "Título", name: "title", widget: "string"}
       - {label: "Subtítulo", name: "excerpt", widget: "string"}
       - {label: "Data da publicação", name: "date", widget: "datetime"}
-      - {label: "Imagem de Destaque", name: "featured_image", widget: "image", hint: "Imagem que fica em destaque na parte superior do post"}
-      - {label: "Tags", name: "tags", widget: "list", allow_add: true, default: ["empreendedorismo", "fontes renováveis", "investimentos", "inovação", "setor elétrico", "startup", "tecnologias"], hint: "As tags ajudam à identificar o tipo do conteúdo. Separe-as com vírgula e utilize apenas aquelas que tiverem relação com o assunto publicado"}
-      - {label: "Corpo da mensagem", name: "body", widget: "markdown"}
       - label: "Autor"
         name: "author"
         widget: "relation"
@@ -37,8 +34,10 @@ collections:
         collection: "categories"
         searchFields: ["name"]
         displayFields: ["name"]
-        valueField: "name"        
-        
+        valueField: "name"      
+      - {label: "Imagem de Destaque", name: "featured_image", widget: "image", hint: "Imagem que fica em destaque na parte superior do post"}
+      - {label: "Tags", name: "tags", widget: "list", allow_add: true, default: ["empreendedorismo", "fontes renováveis", "investimentos", "inovação", "setor elétrico", "startup", "tecnologias"], hint: "As tags ajudam à identificar o tipo do conteúdo. Separe-as com vírgula e utilize apenas aquelas que tiverem relação com o assunto publicado"}
+      - {label: "Corpo da mensagem", name: "body", widget: "markdown"}
 
   - name: "authors" 
     label: "Autores" 
