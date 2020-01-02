@@ -6,7 +6,7 @@ featured_image: /uploads/img-materia01-1.jpg
 tags:
   - saude
   - bem-estar
-author: Erica Endo
+author: Renato
 category: Cardiologia
 ---
 Um corpo qualquer
