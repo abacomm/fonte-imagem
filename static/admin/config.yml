@@ -30,12 +30,14 @@ collections:
         collection: "authors"
         searchFields: ["name"]
         displayFields: ["name"]
+        valueField: "name"
       - label: "Categoria"
         name: "category"
         widget: "relation"
         collection: "categories"
         searchFields: ["name"]
-        displayFields: ["name"]        
+        displayFields: ["name"]
+        valueField: "name"        
         
 
   - name: "authors" 
