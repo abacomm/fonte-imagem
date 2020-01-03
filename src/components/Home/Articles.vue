@@ -31,7 +31,7 @@
 
 <static-query>
 {
-  allPost {
+  allPost (order: DESC, limit: 3) {
     edges {
       node {
         id

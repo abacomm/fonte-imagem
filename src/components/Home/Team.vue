@@ -4,36 +4,72 @@
           <h2 class="big-h2">Nossa Equipe</h2>
           <p>Nossos exames priorizam o seu conforto. <br>Você terá acesso aos nossos médicos no Consultório de Imagem e poderá tirar todas as suas dúvidas.</p>
         </div>
+
         <div class="slide-container">
             <div class="slide-details">
-                <p class="slide-details__category">Radiologia - Cardiologia</p>
-                <h1 class="slide-details__name">Dr. Illan Gottilieb</h1>
-                <p class="slide-details__resume">Doutorado em Radiologia pela UFRJ. Post-doctoral Fellowship pela Johns Hopkins University.</p>
+                <p class="slide-details__category">{{ getAllTeam[activeNewsId].node.specialty }}</p>
+                <h1 class="slide-details__name">{{ getAllTeam[activeNewsId].node.name }}</h1>
+                <p class="slide-details__resume">{{ getAllTeam[activeNewsId].node.profile }}</p>
                 <g-link to="/equipe/" tag="button" class="slide-details__button">Saiba Mais</g-link>
                 <div class="slide-details__arrows">
                   <div class="slide-details__previuos-btn" @click="goPrev"></div>
                   <div class="slide-details__next-btn" @click="goNext"></div>
-                </div>                
+                </div>      
             </div>
-            <g-image class="slide-image" src="../../assets/images/img-home-team-3.png" width="430" />
+            <g-image class="slide-image" :src="getAllTeam[activeNewsId].node.large_image" width="430" />
             <div class="slide-counter">
-                <p class="slide-counter__first">2</p>
-                <p class="slide-counter__second">8</p>
+                <p class="slide-counter__first">{{ activeNewsId + 1 }}</p>
+                <p class="slide-counter__second">{{ getAllTeam.length }}</p>
             </div>
-        </div>     
+        </div>
+
     </section>
 </template>
 
-<script>
-export default {
-    methods: {
-        goPrev() {
-
-        },
-        goNext() {
-            
+<static-query>
+{
+  allAuthor {
+	edges {
+        node {
+            id
+            specialty
+            name
+            profile
+            large_image
+            thumb_image
         }
     }
+  }
+}
+</static-query>
+
+<script>
+export default {
+    data: () => ({
+        activeNewsId: 0
+    }),    
+    computed: {
+        getAllTeam() {
+            return this.$static.allAuthor.edges.filter(val => val.node.large_image !== null)
+        },     
+    },      
+    methods: {
+        goPrev() {
+            (this.activeNewsId <= 0) ? this.activeNewsId = 0 : this.activeNewsId --
+        },
+        goNext() {
+            (this.activeNewsId >= this.getAllTeam.length - 1) ? this.activeNewsId = this.getAllTeam.length -1 : this.activeNewsId ++
+        }
+    },
+    filters: {
+    //   firstNames (value) {
+    //     console.log(value)
+    //     let newName = value.split(' ').slice(0, -1).join(' ')
+    //     console.log(newName)
+    //     if (newName === "") return value
+    //     if (newName !== "") return value.split(' ').slice(0, -1).join(' ')
+    //   }
+    }    
 }
 </script>
 
@@ -84,8 +120,9 @@ export default {
 .slide-image {
     position: absolute;
     bottom: 1.5rem;
-    right: 6rem;
+    right: 7.5rem;
     z-index: -10;
+    width: 350px;
 }
 
 .slide-details {
@@ -110,6 +147,7 @@ export default {
         font-size: 3.33rem;
         font-weight: 400;
         line-height: 1.1;
+        min-height: 7.22rem;
     }
 
     &__resume {

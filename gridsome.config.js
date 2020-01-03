@@ -42,7 +42,14 @@ module.exports = {
           }                     
         }        
       }
-    }     
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'Author',
+        path: './content/authors/*.md',
+      }
+    }      
   ],
   chainWebpack (config) {
     // Load variables for all vue-files

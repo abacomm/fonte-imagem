@@ -14,7 +14,7 @@
     </div>
     <div class="row">
       <div class="col-12 mt-5">
-        <p class="results"><strong>32</strong> publicações listadas</p>
+        <p class="results"><strong>{{ $static.allPost.edges.length }}</strong> publicações listadas</p>
       </div>
     </div>
     <div class="row">

@@ -1,9 +1,9 @@
 ---
 name: Renato
-specialty: Fisioterapia
-external_link: https://neilpatel.com/
+specialty: Angiologia
+external_link: https://carloscabralart.com/
 thumb_image: /uploads/img-materia01-1.jpg
-large_image: /uploads/alex-rainer-tf9vinyzz5o-unsplash.jpg
-profile: Renato é uma pessoa super gente boa. Gente de primeira qualidade!
+large_image: /uploads/img-home-team-2.png
+profile: Alguém que faz a diferença!
 ---
 
