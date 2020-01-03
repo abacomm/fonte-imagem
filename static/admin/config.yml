@@ -47,7 +47,11 @@ collections:
     identifier_field: "name"
     fields:
       - {label: "Nome", name: "name", widget: "string"}
-      - {label: "Profile", name: "profile", widget: "markdown"}
+      - {label: "Especialidade", name: "specialty", widget: "string"}
+      - {label: "Resumo", name: "profile", widget: "markdown"}
+      - {label: "Foto de thumbnail", name: "thumb_image", widget: "image"}
+      - {label: "Foto Grande", name: "large_image", widget: "image"}
+      - {label: "Publicações científicas", name: "external_link", widget: "string"}
       
   - name: "categories" 
     label: "Categorias" 

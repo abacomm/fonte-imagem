@@ -1,16 +1,15 @@
 <template>
     <article class="article-card">
         <figure class="article-card__image">
-            <!-- :src="require(`../assets/${imageUrl}`)" -->
-            <g-image :src="image" />
+          <g-link :to="postPath"><g-image :src="image" /></g-link>
         </figure>
         <div class="article-card__credits">
             <small class="article-card__date">{{ date }}</small>
             <span class="article-card__divider"></span>
-            <g-link class="article-card__category" to="/"> {{ category }} </g-link>
+            <g-link class="article-card__category" :to="categoryPath"> {{ category }} </g-link>
         </div>
-        <g-link to="/"><h1 class="article-card__title">{{ title }}</h1></g-link>
-        <p class="article-card__text">{{ text }}</p>
+        <g-link :to="postPath"><h1 class="article-card__title">{{ title }}</h1></g-link>
+        <p class="article-card__text">{{ text | firstChars }}</p>
     </article>           
 </template>
 
@@ -21,8 +20,17 @@ export default {
         date: { type: String, required: true },
         category: { type: String, required: true },
         title: { type: String, required: true },
-        text: { type: String, required: true }
-    }
+        text: { type: String, required: true },
+        postPath: { type: String, required: true },
+        categoryPath: { type: String, required: true }
+    },
+    filters: {
+      firstChars (value) {
+        if (!value) return ''
+        value = value.toString()
+        return value.substring(0, 70) + "..."
+      }
+    }    
 }
 </script>
 
@@ -38,9 +46,17 @@ export default {
 
   &__image {
     img {
+      transition: all .25s ease;
       width: 100%;
       height: 10.6rem;
       object-fit: cover;
+    }
+    &:hover {
+      //cursor: pointer;
+      img { 
+        width: 105%; 
+        filter: grayscale(100%); 
+      }
     }
   }
 
