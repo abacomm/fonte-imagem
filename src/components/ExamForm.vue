@@ -21,7 +21,8 @@
             Impressão</label>
         </div>
         <div class="protocol">
-            <input class="protocol__input" type="number" name="protocolo" v-model="formData.protocolo" placeholder="Número do protocolo" required="true">
+            <label class="sr-only" for="protocolo">Protocolo</label>
+            <input class="protocol__input" type="number" name="protocolo" id="protocolo" v-model="formData.protocolo" placeholder="Número do protocolo" required="true">
             <p hidden>
                 <label> Não preencha esse campo se você for um humano: <input name="bot-field" /> </label>
             </p>                

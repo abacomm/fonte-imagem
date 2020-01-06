@@ -10,7 +10,7 @@
         <div class="header-container">
             <header class="header light-mode">
                 <div class="logo-container">
-                    <g-link to="/"><g-image src="../assets/images/logo-colored.svg" width="157" /></g-link>
+                    <g-link to="/"><g-image alt="Imagem da logo Fonte Imagem" src="../assets/images/logo-colored.svg" width="157" /></g-link>
                 </div>
 
                 <nav role="navigation">
@@ -200,9 +200,8 @@ export default {
     top: 1.5rem;
     right: 1.5rem;
     background-image: radial-gradient(
-      $secondary-color,
       $accent-color-1,
-      $accent-color-2
+      darken($accent-color-1, 10%)
     );
     z-index: 1000;
     transition: transform 0.6s cubic-bezier(0.86, 0, 0.07, 1);

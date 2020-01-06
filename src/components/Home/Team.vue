@@ -16,7 +16,7 @@
                   <div class="slide-details__next-btn" @click="goNext"></div>
                 </div>      
             </div>
-            <g-image class="slide-image" :src="getAllTeam[activeNewsId].node.large_image" width="430" />
+            <g-image alt="Imagem de destaque do médico" class="slide-image" :src="getAllTeam[activeNewsId].node.large_image" width="430" />
             <div class="slide-counter d-none d-lg-block">
                 <p class="slide-counter__first">{{ activeNewsId + 1 }}</p>
                 <p class="slide-counter__second">{{ getAllTeam.length }}</p>

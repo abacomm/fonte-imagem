@@ -5,23 +5,23 @@
         <div class="row">
           <div class="col-xl-4 col-md-6 mb-4 mb-xl-0">
             <div class="help-cards__container">
-              <g-image class="help-cards__image" src="../../assets/images/img-home-top-cards.svg"></g-image>
+              <g-image alt="Imagem do card de resultado de exames" class="help-cards__image" src="../../assets/images/img-home-top-cards.svg"></g-image>
               <h2 class="help-cards__header">Resultado de exames</h2>
               <p class="help-cards__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dolorum voluptatibus, quos velit eius necessitatibus.<br></p>
             </div>
           </div>
           <div class="col-xl-4 col-md-6 mb-4 mb-xl-0">
             <div class="help-cards__container">
-              <g-image class="help-cards__image" src="../../assets/images/img-home-top-cards.svg"></g-image>
+              <g-image alt="Imagem do card de preparo de exames" class="help-cards__image" src="../../assets/images/img-home-top-cards.svg"></g-image>
               <h2 class="help-cards__header">Preparo de exames</h2>
               <p class="help-cards__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dolorum voluptatibus, quos velit eius necessitatibus.</p>
             </div>
           </div>
           <div class="col-xl-4 col-md-6 mb-4 mb-xl-0">
             <div class="help-cards__container">
-              <g-image class="help-cards__image" src="../../assets/images/img-home-top-cards.svg"></g-image>
+              <g-image alt="Imagem do card de agendamento de exames" class="help-cards__image" src="../../assets/images/img-home-top-cards.svg"></g-image>
               <h2 class="help-cards__header">Agendamento de exames</h2>
-              <p class="help-cards__text"><a class="help-cards__link" href="https://api.whatsapp.com/send?1=pt_BR&phone=5521997897973" target="_blank">Clique aqui</a> para abrir o aplicativo do Whatsapp na web. <br><br>Ou ligue para o número: <br>(21) 3591-6886 </p>
+              <p class="help-cards__text"><a rel="noopener noreferrer" class="help-cards__link" href="https://api.whatsapp.com/send?1=pt_BR&phone=5521997897973" target="_blank">Clique aqui para abrir o aplicativo do Whatsapp na web.</a> <br><br>Ou ligue para o número: <br>(21) 3591-6886 </p>
             </div>
           </div>
         </div>

@@ -9,39 +9,38 @@ Você terá acesso aos nossos médicos no Consultório de Imagem e poderá tirar
     </div>
 
     <div class="row">
+      
+      <div class="d-block d-lg-flex" v-for="(edge, index) in getAllTeam" :key="edge.node.id">
 
-      <div class="col-xl-4 col-lg-6 my-5">
-        <div class="team-image">
-          <g-image class="team-image__img" src="https://images.unsplash.com/photo-1509967419530-da38b4704bc6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1672&q=80" />
-          <g-image class="team-image__pattern" src="../assets/images/img-pattern.svg" />
+        <div class="col-xl-4 col-lg-6 my-5" v-if="(index % 2 === 0)">
+          <div class="team-image">
+            <g-image :alt="'Imagem do médico(a): ' +  edge.node.name" class="team-image__img" :src="edge.node.thumb_image" />
+            <g-image alt="Imagem apenas decorativa" class="team-image__pattern" src="../assets/images/img-pattern.svg" />
+          </div>          
         </div>
-      </div>
-      <div class="col-xl-6 col-lg-6 offset-xl-2 my-5">
-        <div class="team-content">
-          <h2 class="team-content__name">Adriana Lessa Brandão</h2>
-          <h3 class="team-content__role">Especialista em Radiologia</h3>
-          <p class="team-content__resume">Graduação em Medicina pela Universidade Federal do Rio de Janeiro (UFRJ), Residência Médica em Radiologia pela Universidade Federal do Rio de Janeiro (UFRJ).<br><br>
-
-Mestrado em Radiologia pela Universidade Federal do Rio de Janeiro (UFRJ). Título de Especialista em Radiologia e Diagnóstico por Imagem pela Associação Médica Brasileira e Colégio Brasileiro de Radiologia e Diagnóstico por Imagem.</p>
-          <g-link class="team-content__link" src="/"><font-awesome :icon="['fas', 'link']"/>&nbsp;&nbsp;Publicações científicas</g-link>
+        <div class="col-xl-6 col-lg-6 my-5" v-else>
+          <div class="team-content">
+            <h2 class="team-content__name">{{ edge.node.name }}</h2>
+            <h3 class="team-content__role">Especialidade: {{ edge.node.specialty }}</h3>
+            <p class="team-content__resume" v-html="edge.node.profile"></p>
+            <g-link class="team-content__link" :href="edge.node.external_link" target="_blank" rel="noopener noreferrer"><font-awesome :icon="['fas', 'link']"/>&nbsp;&nbsp;Publicações científicas</g-link>
+          </div>          
         </div>
-      </div>
 
-      <div class="col-xl-6 col-lg-6 my-5" >
-        <div class="team-content">
-          <h2 class="team-content__name">Adriana Lessa Brandão</h2>
-          <h3 class="team-content__role">Especialista em Radiologia</h3>
-          <p class="team-content__resume">Graduação em Medicina pela Universidade Federal do Rio de Janeiro (UFRJ), Residência Médica em Radiologia pela Universidade Federal do Rio de Janeiro (UFRJ).<br><br>
-
-Mestrado em Radiologia pela Universidade Federal do Rio de Janeiro (UFRJ). Título de Especialista em Radiologia e Diagnóstico por Imagem pela Associação Médica Brasileira e Colégio Brasileiro de Radiologia e Diagnóstico por Imagem.</p>
-          <g-link class="team-content__link" src="/"><font-awesome :icon="['fas', 'link']"/>&nbsp;&nbsp;Publicações científicas</g-link>
+        <div class="col-xl-6 col-lg-6 offset-xl-2 my-5" v-if="(index % 2 === 0)">
+          <div class="team-content">
+            <h2 class="team-content__name">{{ edge.node.name }}</h2>
+            <h3 class="team-content__role">Especialidade: {{ edge.node.specialty }}</h3>
+            <p class="team-content__resume" v-html="edge.node.profile"></p>
+            <a class="team-content__link" :href="edge.node.external_link" target="_blank" rel="noopener noreferrer"><font-awesome :icon="['fas', 'link']"/>&nbsp;&nbsp;Publicações científicas</a>
+          </div>
         </div>
-      </div>
-      <div class="col-xl-4 offset-xl-1 col-lg-6 my-5" >
 
-        <div class="team-image">
-          <g-image class="team-image__img" src="https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" />
-          <g-image class="team-image__pattern" src="../assets/images/img-pattern.svg" />
+        <div class="col-xl-4 offset-xl-1 col-lg-6 my-5" v-else>
+          <div class="team-image">
+            <g-image :alt="'Imagem do médico(a): ' +  edge.node.name" class="team-image__img" :src="edge.node.thumb_image"  />
+            <g-image alt="Imagem apenas decorativa" class="team-image__pattern" src="../assets/images/img-pattern.svg" />
+          </div>
         </div>
 
       </div>
@@ -50,6 +49,23 @@ Mestrado em Radiologia pela Universidade Federal do Rio de Janeiro (UFRJ). Títu
 
   </Layout>
 </template>
+
+<static-query>
+{
+  allAuthor {
+    edges {
+      node {
+        id
+        name
+        specialty
+        external_link
+        thumb_image
+        profile
+      }
+    }
+  }
+}
+</static-query>
 
 <script>
 export default {
@@ -64,6 +80,11 @@ export default {
       { key: 'twitter:title', name: 'twitter:title', content: 'Fonte Imagem - Convênios' }      
     ]    
   },
+  computed: {
+      getAllTeam() {
+          return this.$static.allAuthor.edges.filter(val => val.node.thumb_image !== null)
+      },     
+  },   
 }
 </script>
 

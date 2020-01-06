@@ -47,14 +47,15 @@ collections:
     identifier_field: "name"
     fields:
       - {label: "Nome", name: "name", widget: "string"}
-      - {label: "Descrição", name: "description", widget: "markdown"}
       - label: "PDF dos preparos"
         name: "pdf_files"
         widget: "list"
         allow_add: true
         hint: "Apenas faça upload de arquivos em formato pdf"
         fields:
-          - {label: "Arquivo", name: "link_path", widget: "file"}      
+          - {label: "Nome", name: "name", widget: "string"}
+          - {label: "Arquivo", name: "link_path", widget: "file"}
+      - {label: "Descrição", name: "body", widget: "markdown"}      
 
   - name: "authors" 
     label: "Equipe" 

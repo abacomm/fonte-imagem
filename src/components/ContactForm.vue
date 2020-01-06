@@ -16,7 +16,7 @@
         <div class="sender-info">
             
             <label class="contact-form__label" for="assunto">Assunto</label>
-            <select class="contact-form__select" name="assunto" v-model="formData.assunto" required="true">
+            <select class="contact-form__select" name="assunto" id="assunto" v-model="formData.assunto" required="true">
                 <option value="" disabled selected>Selecione uma opção:</option>
                 <option value="Resultado">Resultado de exames</option>
                 <option value="Impressao">Impressão de exames</option>
@@ -25,16 +25,16 @@
             </select>        
 
             <label v-if="formData.assunto != 'Impressao' && formData.assunto != 'Resultado'" class="contact-form__label" for="nome">Nome</label>
-            <input v-if="formData.assunto != 'Impressao' && formData.assunto != 'Resultado'" class="contact-form__input" type="text" name="nome" placeholder="Digite seu nome" v-model="formData.nome" required="true" />
+            <input v-if="formData.assunto != 'Impressao' && formData.assunto != 'Resultado'" class="contact-form__input" type="text" name="nome" id="nome" placeholder="Digite seu nome" v-model="formData.nome" required="true" />
             
             <label v-if="formData.assunto != 'Impressao' && formData.assunto != 'Resultado'" class="contact-form__label" for="email">E-mail</label>
-            <input v-if="formData.assunto != 'Impressao' && formData.assunto != 'Resultado'" class="contact-form__input" type="email" name="email" placeholder="Digite seu melhor e-mail" v-model="formData.email" required="true" />
+            <input v-if="formData.assunto != 'Impressao' && formData.assunto != 'Resultado'" class="contact-form__input" type="email" name="email" id="email" placeholder="Digite seu melhor e-mail" v-model="formData.email" required="true" />
 
             <label v-if="formData.assunto === 'Impressao' || formData.assunto === 'Resultado'" class="contact-form__label" for="protocolo">Número do protocolo</label>
-            <input v-if="formData.assunto === 'Impressao' || formData.assunto === 'Resultado'" class="contact-form__input" type="number" name="protocolo" placeholder="Digite seu número de protocolo" v-model="formData.protocolo" required="true" />
+            <input v-if="formData.assunto === 'Impressao' || formData.assunto === 'Resultado'" class="contact-form__input" type="number" name="protocolo" id="protocolo" placeholder="Digite seu número de protocolo" v-model="formData.protocolo" required="true" />
 
             <label v-if="formData.assunto != 'Impressao' && formData.assunto != 'Resultado'" class="contact-form__label" for="mensagem">Mensagem</label>
-            <textarea v-if="formData.assunto != 'Impressao' && formData.assunto != 'Resultado'" class="contact-form__textarea" name="mensagem" rows="4" cols="50" v-model="formData.mensagem" required="true" />
+            <textarea v-if="formData.assunto != 'Impressao' && formData.assunto != 'Resultado'" class="contact-form__textarea" name="mensagem" id="mensagem" rows="4" cols="50" v-model="formData.mensagem" required="true" />
 
         </div>
 

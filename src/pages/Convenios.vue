@@ -8,31 +8,31 @@
     </div>
     <div class="row align-items-start">
       <figure class="col-lg-3 col-md-4 col-sm-6">
-        <g-image class="logo" src="https://logodownload.org/wp-content/uploads/2018/10/bradesco-saude-logo.png" width="200" />
+        <g-image class="logo" alt="Imagem do convênio" src="https://logodownload.org/wp-content/uploads/2018/10/bradesco-saude-logo.png" width="200" />
       </figure>
       <figure class="col-lg-3 col-md-4 col-sm-6">
-        <g-image class="logo" src="https://www.sunoresearch.com.br/wp-content/uploads/2018/01/bacen.jpg.jpg" width="200" />
+        <g-image class="logo" alt="Imagem do convênio" src="https://www.sunoresearch.com.br/wp-content/uploads/2018/01/bacen.jpg.jpg" width="200" />
       </figure>
       <figure class="col-lg-3 col-md-4 col-sm-6">
-        <g-image class="logo" src="https://medsculp.com.br/wp-content/uploads/2018/03/medsculp-camperj.jpg" width="200" />
+        <g-image class="logo" alt="Imagem do convênio" src="https://medsculp.com.br/wp-content/uploads/2018/03/medsculp-camperj.jpg" width="200" />
       </figure> 
       <figure class="col-lg-3 col-md-4 col-sm-6">
-        <g-image class="logo" src="http://sindipetro.org.br/wp-content/uploads/2018/04/ams.jpg" width="200" />
+        <g-image class="logo" alt="Imagem do convênio" src="http://sindipetro.org.br/wp-content/uploads/2018/04/ams.jpg" width="200" />
       </figure>
       <figure class="col-lg-3 col-md-4 col-sm-6">
-        <g-image class="logo" src="http://www.goldencross.com.br/goldencross/Documents/Logomarcas/1_linha_positiva.jpg" width="200" />
+        <g-image class="logo" alt="Imagem do convênio" src="http://www.goldencross.com.br/goldencross/Documents/Logomarcas/1_linha_positiva.jpg" width="200" />
       </figure>
       <figure class="col-lg-3 col-md-4 col-sm-6">
-        <g-image class="logo" src="https://www.pradomed.com.br/wp-content/uploads/2016/05/medi-service.png" width="200" />
+        <g-image class="logo" alt="Imagem do convênio" src="https://www.pradomed.com.br/wp-content/uploads/2016/05/medi-service.png" width="200" />
       </figure> 
       <figure class="col-lg-3 col-md-4 col-sm-6">
-        <g-image class="logo" src="https://unafiscosaude.org.br/site/wp-content/themes/unafisco/images/hotsite/marca-dourada.png" width="200" />
+        <g-image class="logo" alt="Imagem do convênio" src="https://unafiscosaude.org.br/site/wp-content/themes/unafisco/images/hotsite/marca-dourada.png" width="200" />
       </figure> 
       <figure class="col-lg-3 col-md-4 col-sm-6">
-        <g-image class="logo" src="http://controledeobesidade.com.br/my_content/uploads/2018/12/omint.png" width="200" />
+        <g-image class="logo" alt="Imagem do convênio" src="http://controledeobesidade.com.br/my_content/uploads/2018/12/omint.png" width="200" />
       </figure> 
       <figure class="col-lg-3 col-md-4 col-sm-6">
-        <g-image class="logo" src="https://www.trzcacak.rs/myfile/detail/17-176201_world-medic-assist-logo-png.png" width="200" />
+        <g-image class="logo" alt="Imagem do convênio" src="https://www.trzcacak.rs/myfile/detail/17-176201_world-medic-assist-logo-png.png" width="200" />
       </figure>                                    
     </div>
   </Layout>

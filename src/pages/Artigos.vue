@@ -7,7 +7,8 @@
       </div>
       <div class="col-lg-4 offset-xl-1">
         <div class="search-input">
-          <div class="icon"><font-awesome :icon="['fas', 'search']"/></div>        
+          <div class="icon"><font-awesome :icon="['fas', 'search']"/></div>
+          <label class="sr-only" for="search">Buscar</label>        
           <input type="text" name="search" id="search" placeholder="Digite para filtrar...">
         </div>
       </div>

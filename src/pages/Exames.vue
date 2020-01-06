@@ -7,51 +7,54 @@
       </div>
     </div>
     <div class="list-container">
-      <figure class="full-image" />
-      <p class="d-none d-sm-block">Selecione abaixo uma opção de exame e entenda como se preparar:</p>
+      <figure class="full-exam-image" />
+      <p class="d-none d-sm-block">Selecione abaixo uma opção de exame e saiba como se preparar:</p>
+      
       <ul class="nav-tabs">
-        <li class="nav-tabs__list"><a href="#" class="nav-tabs__item">Ressonância</a></li>
-        <li class="nav-tabs__list"><a href="#" class="nav-tabs__item">Tomografia</a></li>
-        <li class="nav-tabs__list"><a href="#" class="nav-tabs__item">Ultrassonografia</a></li>
-        <li class="nav-tabs__list"><a href="#" class="nav-tabs__item">Ecocardiografia</a></li>
-        <li class="nav-tabs__list"><a href="#" class="nav-tabs__item">Cardiologia</a></li>
-        <li class="nav-tabs__list"><a href="#" class="nav-tabs__item">Exames Gráficos</a></li>
-      </ul>    
+        <li class="nav-tabs__list" v-for="edge in $static.allExam.edges" :key="edge.node.id">
+          <a href="#" class="nav-tabs__item" :class="{ active: activeExam === edge.node.name  }" @click="changeActive(edge.node.name)">{{ edge.node.name }}</a></li>
+      </ul>
+
     </div>
     <div class="row">
-      <div class="col-lg-7 exam-about">
-        <h2 class="exam-about__title">Sobre a resonância</h2>
-        <p>Para chegar a esses resultados, os pesquisadores analisaram dados de 98 pessoas – em sua maioria mulheres – que sofriam de duas a 15 crises de enxaqueca por mês. Durante seis semanas, os participantes responderam a dois questionários por dia sobre consumo de café, além da prática de outras atividades desencadeantes da doença (consumo de álcool, estado menstrual, clima, exercício físico e humor). Os voluntários ainda descreveram os sintomas da enxaqueca que sofreram durante o período do estudo e de que forma trataram. Também foram coletados histórico médico e demográfico. 
-
-Ao final do acompanhamento, a equipe analisou os dados, considerando os fatores de risco para enxaqueca. A análise mostrou que o consumo de três xícaras de café – ou outras bebidas cafeinadas – estava associado ao maior risco de dores de cabeça tanto no dia do consumo quanto no dia seguinte. Essa relação não foi encontrada para a ingestão de uma ou duas bebidas com cafeína.
-
-Apesar dos resultados, os cientistas esclarecem que o estudo foi observacional e, portanto, não foi possível estabelecer uma relação de causa e efeito. Eles aconselham, porém, que os indivíduos propensos a crises de enxaqueca fiquem atentos à ingestão de cafeína.</p>
-      </div>
+      <div class="col-lg-7 exam-about" v-html="getExamByName[0].node.description"></div>
       <div class="col-lg-5 exam-preparation">
         <h4 class="exam-preparation__title"><font-awesome :icon="['fas', 'info-circle']"/>Como se preparar</h4>
         <div class="exam-preparation__search">
           <font-awesome :icon="['fas', 'search']"/>
-          <input type="text" placeholder="Digite para buscar...">
+          <label class="sr-only" for="search">Buscar</label>
+          <input type="text" name="search" id="search" placeholder="Digite para buscar..." v-model="search">
+        </div>        
+        <div v-for="(file, index) in filterPdfBySearch" :key="index">
+          <div class="exam-preparation__file mb-3">
+            <font-awesome :icon="['fas', 'file-pdf']"/>
+            <a :href="file.link_path" target="_blank">{{ file.link_path }}</a>
+          </div>          
         </div>
-        <div class="exam-preparation__file mb-3">
-          <font-awesome :icon="['fas', 'file-pdf']"/>
-          <g-link to="/">Ressonância Magnética Da Pelve Para Endometriose (Protocolo Dra. Alice Brandão)</g-link>
-        </div>
-        <div class="exam-preparation__file mb-3">
-          <font-awesome :icon="['fas', 'file-pdf']"/>
-          <g-link to="/">Defecografia Por Ressonância</g-link>
-        </div>
-        <div class="exam-preparation__file mb-3">
-          <font-awesome :icon="['fas', 'file-pdf']"/>
-          <g-link to="/">Neurografia Por Ressonância De Plexo Lombossacro E Braquial</g-link>
-        </div>                
       </div>
     </div> 
   </Layout>
 </template>
 
+<static-query>
+{
+  allExam {
+    edges {
+      node {
+        id
+        name
+        description
+				pdf_files {
+          link_path
+        }
+      }
+    }
+  } 
+}
+</static-query>
+
 <script>
-export default {
+export default { 
   metaInfo: {
     title: 'Exames',
     meta: [
@@ -63,6 +66,27 @@ export default {
       { key: 'twitter:title', name: 'twitter:title', content: 'Fonte Imagem - Exames' }      
     ]    
   },
+  data: () => ({
+    activeExam: "Tomografia",
+    search: ""
+  }),
+  methods: {
+    changeActive(val) {
+      this.activeExam = val
+    }
+  },  
+  computed: {
+    getExamByName() {
+      return this.$static.allExam.edges.filter(exam => {
+          return exam.node.name.toLowerCase().includes(this.activeExam.toLowerCase().trim())
+      })
+    },
+    filterPdfBySearch() {
+      return this.getExamByName[0].node.pdf_files.filter(file => {
+          return file.link_path.toLowerCase().includes(this.search.toLowerCase().trim())
+      })      
+    }     
+  },   
 }
 </script>
 
@@ -175,44 +199,34 @@ export default {
 }
 
 .nav-tabs {
-
-  > * {
-    flex: 0 0 50%;
-    @media(min-width: 768px) {
-      flex: 0 0 33.3333%;
-    }
-    @media(min-width: 992px) {
-      flex: none;
-    }    
-
-  }
   position: absolute;
   left: 0;
   bottom: 0;
   display: flex;
   flex-wrap: wrap;
-  list-style: none;
   margin: 0;
   padding: 0;
   text-align: center;
-
+  background-color: $off-white;
+  
   &__list {
-    position: relative;
-    padding: .66rem 1rem;
+    //transform: translateY(-.5rem);
+    padding: .47rem 0;
+  }
+  
+  &__item {
+    padding: .6rem 1rem;
     transition: all .2s ease;
     background-color: $off-white;
+    position: relative;
+    
+    &:hover, &.active {
 
-
-    &:hover {
       background-color: $accent-color-1;
-      > * {
-        color: #fff;
-      }
+      color: #fff;
+
       @media(min-width: 992px) {
-        > * {
-          color: $accent-color-1;
-        }        
-        transform: translateY(-1px);
+        color: $accent-color-1;
         background-color: #fff;
         box-shadow: 0 4px 8px rgba(#000, .12);
         z-index: 100;
@@ -229,23 +243,12 @@ export default {
           background-color: $accent-color-1;                
         }
       }
-    }
-  }
-
-  &__item {
-    font-size: .77rem;
-    line-height: 1.5;
-    font-weight: 500;
-    //color: $accent-color-1;
-        
-    @media(min-width: 768px) {
-      font-size: .88rem;
-    }
+    }    
   }
 }
 
 
-.full-image { 
+.full-exam-image { 
   margin-left: calc(-100vw / 2 + 62.5rem / 2);
   margin-right: calc(-100vw / 2 + 62.5rem / 2);  
   background: url("../assets/images/img-exames-bg.png") no-repeat center;
@@ -279,7 +282,6 @@ export default {
       margin-left: 0;
       margin-right: 0;
       margin-bottom: 1.5rem;
-      //height: 15rem;
   }
 }
 </style>

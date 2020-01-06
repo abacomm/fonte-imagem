@@ -12,7 +12,7 @@
         </div>
         <div class="row mt-5 mb-5">
             <figure class="col-xl-3 col-md-12 mt-5 mt-md-0 mb-5 mb-xl-0 text-center text-xl-left">
-                <g-image src="../assets/images/logo-colored.svg" width="206" />
+                <g-image alt="Imagem da logo Fonte Imagem" src="../assets/images/logo-colored.svg" width="206" />
             </figure>
             <div class="col-xl-3 col-lg-4 text-center text-lg-left mt-4 mt-lg-0">
                 <h3 class="footer-title">A Clínica</h3>
@@ -28,8 +28,8 @@
             <div class="col-xl-3 col-lg-4 text-center text-lg-left mt-4 mt-lg-0">
                 <h3 class="footer-title">Outros</h3>
                 <ul class="footer-nav">
-                    <li class="fotter-nav__list"><g-link to="http://tourvirtualbrasil.com.br/tour_virtual_fonte_imagem/index.html" target="_blank" class="footer-nav__item">Tour 360&deg;</g-link></li>
-                    <li class="fotter-nav__list"><g-link to="https://netpacs.fonteimagem.com.br/Netpacs-web/login?" target="_blank" class="footer-nav__item">Acesso do Médico</g-link></li>
+                    <li class="fotter-nav__list"><g-link rel="noopener noreferrer" to="http://tourvirtualbrasil.com.br/tour_virtual_fonte_imagem/index.html" target="_blank" class="footer-nav__item">Tour 360&deg;</g-link></li>
+                    <li class="fotter-nav__list"><g-link rel="noopener noreferrer" to="https://netpacs.fonteimagem.com.br/Netpacs-web/login?" target="_blank" class="footer-nav__item">Acesso do Médico</g-link></li>
                 </ul>
             </div>
             <div class="col-xl-3 col-lg-4 text-center text-lg-left mt-4 mt-lg-0">
@@ -38,7 +38,7 @@
                     <address>
                         Tel. (21) 3591-6886
                         <br>
-                        WhatsApp: <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5521997897973" target="_blank">(21) 99789-7973</a>
+                        WhatsApp: <a rel="noopener noreferrer" href="https://api.whatsapp.com/send?1=pt_BR&phone=5521997897973" target="_blank">(21) 99789-7973</a>
                         <br>
                         <br>
                         contato@fonteimagem.com.br
@@ -46,7 +46,7 @@
                         ouvidoria@fonteimagem.com.br
                         <br>
                         <br>
-                        <a href="https://maps.google.com/maps?q=R.+Fonte+da+Saudade,+277+-+Lagoa,+Rio+de+Janeiro+-+RJ" target="_blank">Rua Fonte da Saudade, 277 - Lagoa, Rio de Janeiro - RJ</a>
+                        <a rel="noopener noreferrer" href="https://maps.google.com/maps?q=R.+Fonte+da+Saudade,+277+-+Lagoa,+Rio+de+Janeiro+-+RJ" target="_blank">Rua Fonte da Saudade, 277 - Lagoa, Rio de Janeiro - RJ</a>
                     </address>
                 </div>
             </div>                                    
@@ -54,9 +54,9 @@
         <div class="row mt-5 mb-4">
             <div class="col-12">
                 <ul class="social">
-                    <li class="social__list"><a href="https://pt-br.facebook.com/fonteimagem/" target="_blank" class="social__icon facebook"><font-awesome :icon="['fab', 'facebook-f']"/></a></li>
-                    <li class="social__list"><a href="https://www.instagram.com/fonteimagem/" target="_blank" class="social__icon instagram"><font-awesome :icon="['fab', 'instagram']"/></a></li>
-                    <li class="social__list"><a href="https://api.whatsapp.com/send?1=pt_BR&phone=5521997897973" target="_blank" class="social__icon whatsapp"><font-awesome :icon="['fab', 'whatsapp']"/></a></li>
+                    <li class="social__list"><a aria-hidden="true" href="https://pt-br.facebook.com/fonteimagem/" target="_blank" class="social__icon facebook" rel="noopener noreferrer"><font-awesome :icon="['fab', 'facebook-f']"/></a></li>
+                    <li class="social__list"><a aria-hidden="true" href="https://www.instagram.com/fonteimagem/" target="_blank" class="social__icon instagram" rel="noopener noreferrer"><font-awesome :icon="['fab', 'instagram']"/></a></li>
+                    <li class="social__list"><a aria-hidden="true" href="https://api.whatsapp.com/send?1=pt_BR&phone=5521997897973" target="_blank" class="social__icon whatsapp" rel="noopener noreferrer"><font-awesome :icon="['fab', 'whatsapp']"/></a></li>
                 </ul>
             </div>
         </div>

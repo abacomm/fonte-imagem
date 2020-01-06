@@ -3,17 +3,17 @@
         <p class="social-share__title">Compartilhe:</p>
         <ul class="social-share__list">
             <li class="social-share__item">
-                <a class="facebook" :href="'https://www.facebook.com/sharer/sharer.php?u=' + url" target="_blank" rel="noopener noreferrer">
+                <a aria-hidden="true" class="facebook" :href="'https://www.facebook.com/sharer/sharer.php?u=' + url" target="_blank" rel="noopener noreferrer">
                 <font-awesome :icon="['fab', 'facebook']"/>
                 </a>            
             </li>
             <li class="social-share__item">
-                <a class="twitter" :href="'https://www.twitter.com/share?url=' + url" target="_blank" rel="noopener noreferrer">
+                <a aria-hidden="true" class="twitter" :href="'https://www.twitter.com/share?url=' + url" target="_blank" rel="noopener noreferrer">
                 <font-awesome :icon="['fab', 'twitter']"/>
                 </a>        
             </li> 
             <li class="social-share__item">
-                <a class="linkedin" :href="'https://www.linkedin.com/shareArticle?url=' + url" target="_blank" rel="noopener noreferrer">
+                <a aria-hidden="true" class="linkedin" :href="'https://www.linkedin.com/shareArticle?url=' + url" target="_blank" rel="noopener noreferrer">
                 <font-awesome :icon="['fab', 'linkedin']"/>
                 </a>        
             </li>                    
