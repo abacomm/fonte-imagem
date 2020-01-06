@@ -37,6 +37,7 @@ export default {
   border-radius: .22rem;
   margin-bottom: 3rem;
   box-shadow: 0 20px 50px -10px rgba($primary-color, .2);
+  backface-visibility: hidden;
 
   &__image {
     img {
@@ -44,6 +45,7 @@ export default {
       width: 100%;
       height: 10.6rem;
       object-fit: cover;
+      backface-visibility: hidden;
     }
     &:hover {
       img { 

@@ -39,6 +39,23 @@ collections:
       - {label: "Tags", name: "tags", widget: "list", allow_add: true, default: ["empreendedorismo", "fontes renováveis", "investimentos", "inovação", "setor elétrico", "startup", "tecnologias"], hint: "As tags ajudam à identificar o tipo do conteúdo. Separe-as com vírgula e utilize apenas aquelas que tiverem relação com o assunto publicado"}
       - {label: "Corpo da mensagem", name: "body", widget: "markdown"}    
 
+  - name: "exams" 
+    label: "Exames" 
+    folder: "content/exams"
+    create: true
+    slug: "{{slug}}"
+    identifier_field: "name"
+    fields:
+      - {label: "Nome", name: "name", widget: "string"}
+      - {label: "Descrição", name: "description", widget: "markdown"}
+      - label: "PDF dos preparos"
+        name: "pdf_files"
+        widget: "file"
+        hint: "Apenas faça upload de arquivos em formato pdf"
+        media_library:
+          config:
+            multiple: true      
+
   - name: "authors" 
     label: "Equipe" 
     folder: "content/authors"

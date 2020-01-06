@@ -19,6 +19,7 @@ module.exports = {
     Tag: '/tag/:id',
     Author: '/author/:id',
     Category: '/category/:id',
+    Exam: '/exam/:id',
   },
 
   plugins: [
@@ -49,7 +50,14 @@ module.exports = {
         typeName: 'Author',
         path: './content/authors/*.md',
       }
-    }      
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'Exam',
+        path: './content/exams/*.md',
+      }
+    }           
   ],
   chainWebpack (config) {
     // Load variables for all vue-files
