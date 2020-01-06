@@ -8,8 +8,8 @@
         <div class="slide-container">
             <div class="slide-details">
                 <p class="slide-details__category">{{ getAllTeam[activeNewsId].node.specialty }}</p>
-                <h1 class="slide-details__name">{{ getAllTeam[activeNewsId].node.name }}</h1>
-                <p class="slide-details__resume">{{ getAllTeam[activeNewsId].node.profile }}</p>
+                <h1 class="slide-details__name">{{ getAllTeam[activeNewsId].node.name | getFirstTwoNames }}</h1>
+                <p class="slide-details__resume" >{{ getAllTeam[activeNewsId].node.profile | postExcerpt(100) }}</p>
                 <g-link to="/equipe/" tag="button" class="slide-details__button">Saiba Mais</g-link>
                 <div class="slide-details__arrows">
                   <div class="slide-details__previuos-btn" @click="goPrev"></div>
@@ -17,7 +17,7 @@
                 </div>      
             </div>
             <g-image class="slide-image" :src="getAllTeam[activeNewsId].node.large_image" width="430" />
-            <div class="slide-counter">
+            <div class="slide-counter d-none d-lg-block">
                 <p class="slide-counter__first">{{ activeNewsId + 1 }}</p>
                 <p class="slide-counter__second">{{ getAllTeam.length }}</p>
             </div>
@@ -62,13 +62,16 @@ export default {
         }
     },
     filters: {
-    //   firstNames (value) {
-    //     console.log(value)
-    //     let newName = value.split(' ').slice(0, -1).join(' ')
-    //     console.log(newName)
-    //     if (newName === "") return value
-    //     if (newName !== "") return value.split(' ').slice(0, -1).join(' ')
-    //   }
+      getFirstTwoNames (value) {
+        if (!value) return ''
+        let newValue = value
+        let totalNames = value.split(' ').length
+        if (totalNames === 2) {
+            return newValue  
+        } else {
+            return value.split(' ').slice(0, -1).join(' ')  
+        }
+      } 
     }    
 }
 </script>

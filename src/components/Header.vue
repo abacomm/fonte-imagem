@@ -34,10 +34,12 @@
                     <nav class="mobile-navigation__nav">
                         <ul class="mobile-navigation__list">
                             <li class="mobile-navigation__item"><g-link class="mobile-navigation__link" to="/">Home</g-link></li>
-                            <li class="mobile-navigation__item"><g-link class="mobile-navigation__link" to="/inscricao/">Inscrição</g-link></li>
                             <li class="mobile-navigation__item"><g-link class="mobile-navigation__link" to="/quem-somos/">Quem Somos</g-link></li>
-                            <li class="mobile-navigation__item"><g-link class="mobile-navigation__link" to="/noticias/">Notícias</g-link></li>
-                            <li class="mobile-navigation__item"><g-link class="mobile-navigation__link" to="/duvidas/">Dúvidas</g-link></li>
+                            <li class="mobile-navigation__item"><g-link class="mobile-navigation__link" to="/exames/">Exames</g-link></li>
+                            <li class="mobile-navigation__item"><g-link class="mobile-navigation__link" to="/artigos/">Artigos</g-link></li>
+                            <li class="mobile-navigation__item"><g-link class="mobile-navigation__link" to="/equipe/">A Equipe</g-link></li>
+                            <li class="mobile-navigation__item"><g-link class="mobile-navigation__link" to="/convenios/">Convênios</g-link></li>
+                            <li class="mobile-navigation__item"><g-link class="mobile-navigation__link" to="/contato/">Contato</g-link></li>
                         </ul>
                     </nav>
                 </div>

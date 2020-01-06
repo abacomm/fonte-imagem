@@ -93,3 +93,51 @@ ul {
         transform: translate(-50%, -50%) scale(1);
     }
 }
+
+.search-input {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    @media(min-width: 576px) {
+      max-width: 368px;
+    }
+    background-color: #F9FBFF;
+    border-radius: 5rem;
+    border: 1px solid rgba(#000, .12);
+    overflow: hidden;
+    height: 3rem;
+    transition: all .2s ease;
+
+    &:hover, &:active {
+        border: 1px solid $accent-color-1;
+    }
+
+    input {
+        width: 100%;
+        padding: 0 .5rem;
+        outline: 0;
+        border-style: none;
+        background-color: transparent;
+    }
+
+    ::placeholder {
+        color: darken($light-grey, 5%);
+    }
+    
+    .icon {
+        width: 1.5rem;
+        height: 100% !important;
+        height: inherit;
+        display: block;
+        border-style: none;
+        outline: 0;
+        margin-left: 1rem;
+
+        svg {
+            display: block;
+            margin-top: .95rem;
+            font-size: 1rem;
+            color: $light-grey;
+        }
+    }
+}  

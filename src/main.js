@@ -34,6 +34,12 @@ library.add(
 import DefaultLayout from '~/layouts/Default.vue'
 
 export default function (Vue, { router, head, isClient }) {
+
+  Vue.filter('postExcerpt', function(value, totalChars) {
+    if (!value) return ''
+    value = value.toString()
+    return value.substring(0, totalChars) + "..."    
+  })  
   
   head.htmlAttrs = { lang: "pt-br" }
   

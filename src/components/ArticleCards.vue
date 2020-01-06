@@ -9,28 +9,22 @@
             <g-link class="article-card__category" :to="categoryPath"> {{ category }} </g-link>
         </div>
         <g-link :to="postPath"><h1 class="article-card__title">{{ title }}</h1></g-link>
-        <p class="article-card__text">{{ text | firstChars }}</p>
+        <p class="article-card__text">{{ text | postExcerpt(70) }}</p>
     </article>           
 </template>
 
 <script>
+
 export default {
     props: {
-        image: { type: String, required: true },
-        date: { type: String, required: true },
-        category: { type: String, required: true },
-        title: { type: String, required: true },
-        text: { type: String, required: true },
-        postPath: { type: String, required: true },
-        categoryPath: { type: String, required: true }
-    },
-    filters: {
-      firstChars (value) {
-        if (!value) return ''
-        value = value.toString()
-        return value.substring(0, 70) + "..."
-      }
-    }    
+      image: { type: String, required: true },
+      date: { type: String, required: true },
+      category: { type: String, required: true },
+      title: { type: String, required: true },
+      text: { type: String, required: true },
+      postPath: { type: String, required: true },
+      categoryPath: { type: String, required: true },
+    } 
 }
 </script>
 
@@ -52,7 +46,6 @@ export default {
       object-fit: cover;
     }
     &:hover {
-      //cursor: pointer;
       img { 
         width: 105%; 
         filter: grayscale(100%); 
@@ -74,10 +67,6 @@ export default {
       font-size: .66rem;
       letter-spacing: .7px;
     }
-  }
-
-  &__date {
-
   }
 
   &__divider {
@@ -104,7 +93,6 @@ export default {
     line-height: 1.16rem;
     margin-bottom: 1.5rem;
   }
-
 }
 
 </style>
