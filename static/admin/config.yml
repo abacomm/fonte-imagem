@@ -50,11 +50,11 @@ collections:
       - {label: "Descrição", name: "description", widget: "markdown"}
       - label: "PDF dos preparos"
         name: "pdf_files"
-        widget: "file"
+        widget: "list"
+        allow_add: true
         hint: "Apenas faça upload de arquivos em formato pdf"
-        media_library:
-          config:
-            multiple: true      
+        fields:
+          - {label: "Arquivo", name: "link_path", widget: "file"}      
 
   - name: "authors" 
     label: "Equipe" 
