@@ -50,6 +50,7 @@ query($id: ID!){
                 ... on Post {
                     id
                     title
+                    excerpt
                     date (format: "DD/MM/YYYY", locale: "pt-BR")
                     category {
                         id

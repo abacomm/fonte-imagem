@@ -27,7 +27,7 @@ import Team from '~/components/Home/Team.vue'
 
 export default {
   metaInfo: {
-    title: 'Seja bem-vindo!',
+    title: '',
     meta: [
       { charset: 'utf-8' },
       { name: "author", content: "Carlos Gomes Cabral" },

@@ -4,7 +4,7 @@
         <section id="hero-section">
             <div class="row hero">
                 <div class="col-lg-6 px-lg-0">
-                    <h1 class="big-h2">Exercendo a medina com ética e competência</h1>
+                    <h1 class="big-h2">Exercendo a medicina com ética e competência</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim consectetur accusantium nihil ab, officia distinctio!</p>
                     <button @click="openTour">Faça um tour virtual</button>
                 </div>

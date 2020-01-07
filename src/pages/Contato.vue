@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <h1>Contato</h1>
-    <g-image class="bg-contact-image d-none d-lg-block" src="https://images.unsplash.com/photo-1524758870432-af57e54afa26?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80" />
+    <g-image alt="Imagem ilustrativa da página de contato" class="bg-contact-image d-none d-lg-block" src="https://images.unsplash.com/photo-1524758870432-af57e54afa26?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80" />
     <div class="row">
       <div class="col-lg-7">
         <p>Entre em contato para pedir informações <br>e tirar suas dúvidas.</p>
