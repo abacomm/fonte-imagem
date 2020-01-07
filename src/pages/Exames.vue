@@ -17,7 +17,7 @@
 
     </div>
     <div class="row">
-      <div class="col-lg-7 exam-about" v-html="getExamByName[0].node.description"></div>
+      <div class="col-lg-7 exam-about" v-html="getExamByName[0].node.content"></div>
       <div class="col-lg-5 exam-preparation">
         <h4 class="exam-preparation__title"><font-awesome :icon="['fas', 'info-circle']"/>Como se preparar</h4>
         <div class="exam-preparation__search">
@@ -28,7 +28,7 @@
         <div v-for="(file, index) in filterPdfBySearch" :key="index">
           <div class="exam-preparation__file mb-3">
             <font-awesome :icon="['fas', 'file-pdf']"/>
-            <a :href="file.link_path" target="_blank">{{ file.link_path }}</a>
+            <a :href="file.link_path" target="_blank">{{ file.name }}</a>
           </div>          
         </div>
       </div>
@@ -43,8 +43,9 @@
       node {
         id
         name
-        description
+        content
 				pdf_files {
+          name
           link_path
         }
       }
@@ -83,7 +84,7 @@ export default {
     },
     filterPdfBySearch() {
       return this.getExamByName[0].node.pdf_files.filter(file => {
-          return file.link_path.toLowerCase().includes(this.search.toLowerCase().trim())
+          return file.name.toLowerCase().includes(this.search.toLowerCase().trim())
       })      
     }     
   },   
