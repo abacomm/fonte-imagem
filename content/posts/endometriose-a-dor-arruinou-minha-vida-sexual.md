@@ -6,7 +6,7 @@ excerpt: >-
 date: 2020-01-02T22:04:15.389Z
 author: Erica Endo
 category: Cardiologia
-featured_image: /uploads/alex-rainer-tf9vinyzz5o-unsplash.jpg
+featured_image: /uploads/alex-rainer-tf9vinyzz5-unsplash.jpg
 tags:
   - vida saudável
   - doença degenerativa

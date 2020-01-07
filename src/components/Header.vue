@@ -1,50 +1,53 @@
 <template>
-    <div>     
-        <div class="top-bar d-none d-lg-block">
-            <div class="row">
-                <div class="col-12">
-                    <small><font-awesome :icon="['fas', 'phone-alt']"/>&nbsp;(21) 3591-6886&nbsp;&nbsp;|&nbsp;&nbsp;<font-awesome :icon="['fab', 'whatsapp']"/>&nbsp;(21) 3591-6886&nbsp;&nbsp;|&nbsp;&nbsp;<font-awesome :icon="['fas', 'map-marker-alt']"/>&nbsp;Rua Fonte da Saudade, 277 - Lagoa, RJ&nbsp;&nbsp;&nbsp;<g-link to="https://netpacs.fonteimagem.com.br/Netpacs-web/login?"><button class="colored-button">Acesso do Médico</button></g-link></small>
+    <!-- <div style="margin-bottom: 13rem" :class="{ 'white-text': !hitPosition }"> -->
+    <div style="margin-bottom: 13rem">
+          <div class="fixed-top" :class="{ resized: hitPosition }">
+            <div class="top-bar d-none d-lg-block">
+                <div class="row">
+                    <div class="col-12">
+                        <small><font-awesome :icon="['fas', 'phone-alt']"/>&nbsp;(21) 3591-6886&nbsp;&nbsp;|&nbsp;&nbsp;<font-awesome :icon="['fab', 'whatsapp']"/>&nbsp;(21) 3591-6886&nbsp;&nbsp;|&nbsp;&nbsp;<font-awesome :icon="['fas', 'map-marker-alt']"/>&nbsp;Rua Fonte da Saudade, 277 - Lagoa, RJ&nbsp;&nbsp;&nbsp;<g-link to="https://netpacs.fonteimagem.com.br/Netpacs-web/login?"><button class="colored-button">Acesso do Médico</button></g-link></small>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="header-container">
-            <header class="header light-mode">
-                <div class="logo-container">
-                    <g-link to="/"><g-image alt="Imagem da logo Fonte Imagem" src="../assets/images/logo-colored.svg" width="157" /></g-link>
-                </div>
+            <div class="header-container" style="max-height: 5rem;" :class="{ resized : hitPosition }">
+                <header class="header" style="max-height: 3rem;">
+                    <div class="logo-container">
+                        <g-link to="/"><g-image :class="{ resized : hitPosition }" alt="Imagem da logo Fonte Imagem" src="../assets/images/logo-colored.svg" width="157" /></g-link>
+                    </div>
 
-                <nav role="navigation">
-                    <ul class="desktop-navigation__nav">
-                        <li class="desktop-navigation__nav__item"><g-link class="desktop-navigation__nav__anchor" to="/quem-somos/">Quem Somos</g-link></li>
-                        <li class="desktop-navigation__nav__item"><g-link class="desktop-navigation__nav__anchor" to="/exames/">Exames</g-link></li>
-                        <li class="desktop-navigation__nav__item"><g-link class="desktop-navigation__nav__anchor" to="/artigos/">Artigos</g-link></li>
-                        <li class="desktop-navigation__nav__item"><g-link class="desktop-navigation__nav__anchor" to="/equipe/">A Equipe</g-link></li>
-                        <li class="desktop-navigation__nav__item"><g-link class="desktop-navigation__nav__anchor" to="/convenios/">Convênios</g-link></li>
-                        <li class="desktop-navigation__nav__item"><g-link class="desktop-navigation__nav__anchor" to="/contato/">Contato</g-link></li>
-                    </ul>
-                </nav>   
-
-                <div class="mobile-navigation">
-                    <input type="checkbox" class="mobile-navigation__checkbox" id="navi-toggle">
-                    <label for="navi-toggle" class="mobile-navigation__button">
-                    <span class="mobile-navigation__icon"></span>
-                    </label>
-                    <div class="mobile-navigation__background">&nbsp;</div>
-
-                    <nav class="mobile-navigation__nav">
-                        <ul class="mobile-navigation__list">
-                            <li class="mobile-navigation__item"><g-link class="mobile-navigation__link" to="/">Home</g-link></li>
-                            <li class="mobile-navigation__item"><g-link class="mobile-navigation__link" to="/quem-somos/">Quem Somos</g-link></li>
-                            <li class="mobile-navigation__item"><g-link class="mobile-navigation__link" to="/exames/">Exames</g-link></li>
-                            <li class="mobile-navigation__item"><g-link class="mobile-navigation__link" to="/artigos/">Artigos</g-link></li>
-                            <li class="mobile-navigation__item"><g-link class="mobile-navigation__link" to="/equipe/">A Equipe</g-link></li>
-                            <li class="mobile-navigation__item"><g-link class="mobile-navigation__link" to="/convenios/">Convênios</g-link></li>
-                            <li class="mobile-navigation__item"><g-link class="mobile-navigation__link" to="/contato/">Contato</g-link></li>
+                    <nav role="navigation">
+                        <ul class="desktop-navigation__nav" :class="{ resized : hitPosition }">
+                            <li class="desktop-navigation__nav__item"><g-link class="desktop-navigation__nav__anchor" to="/quem-somos/">Quem Somos</g-link></li>
+                            <li class="desktop-navigation__nav__item"><g-link class="desktop-navigation__nav__anchor" to="/exames/">Exames</g-link></li>
+                            <li class="desktop-navigation__nav__item"><g-link class="desktop-navigation__nav__anchor" to="/artigos/">Artigos</g-link></li>
+                            <li class="desktop-navigation__nav__item"><g-link class="desktop-navigation__nav__anchor" to="/equipe/">A Equipe</g-link></li>
+                            <li class="desktop-navigation__nav__item"><g-link class="desktop-navigation__nav__anchor" to="/convenios/">Convênios</g-link></li>
+                            <li class="desktop-navigation__nav__item"><g-link class="desktop-navigation__nav__anchor" to="/contato/">Contato</g-link></li>
                         </ul>
-                    </nav>
-                </div>
-            </header>
-        </div>
+                    </nav>   
+
+                    <div class="mobile-navigation">
+                        <input type="checkbox" class="mobile-navigation__checkbox" id="navi-toggle">
+                        <label for="navi-toggle" class="mobile-navigation__button">
+                        <span class="mobile-navigation__icon"></span>
+                        </label>
+                        <div class="mobile-navigation__background">&nbsp;</div>
+
+                        <nav class="mobile-navigation__nav">
+                            <ul class="mobile-navigation__list">
+                                <li class="mobile-navigation__item"><g-link class="mobile-navigation__link" to="/">Home</g-link></li>
+                                <li class="mobile-navigation__item"><g-link class="mobile-navigation__link" to="/quem-somos/">Quem Somos</g-link></li>
+                                <li class="mobile-navigation__item"><g-link class="mobile-navigation__link" to="/exames/">Exames</g-link></li>
+                                <li class="mobile-navigation__item"><g-link class="mobile-navigation__link" to="/artigos/">Artigos</g-link></li>
+                                <li class="mobile-navigation__item"><g-link class="mobile-navigation__link" to="/equipe/">A Equipe</g-link></li>
+                                <li class="mobile-navigation__item"><g-link class="mobile-navigation__link" to="/convenios/">Convênios</g-link></li>
+                                <li class="mobile-navigation__item"><g-link class="mobile-navigation__link" to="/contato/">Contato</g-link></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </header>
+            </div>
+          </div>
     </div>
 
 </template>
@@ -73,14 +76,12 @@ export default {
   methods: {
     getScrollEvent () {
       if (process.isClient) {
-        // this.scrollPosition = window.pageYOffset
-        // if (this.scrollPosition >= 2000 ) {
-        //   this.hitPosition = true
-        // } else {
-        //   this.hitPosition = false
-        // }
         this.scrollPosition = window.pageYOffset
-        //console.log(this.scrollPosition)
+        if (this.scrollPosition >= 70  ) {
+          this.hitPosition = true
+        } else {
+          this.hitPosition = false
+        }
       }
     }      
   }
@@ -101,11 +102,51 @@ export default {
 .top-bar {
     text-align: right;
     padding: .5rem 0;
-    border-bottom: 1px solid rgba(#000, .08);
+    //border-bottom: 1px solid rgba(#000, .08);
+    z-index: 1000;
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background: linear-gradient(90deg, transparent 30%, rgba(0,0,0,.12) 100%);
+      width: 100%;
+      height: 1px;
+    }
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0 .88rem;
+  z-index: 900;
+  transition: all .35s ease;
+
+  &.resized {
+    &::before {
+      content: "";
+      position: absolute;
+      background-color: #fff;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 5.38rem;
+      width: 100vw;
+      box-shadow: 0 10px 20px -10px rgba($primary-color, .12);
+    }
+  }
+}
+
+.white-text {
+  * {
+    color: #fff !important;
+  }
 }
 
 .header {
-    // position: fixed;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -113,23 +154,52 @@ export default {
     padding: 0 0 1.5rem 0;
     transition: padding 0.2s ease;
 
+    @media(min-width: 576px) {
+      max-width: 540px;
+    }   
+    @media(min-width: 768px) {
+      max-width: 720px;
+    }   
+    @media(min-width: 992px) {
+      max-width: 960px;
+    }   
+    @media(min-width: 1200px) {
+      max-width: 1140px;
+    }
+    
+    margin: 0 auto;     
+
     .logo-container {
-        padding: 1rem 0 0; 
-        @media(min-width: 992px) {
-            padding: 1rem;
-            background-color: #fff;
-            border-radius: 0 0 1rem 1rem;            
-            transform: translateY(-3rem);
+      padding: 1rem 0 0;
+      @media(min-width: 992px) {
+          padding: 1rem;
+          //background-color: #fff;
+          border-radius: 0 0 1rem 1rem;            
+          transform: translateY(-3rem);
+      }
+
+      img {
+        transition: transform .35s ease;
+        transform-origin: 0% 5%;
+        &.resized {
+          transform: scale(.65);
         }
+      }
     }
 }
 
 .desktop-navigation__nav {
   
   display: none;
+  transition: margin .35s ease;
+
   @media (min-width: 992px) {
     display: block;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
+
+    &.resized {
+      margin-top: .4rem;
+    }
   }
 
   list-style-type: none;

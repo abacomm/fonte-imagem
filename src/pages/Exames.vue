@@ -252,7 +252,7 @@ export default {
 .full-exam-image { 
   margin-left: calc(-100vw / 2 + 62.5rem / 2);
   margin-right: calc(-100vw / 2 + 62.5rem / 2);  
-  background: url("../assets/images/img-exames-bg.png") no-repeat center;
+  background: url("../assets/images/img-exames-bg.jpg") no-repeat center;
   background-size: cover;
   height: 25rem;
   margin-top: 1.5rem;

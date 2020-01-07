@@ -6,7 +6,7 @@ excerpt: >-
 date: 2020-01-02T22:08:12.414Z
 author: Ilan Gottlieb
 category: Fisioterapia
-featured_image: /uploads/chris-b-8icdrkkog7g-unsplash.jpg
+featured_image: /uploads/chris-b-8icdrkkog7-unsplash.jpg
 tags:
   - saúde
   - musculação
