@@ -72,7 +72,7 @@ export default {
 .full-image { 
   margin-left: calc(-100vw / 2 + 61.66rem / 2);
   margin-right: calc(-100vw / 2 + 61.66rem / 2);  
-  background: url("https://s.w.org/images/backgrounds/wordpress-bg-medblue.png") no-repeat center;
+  background: url("../assets/images/img-about-1.jpg") no-repeat center;
   background-size: cover;
   height: 29rem;
   margin-bottom: 3rem;

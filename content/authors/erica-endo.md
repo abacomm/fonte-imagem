@@ -1,9 +1,9 @@
 ---
 name: Erica Endo
 specialty: Radiologia
-thumb_image: /uploads/img-materia01-1.jpg
+thumb_image: /uploads/img-author-erica.jpg
 large_image: /uploads/img-home-team-3.png
-external_link: 'https://tutsplus.com/'
+external_link: 'http://fonteimagem.com/'
 profile: >-
   Housed and until cannot good rung to from exploration, these would she all
   range the in our who self-interest events, go its in the mental hills schemes

@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Landing>
 
     <Hero />
 
@@ -13,7 +13,7 @@
     
     <Articles class="section-separation" />
 
-  </Layout>
+  </Landing>
 </template>
 
 <script>
@@ -27,14 +27,14 @@ import Team from '~/components/Home/Team.vue'
 
 export default {
   metaInfo: {
-    title: '',
+    title: 'Home',
     meta: [
       { charset: 'utf-8' },
       { name: "author", content: "Carlos Gomes Cabral" },
       { name: "description", content: "A Fonte Imagem é a clínica referência em diagnóstico por imagem no Rio de Janeiro" },
       { name: "keywords", content: "diagnóstico por imagem, saúde, inovação, concierge, medicina diagnóstica" },
-      { key: 'og:title', name: 'og:title', content: 'Fonte Imagem - Seja bem-vindo!' },
-      { key: 'twitter:title', name: 'twitter:title', content: 'Fonte Imagem - Seja bem-vindo!' }      
+      { key: 'og:title', name: 'og:title', content: 'Fonte Imagem - Home' },
+      { key: 'twitter:title', name: 'twitter:title', content: 'Fonte Imagem - Home' }      
     ]    
   },
   components: { Team, Mission, HelpCards, Articles, Exams, Hero }
@@ -44,7 +44,7 @@ export default {
 <style lang="scss">
 
 .section-separation {
-  margin: 9rem 0;
+  margin: 8rem 0;
 }
 
 .big-h2 {

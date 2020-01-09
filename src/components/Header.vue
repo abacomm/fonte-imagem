@@ -1,6 +1,5 @@
 <template>
-    <!-- <div style="margin-bottom: 13rem" :class="{ 'white-text': !hitPosition }"> -->
-    <div style="margin-bottom: 13rem">
+    <div style="margin-bottom: 13rem" :class="{ 'white-text': isWhite && !hitPosition }">
           <div class="fixed-top" :class="{ resized: hitPosition }">
             <div class="top-bar d-none d-lg-block">
                 <div class="row">
@@ -12,6 +11,7 @@
             <div class="header-container" style="max-height: 5rem;" :class="{ resized : hitPosition }">
                 <header class="header" style="max-height: 3rem;">
                     <div class="logo-container">
+                        <div class="logo-container__bg" :class="{ resized: hitPosition }"></div>
                         <g-link to="/"><g-image :class="{ resized : hitPosition }" alt="Imagem da logo Fonte Imagem" src="../assets/images/logo-colored.svg" width="157" /></g-link>
                     </div>
 
@@ -54,6 +54,9 @@
 
 <script>
 export default {
+  props: {
+    isWhite: { type: Boolean, required: false },
+  },
   data: () => ({
     scrollPosition: 0,
     hitPosition: false
@@ -93,7 +96,7 @@ export default {
 <style lang="scss">
 
 .colored-button {
-    @include colored-button;
+    @include colored-button(darken($accent-color-1, 7%));
     padding: .4rem .5rem .35rem;
     font-size: .66rem;
     letter-spacing: 0;
@@ -102,7 +105,6 @@ export default {
 .top-bar {
     text-align: right;
     padding: .5rem 0;
-    //border-bottom: 1px solid rgba(#000, .08);
     z-index: 1000;
     position: relative;
     &::after {
@@ -171,10 +173,11 @@ export default {
 
     .logo-container {
       padding: 1rem 0 0;
+      position: relative;
+      transition: all .2s ease;
+
       @media(min-width: 992px) {
           padding: 1rem;
-          //background-color: #fff;
-          border-radius: 0 0 1rem 1rem;            
           transform: translateY(-3rem);
       }
 
@@ -184,7 +187,28 @@ export default {
         &.resized {
           transform: scale(.65);
         }
+        transform: translateX(1rem);
+        @media(min-width: 992px) {
+          transform: translateX(0);
+        }
       }
+
+      &__bg {
+          position: absolute;
+          top: 0;
+          left: -.2rem;
+          width: 200px;
+          height: 146px;
+          border-radius: 0 0 1rem 1rem;
+          background-color: #fff;
+          z-index: -9;
+          opacity: 1;
+          transition: all .2s ease;
+
+          &.resized {
+            opacity: 0;
+          }
+      }      
     }
 }
 

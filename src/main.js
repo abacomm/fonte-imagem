@@ -32,6 +32,7 @@ library.add(
   faMapMarkerAlt)
 
 import DefaultLayout from '~/layouts/Default.vue'
+import LandingLayout from '~/layouts/Landing.vue'
 
 export default function (Vue, { router, head, isClient }) {
 
@@ -65,6 +66,7 @@ export default function (Vue, { router, head, isClient }) {
   })  
 
   Vue.component('Layout', DefaultLayout)
+  Vue.component('Landing', LandingLayout)
   Vue.component('font-awesome', FontAwesomeIcon)
   Vue.use(VueDisqus)
   require('typeface-montserrat')

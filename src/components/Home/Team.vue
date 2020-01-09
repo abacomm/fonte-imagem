@@ -1,8 +1,8 @@
 <template>
     <section id="team">
         <div class="col-lg-7">
-          <h2 class="big-h2">Nossa Equipe</h2>
-          <p>Nossos exames priorizam o seu conforto. <br>Você terá acesso aos nossos médicos no Consultório de Imagem e poderá tirar todas as suas dúvidas.</p>
+            <h2 class="big-h2">Nossa Equipe</h2>
+            <p>Nossos exames priorizam o seu conforto. <br>Você terá acesso aos nossos médicos no Consultório de Imagem e poderá tirar todas as suas dúvidas.</p>
         </div>
 
         <div class="slide-container">
@@ -17,6 +17,7 @@
                 </div>      
             </div>
             <g-image alt="Imagem de destaque do médico" class="slide-image" :src="getAllTeam[activeNewsId].node.large_image" width="430" />
+            <!-- <g-image alt="Imagem de destaque do médico" class="thumb-image" :src="getAllTeam[activeNewsId].node.thumb_image" width="200" /> -->
             <div class="slide-counter d-none d-lg-block">
                 <p class="slide-counter__first">{{ activeNewsId + 1 }}</p>
                 <p class="slide-counter__second">{{ getAllTeam.length }}</p>
@@ -79,7 +80,7 @@ export default {
 <style lang="scss">
 
 .slide-container {
-    margin-top: 4.5rem;
+    margin-top: 3rem;
     position: relative;
     &::before {
         content: "";
@@ -126,6 +127,17 @@ export default {
     right: 7.5rem;
     z-index: -10;
     width: 350px;
+}
+
+.thumb-image {
+    position: absolute;
+    top: -3rem;
+    right: 1rem;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 20px 40px rgba(0,0,0,.3);
+    border-radius: .22rem;
+
 }
 
 .slide-details {

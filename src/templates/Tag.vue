@@ -6,6 +6,7 @@
             <div class="row">
                 <div class="col-12 mb-5">
                     <div class="search-input">
+                        <label for="search" class="sr-only">Buscar</label>
                         <div class="icon"><font-awesome :icon="['fas', 'search']"/></div>
                         <input type="text" name="search" id="search" placeholder="Pesquisar por título" v-model="search">
                     </div>

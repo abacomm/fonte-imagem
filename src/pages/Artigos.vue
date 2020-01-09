@@ -36,7 +36,7 @@
         <SocialShare url="https://www.fonteimagem.com.br/artigos/" />
       </div>
       <div class="col-lg-6 mt-5 mt-lg-0 d-flex justify-content-lg-end">
-        <p>Páginas:&nbsp;&nbsp;</p>
+        <!-- <p>Páginas:&nbsp;&nbsp;</p> -->
         <Pager :info="$page.allPost.pageInfo" linkClass="pager" prevLabel="←" nextLabel="→" />
       </div>      
     </div>    
@@ -45,7 +45,7 @@
 
 <page-query>
 query ($page: Int){
-  allPost (perPage: 1, page: $page) @paginate {
+  allPost (perPage: 12, page: $page) @paginate {
     totalCount
     pageInfo {
       totalPages
