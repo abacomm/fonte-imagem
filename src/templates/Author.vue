@@ -30,9 +30,9 @@
             </div>
         </div> 
         <div v-else>
-            <div class="row">
-                <div class="col-12 text-center empty">
-                    <font-awesome :icon="['fas', 'sad-tear']"/>
+            <div class="row my-4">
+                <div class="col-12 empty">
+                    <font-awesome style="font-size: 3rem; margin-bottom: 1rem;" :icon="['fas', 'sad-tear']"/>
                     <p>Sua busca não retornou resultados com as palavras digitadas. Tente novamente!</p>
                 </div>
             </div>

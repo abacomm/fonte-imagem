@@ -266,6 +266,8 @@ export default {
 .mobile-navigation {
   @media (min-width: 992px) {
     display: none;
+    z-index: -99999;
+    visibility: none;
   }
 
   &__checkbox {
@@ -324,7 +326,7 @@ export default {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -70%);
     list-style: none;
     text-align: center;
     padding: 0;

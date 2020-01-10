@@ -45,7 +45,7 @@ export default {
     z-index: -999;
   
     @media(min-width: 576px) {
-        width: 240%;
+        width: 200%;
         height: 100%;
         background-color: transparent;
         background: url("../../assets/images/img-hero-graphic_3.svg");
@@ -55,7 +55,7 @@ export default {
     }
 
     @media(min-width: 768px) {
-        width: 200%;
+        width: 175%;
     }
 
     @media(min-width: 992px) {
@@ -63,7 +63,7 @@ export default {
     }
 
     @media(min-width: 1200px) {
-        width: 100%;   
+        width: 103%;   
     }
     
     @media(min-width: 1600px) {

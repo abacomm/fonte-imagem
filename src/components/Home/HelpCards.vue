@@ -1,7 +1,7 @@
 <template>
     <section id="help-cards">
       <div class="help-cards">
-        <h4 class="help-cards__title">Como podemos te ajudar?</h4>
+        <h4 class="help-cards__title">Como podemos ajudar?</h4>
         <div class="row">
           <div class="col-xl-4 col-md-6 mb-4 mb-xl-0">
             <div class="help-cards__container">
@@ -32,7 +32,7 @@
 <style lang="scss">
 
 .help-cards {
-    margin: 4.5rem 0 10.5rem;
+    margin: 4.5rem 0 7.5rem;
     position: relative;
 
     &::after {   

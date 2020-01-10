@@ -3,15 +3,15 @@
 
     <Hero />
 
-    <Mission class="section-separation" />
+    <Mission />
 
-    <HelpCards class="section-separation" />
+    <HelpCards />
 
-    <Exams class="section-separation" />
+    <Exams />
     
-    <Team class="section-separation" />
+    <Team />
     
-    <Articles class="section-separation" />
+    <Articles />
 
   </Landing>
 </template>
@@ -43,11 +43,11 @@ export default {
 
 <style lang="scss">
 
-.section-separation {
-  margin: 8rem 0;
-}
-
 .big-h2 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 700;  
+
     @media (min-width: 992px) {
         font-size: 2.2222rem;
         line-height: 1.3;
