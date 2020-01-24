@@ -8,11 +8,11 @@
     </div>
     <div class="list-container">
       <figure class="full-exam-image" />
-      <p class="d-none d-sm-block">Selecione abaixo uma opção de exame e saiba como se preparar:</p>
+      <!-- <p class="d-none d-sm-block">Selecione abaixo uma opção de exame e saiba como se preparar:</p> -->
       
       <ul class="nav-tabs">
         <li class="nav-tabs__list" v-for="edge in $static.allExam.edges" :key="edge.node.id">
-          <a href="#" class="nav-tabs__item" :class="{ active: activeExam === edge.node.name  }" @click="changeActive(edge.node.name)">{{ edge.node.name }}</a></li>
+          <a href="#" class="nav-tabs__item" :class="{ active: activeExam === edge.node.name  }" @click.prevent="changeActive(edge.node.name)">{{ edge.node.name }}</a></li>
       </ul>
 
     </div>
@@ -38,7 +38,7 @@
 
 <static-query>
 {
-  allExam {
+  allExam(sortBy: "name", order: ASC) {
     edges {
       node {
         id

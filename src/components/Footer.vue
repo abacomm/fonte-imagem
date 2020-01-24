@@ -1,10 +1,10 @@
 <template>
-    <footer>
+    <footer id="footer">
         <div class="row">
             <div class="col-lg-8 offset-lg-2 px-md-0 text-md-center">
                 <div class="dashed-header"></div>
                 <h2>Você Sabia?</h2>
-                <p>Para sua conveniência, você pode acessar o resultado dos seus exames pelo site ou solicitar sua impressão pela clínica, sem precisar sair de casa. Selecione a opção desejada e digite o número de protocolo:</p>
+                <p>Para sua conveniência, você pode solicitar a impressão do seu exame para buscar na clínica ou acessar o resultado pelo site, sem precisar sair de casa. Selecione a opção desejada e digite o número de protocolo:</p>
                 <div class="form-box">
                     <ExamForm />
                 </div>
@@ -65,6 +65,7 @@
                 <p>Copyright © {{ today }} | Fonte Imagem | Todos os direitos reservados.</p>
             </div>
         </div>
+        <g-image class="img-symbol" src="../assets/images/symbol-overlay.svg" />
     </footer>
 </template>
 
@@ -80,6 +81,13 @@ export default {
 
 
 <style lang="scss">
+
+.img-symbol {
+    position: absolute;
+    left: -1.5rem;
+    bottom: -3.5rem;
+    width: 300px;
+}
 
 .form-box {
     margin-top: 3rem; 
@@ -144,6 +152,7 @@ footer {
 
         &.facebook {
             background-color: #3B5998;
+            padding-left: .15rem;
             &:hover {
                 background-color: lighten(#3B5998, 10%);
             }

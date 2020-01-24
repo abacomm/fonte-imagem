@@ -2,7 +2,7 @@
     <section id="team">
         <div class="col-lg-7 my-5">
             <h2 class="big-h2">Nossa Equipe</h2>
-            <p>Nossos exames priorizam o seu conforto. <br>Você terá acesso aos nossos médicos no Consultório de Imagem e poderá tirar todas as suas dúvidas.</p>
+            <p>Nossa equipe médica é o principal motivo do nosso sucesso.<br>Saiba mais sobre cada um, suas especialidades e publicações científicas.</p>
         </div>
 
         <div class="slide-container">

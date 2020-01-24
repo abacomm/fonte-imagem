@@ -4,7 +4,7 @@
       <div class="row" style="margin-top: 8rem">
         <div class="col-md-8 offset-md-2 px-md-0 text-md-center">
           <h2 class="big-h2">Nossos Artigos</h2>
-          <p>Nossos médicos têm inúmeras publicações em diversos veículos de mídia impressa e TV e este é o espaço onde eles se dedicam à compartilhar artigos e novidades com nossos clientes.</p>          
+          <p>Leia os últimos artigos e notícias publicadas por nossa equipe de médicos.</p>          
         </div>      
       </div>
       <div class="row">

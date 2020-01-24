@@ -3,7 +3,7 @@
     <h1>Quem Somos</h1>
     <div class="row">
       <div class="col-lg-7">
-        <p>Writer up on feedback step the several to of date to of the she a the suspicious longer a aside</p>
+        <p>Nosso tempo é dedicado à você! Conheça a nossa história e o motivo pelo qual somos referência no diagnóstico por imagem.</p>
       </div>
     </div>
     <figure class="full-image">

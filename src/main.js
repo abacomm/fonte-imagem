@@ -1,3 +1,5 @@
+// --- Vue Scroll-To ---
+import VueScrollTo from 'vue-scrollto'
 // --- Vue Disqus ---
 import VueDisqus from 'vue-disqus'
 // --- FontAwesome SVG ---
@@ -69,5 +71,6 @@ export default function (Vue, { router, head, isClient }) {
   Vue.component('Landing', LandingLayout)
   Vue.component('font-awesome', FontAwesomeIcon)
   Vue.use(VueDisqus)
+  Vue.use(VueScrollTo)
   require('typeface-montserrat')
 }

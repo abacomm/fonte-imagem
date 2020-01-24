@@ -5,7 +5,7 @@
             <div class="row hero">
                 <div class="col-lg-6 px-lg-0">
                     <h1 class="big-h2">Exercendo a medicina com ética e competência</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim consectetur accusantium nihil ab, officia distinctio!</p>
+                    <p>A clínica de diagnóstico por imagem com médicos que tem um sonho em comum: Inovação e ênfase na satisfação do cliente.</p>
                     <button @click="openTour">Faça um tour virtual</button>
                 </div>
                 <div class="col-lg-6 text-center text-lg-right mt-5 mt-lg-0">
@@ -15,6 +15,7 @@
                 </div>
             </div>
         </section>
+        <!-- <g-image class="symbol-top" src="../../assets/images/symbol-overlay.svg" /> -->
     </div>
 </template>
 
@@ -41,29 +42,35 @@ export default {
     width: 100%;
     height: 65rem;
     clip-path: polygon(0 0, 100% 0, 100% 74%, 0 59%);
-    background: linear-gradient(180deg, #3ED6BE 20%, #03756D 75%);
+    background: linear-gradient(180deg, darken(#3ED6BE, 15%) 20%, #03756D 75%);
     z-index: -999;
+    overflow: hidden;
   
     @media(min-width: 576px) {
-        width: 200%;
-        height: 100%;
-        background-color: transparent;
-        background: url("../../assets/images/img-hero-graphic_3.svg");
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: top;    
+        // width: 100%;
+        height: 78rem;
+        // background-color: transparent;
+        // background: url("../../assets/images/img-hero-graphic_5.svg");
+        // background-size: contain;
+        // background-repeat: no-repeat;
+        // background-position: top;    
     }
 
     @media(min-width: 768px) {
-        width: 175%;
+        width: 189%;
+        background-color: transparent;
+        background: url("../../assets/images/img-hero-graphic_5.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top;         
     }
 
     @media(min-width: 992px) {
-        width: 130%;
+        width: 144%;
     }
 
     @media(min-width: 1200px) {
-        width: 103%;   
+        width: 117%;   
     }
     
     @media(min-width: 1600px) {
