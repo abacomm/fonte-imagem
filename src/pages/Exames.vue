@@ -68,7 +68,7 @@ export default {
     ]    
   },
   data: () => ({
-    activeExam: "Tomografia",
+    activeExam: "Cardiografia Nuclear",
     search: ""
   }),
   methods: {
