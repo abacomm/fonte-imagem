@@ -6,9 +6,9 @@
         <p>Nossos exames priorizam o seu conforto. Você terá acesso aos nossos médicos no Consultório de Imagem e poderá tirar todas as suas dúvidas. Trabalhamos para ajudar seu médico a escolher o melhor tratamento possível para você.</p>
       </div>
     </div>
+
     <div class="list-container">
       <figure class="full-exam-image" />
-      <!-- <p class="d-none d-sm-block">Selecione abaixo uma opção de exame e saiba como se preparar:</p> -->
       
       <ul class="nav-tabs">
         <li class="nav-tabs__list" v-for="edge in $static.allExam.edges" :key="edge.node.id">
@@ -16,6 +16,18 @@
       </ul>
 
     </div>
+
+    <!-- TEST -->
+    <!-- <div class="row text-left" style="background-color: white; transform: translateY(-8rem); box-shadow: 0 10px 10px rgba(0,0,0,.08); border-radius: 4px;">
+      <div class="col-12">
+        <p class="p-1">Selecione o exame desejado:</p>
+      </div>
+      <div class="col-sm-6 col-md-4 p-1" v-for="edge in $static.allExam.edges" :key="edge.node.id">
+        <a href="#" style="padding: .5rem 1rem; display: flex;" @click.prevent="changeActive(edge.node.name)">{{ edge.node.name }}</a>
+      </div>
+    </div> -->
+    <!--  -->
+
     <div class="row">
       <div class="col-lg-7 exam-about" v-html="getExamByName[0].node.content"></div>
       <div class="col-lg-5 exam-preparation">

@@ -1,8 +1,8 @@
 ---
 name: Cardiografia Nuclear
 pdf_files:
-  - link_path: /uploads/preparo-defecografia-por-ressonancia-magnetica.pdf
-    name: Defecografia por Ressonância
+  - link_path: /uploads/exams/Cintilografia_miocárdica.pdf
+    name: Cintilografia Miocárdica
 ---
 ## Sobre a Cardiografia Nuclear
 

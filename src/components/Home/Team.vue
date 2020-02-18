@@ -158,7 +158,7 @@ export default {
     &__first {
         font-size: 2rem;
         margin-bottom: 0;
-        transform: translateX(-1.5rem);
+        transform: translateX(-2rem);
     }
 
     &__second {
@@ -223,6 +223,7 @@ export default {
     &__button {
         margin-top: 1.5rem;
         @include outline-button(#fff, $accent-color-1);
+        border-color: rgba(#fff, .2);
     }
 
     &__arrows {

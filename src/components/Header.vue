@@ -2,11 +2,13 @@
     <div style="margin-bottom: 13rem" :class="{ 'white-text': isWhite && !hitPosition }">
           <div class="fixed-top" :class="{ resized: hitPosition }">
             <div class="top-bar d-none d-lg-block">
+              <!-- <div class="container">
                 <div class="row">
-                    <div class="col-12">
-                        <small><font-awesome :icon="['fas', 'phone-alt']"/>&nbsp;(21) 3591-6886&nbsp;&nbsp;|&nbsp;&nbsp;<font-awesome :icon="['fab', 'whatsapp']"/>&nbsp;(21) 3591-6886&nbsp;&nbsp;|&nbsp;&nbsp;<font-awesome :icon="['fas', 'map-marker-alt']"/>&nbsp;Rua Fonte da Saudade, 277 - Lagoa, RJ&nbsp;&nbsp;&nbsp;<g-link to="https://netpacs.fonteimagem.com.br/Netpacs-web/login?"><button class="colored-button">Acesso do Médico</button></g-link></small>
-                    </div>
+                    <div class="col-12"> -->
+                        <small><font-awesome :icon="['fas', 'phone-alt']"/>&nbsp;(21) 3591-6886&nbsp;&nbsp;|&nbsp;&nbsp;<font-awesome :icon="['fab', 'whatsapp']"/>&nbsp;(21) 99789-7973&nbsp;&nbsp;|&nbsp;&nbsp;<font-awesome :icon="['fas', 'map-marker-alt']"/>&nbsp;Rua Fonte da Saudade, 277 - Lagoa, RJ&nbsp;&nbsp;&nbsp;<g-link to="https://netpacs.fonteimagem.com.br/Netpacs-web/login?"><button class="colored-button">Acesso do Médico</button></g-link></small>
+                    <!-- </div>
                 </div>
+              </div> -->
             </div>
             <div class="header-container" style="max-height: 5rem;" :class="{ resized : hitPosition }">
                 <header class="header" style="max-height: 3rem;">
@@ -19,8 +21,9 @@
                         <ul class="desktop-navigation__nav" :class="{ resized : hitPosition }">
                             <li class="desktop-navigation__nav__item"><g-link class="desktop-navigation__nav__anchor" to="/quem-somos/">Quem Somos</g-link></li>
                             <li class="desktop-navigation__nav__item"><g-link class="desktop-navigation__nav__anchor" to="/exames/">Exames</g-link></li>
+                            <li class="desktop-navigation__nav__item"><a class="desktop-navigation__nav__anchor" href="#" @click.prevent="goToFooter">Resultados</a></li>
                             <li class="desktop-navigation__nav__item"><g-link class="desktop-navigation__nav__anchor" to="/artigos/">Artigos</g-link></li>
-                            <li class="desktop-navigation__nav__item"><g-link class="desktop-navigation__nav__anchor" to="/equipe/">A Equipe</g-link></li>
+                            <li class="desktop-navigation__nav__item"><g-link class="desktop-navigation__nav__anchor" to="/equipe/">Equipe</g-link></li>
                             <li class="desktop-navigation__nav__item"><g-link class="desktop-navigation__nav__anchor" to="/convenios/">Convênios</g-link></li>
                             <li class="desktop-navigation__nav__item"><g-link class="desktop-navigation__nav__anchor" to="/contato/">Contato</g-link></li>
                         </ul>
@@ -39,7 +42,7 @@
                                 <li class="mobile-navigation__item"><g-link class="mobile-navigation__link" to="/quem-somos/">Quem Somos</g-link></li>
                                 <li class="mobile-navigation__item"><g-link class="mobile-navigation__link" to="/exames/">Exames</g-link></li>
                                 <li class="mobile-navigation__item"><g-link class="mobile-navigation__link" to="/artigos/">Artigos</g-link></li>
-                                <li class="mobile-navigation__item"><g-link class="mobile-navigation__link" to="/equipe/">A Equipe</g-link></li>
+                                <li class="mobile-navigation__item"><g-link class="mobile-navigation__link" to="/equipe/">Equipe</g-link></li>
                                 <li class="mobile-navigation__item"><g-link class="mobile-navigation__link" to="/convenios/">Convênios</g-link></li>
                                 <li class="mobile-navigation__item"><g-link class="mobile-navigation__link" to="/contato/">Contato</g-link></li>
                             </ul>
@@ -86,7 +89,12 @@ export default {
           this.hitPosition = false
         }
       }
-    }      
+    },
+    goToFooter () {
+      this.$scrollTo('footer', 666, {
+        easing: 'ease-in-out'
+      })
+    }
   }
       
 }
@@ -235,7 +243,7 @@ export default {
 
   &__item:not(:last-child) {
     @media (min-width: 576px) {
-      margin-right: 1.55rem;
+      margin-right: 1.25rem;
     }
   }
 

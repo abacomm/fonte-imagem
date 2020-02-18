@@ -1,8 +1,16 @@
 ---
 name: Exames Gráficos
 pdf_files:
-  - link_path: /uploads/preparo-defecografia-por-ressonancia-magnetica.pdf
-    name: Defecografia por Ressonância
+  - link_path: /uploads/exams/ECG.pdf
+    name: ECG
+  - link_path: /uploads/exams/Ergoespirometria_ou_Teste_Cardiopulmonar.pdf
+    name: Ergoespirometria ou Teste Cardiopulmonar
+  - link_path: /uploads/exams/Holter.pdf
+    name: Holter
+  - link_path: /uploads/exams/MAPA.pdf
+    name: MAPA
+  - link_path: /uploads/exams/Teste_de_Esforço.pdf
+    name: Teste De Esforço
 ---
 ## Sobre Exames Gráficos
 

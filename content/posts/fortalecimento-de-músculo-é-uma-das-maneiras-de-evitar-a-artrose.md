@@ -1,5 +1,5 @@
 ---
-title: Fortalecimento de músculo é uma das maneiras de evitar a artrose
+title: Fortalecimento de músculo é uma forma de evitar a artrose
 excerpt: >-
   That which these, chequered is with respective his an peacefully because space
   right way big of the

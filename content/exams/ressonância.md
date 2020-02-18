@@ -1,11 +1,120 @@
 ---
 name: Ressonância
 pdf_files:
-  - link_path: /uploads/preparo-defecografia-por-ressonancia-magnetica.pdf
-    name: Defecografia por Ressonância
-  - link_path: >-
-      /uploads/preparo-para-exame-de-ressonaancia-magnetica-de-abdome-superior.pdf
-    name: Ressonância Magnética do Abdome Superior
+  - link_path: /uploads/exams/Angioressonancia_De_Aorta_Toracica.pdf
+    name: Angioressonancia De Aorta Toracica
+  - link_path: /uploads/exams/Angiorressonancia_Magnetica.pdf
+    name: Angiorressonancia Magnetica
+  - link_path: /uploads/exams/Angiorressonancia_Magnetica_Da_Aorta_Abdominal.pdf
+    name: Angiorressonancia Magnetica Da Aorta Abdominal
+  - link_path: /uploads/exams/Angiorressonancia_Magnetica_Do_Pescoco.pdf
+    name: Angiorressonancia Magnetica Do Pescoco
+  - link_path: /uploads/exams/Angiorressonancia_Magnetica_Venosa_Cerebral.pdf
+    name: Angiorressonancia Magnetica Venosa Cerebral
+  - link_path: /uploads/exams/Colangio_Rm.pdf
+    name: Colangio Rm
+  - link_path: /uploads/exams/Preparo_Biopsia_De_Mama_Guiada_Por_Ressonancia_Magnetica.pdf
+    name: Preparo Biopsia De Mama Guiada Por Ressonancia Magnetica
+  - link_path: /uploads/exams/Preparo_Defecografia_Por_Ressonancia_Magnetica.pdf
+    name: Preparo Defecografia Por Ressonancia Magnetica
+  - link_path: /uploads/exams/Preparo_Neurografia_Por_Rm_De_Plexo_Lombosacro_E_Braquial.pdf
+    name: Preparo Neurografia Por Rm De Plexo Lombosacro E Braquial
+  - link_path: /uploads/exams/Preparo_Para_Entero_Rm.pdf
+    name: Preparo Para Entero Rm
+  - link_path: /uploads/exams/Preparo_Para_Exame_De_Ressonaancia_Magnetica_De_Abdome_Superior.pdf
+    name: Preparo Para Exame De Ressonaancia Magnetica De Abdome Superior
+  - link_path: /uploads/exams/Preparo_RM_Bioopsia_Mama.pdf
+    name: Preparo RM Bioopsia Mama
+  - link_path: /uploads/exams/Preparo_Ressonancia_De_Corpo_Inteiro.pdf
+    name: Preparo Ressonancia De Corpo Inteiro
+  - link_path: /uploads/exams/Preparo_Ressonancia_Magneetica_Da_Pelve_Para_Endometriose.pdf
+    name: Preparo Ressonancia Magneetica Da Pelve Para Endometriose
+  - link_path: /uploads/exams/Preparo_Ressonancia_Magnetica_Da_Coluna_Lombosacra.pdf
+    name: Preparo Ressonancia Magnetica Da Coluna Lombosacra
+  - link_path: /uploads/exams/Preparo_Ressonancia_Magnetica_Da_Pelve_Feminina.pdf
+    name: Preparo Ressonancia Magnetica Da Pelve Feminina
+  - link_path: /uploads/exams/Preparo_Ressonancia_Magnetica_Da_Pelve_Masculina.pdf
+    name: Preparo Ressonancia Magnetica Da Pelve Masculina
+  - link_path: /uploads/exams/Preparo_Ressonancia_Magnetica_Da_Pelve_Para_Reto.pdf
+    name: Preparo Ressonancia Magnetica Da Pelve Para Reto
+  - link_path: /uploads/exams/Preparo_Ressonancia_Magnetica_De_Pescoco.pdf
+    name: Preparo Ressonancia Magnetica De Pescoco
+  - link_path: /uploads/exams/Preparo_Ressonância_Magnética_De_Abdome_Superior.pdf
+    name: Preparo Ressonância Magnética De Abdome Superior
+  - link_path: /uploads/exams/Preparo_Ressonância_Magnética_Para_Endometriose.pdf
+    name: Preparo Ressonância Magnética Para Endometriose
+  - link_path: /uploads/exams/Preparo_Rm_Abdome_Superior.pdf
+    name: Preparo Rm Abdome Superior
+  - link_path: /uploads/exams/Ressonancia_Magnetica_Da_Coluna_Cervical.pdf
+    name: Ressonancia Magnetica Da Coluna Cervical
+  - link_path: /uploads/exams/Ressonancia_Magnetica_Da_Coluna_Dorsal.pdf
+    name: Ressonancia Magnetica Da Coluna Dorsal
+  - link_path: /uploads/exams/Ressonancia_Magnetica_Da_Coxa.pdf
+    name: Ressonancia Magnetica Da Coxa
+  - link_path: /uploads/exams/Ressonancia_Magnetica_Da_Parede_Toracica.pdf
+    name: Ressonancia Magnetica Da Parede Toracica
+  - link_path: /uploads/exams/Ressonancia_Magnetica_Da_Perna.pdf
+    name: Ressonancia Magnetica Da Perna
+  - link_path: /uploads/exams/Ressonancia_Magnetica_Do_Antebraco.pdf
+    name: Ressonancia Magnetica Do Antebraco
+  - link_path: /uploads/exams/Ressonancia_Magnetica_Do_Cotovelo.pdf
+    name: Ressonancia Magnetica Do Cotovelo
+  - link_path: /uploads/exams/Ressonancia_Magnetica_Do_Joelho.pdf
+    name: Ressonancia Magnetica Do Joelho
+  - link_path: /uploads/exams/Ressonancia_Magnetica_Do_Ombro.pdf
+    name: Ressonancia Magnetica Do Ombro
+  - link_path: /uploads/exams/Ressonancia_Magnetica_Do_Pe.pdf
+    name: Ressonancia Magnetica Do Pe
+  - link_path: /uploads/exams/Ressonancia_Magnetica_Do_Quadril.pdf
+    name: Ressonancia Magnetica Do Quadril
+  - link_path: /uploads/exams/Ressonancia_Magnetica_Do_Tornozelo.pdf
+    name: Ressonancia Magnetica Do Tornozelo
+  - link_path: /uploads/exams/Ressonância_Magnética_Da_Coluna_Lombossacra.pdf
+    name: Ressonância Magnética Da Coluna Lombossacra
+  - link_path: /uploads/exams/Rm_Da_Mama.pdf
+    name: Rm Da Mama
+  - link_path: /uploads/exams/Rm_Da_Mao.pdf
+    name: Rm Da Mao
+  - link_path: /uploads/exams/Rm_Da_Orbita.pdf
+    name: Rm Da Orbita
+  - link_path: /uploads/exams/Rm_Da_Pelve_Feminina.pdf
+    name: Rm Da Pelve Feminina
+  - link_path: /uploads/exams/Rm_Da_Pelve_Masculina.pdf
+    name: Rm Da Pelve Masculina
+  - link_path: /uploads/exams/Rm_Da_Pelve_Para_Reto.pdf
+    name: Rm Da Pelve Para Reto
+  - link_path: /uploads/exams/Rm_Da_Sela_Turca.pdf
+    name: Rm Da Sela Turca
+  - link_path: /uploads/exams/Rm_Das_Mastoides.pdf
+    name: Rm Das Mastoides
+  - link_path: /uploads/exams/Rm_Do_Coracao.pdf
+    name: Rm Do Coracao
+  - link_path: /uploads/exams/Rm_Do_Coracao_Com_Estresse_Farmacologico.pdf
+    name: Rm Do Coracao Com Estresse Farmacologico
+  - link_path: /uploads/exams/Rm_Do_Cranio.pdf
+    name: Rm Do Cranio
+  - link_path: /uploads/exams/Rm_Do_Cranio_Com_Espectroscopia.pdf
+    name: Rm Do Cranio Com Espectroscopia
+  - link_path: /uploads/exams/Rm_Do_Cranio_Com_Protocolo_De_Neuronavegacao.pdf
+    name: Rm Do Cranio Com Protocolo De Neuronavegacao
+  - link_path: /uploads/exams/Rm_Do_Cranio_Com_Volumetria_De_Hipocampo.pdf
+    name: Rm Do Cranio Com Volumetria De Hipocampo
+  - link_path: /uploads/exams/Rm_Do_Penis.pdf
+    name: Rm Do Penis
+  - link_path: /uploads/exams/Rm_Do_Punho.pdf
+    name: Rm Do Punho
+  - link_path: /uploads/exams/Rm_Do_Torax.pdf
+    name: Rm Do Torax
+  - link_path: /uploads/exams/Rm_Elastografia.pdf
+    name: Rm Elastografia
+  - link_path: /uploads/exams/Rm_Fetal.pdf
+    name: Rm Fetal
+  - link_path: /uploads/exams/Rm_Multiparametrica_Da_Prostata.pdf
+    name: Rm Multiparametrica Da Prostata
+  - link_path: /uploads/exams/Rm_Uro_Rm.pdf
+    name: Rm Uro Rm
+  - link_path: /uploads/exams/Tractografia_Por_Ressonancia_Do_Cerebro.pdf    
+    name: Tractografia Por Ressonancia Do Cerebro
 ---
 ## Sobre a Ressonância
 

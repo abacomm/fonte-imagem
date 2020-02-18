@@ -20,7 +20,7 @@
                 <option value="" disabled selected>Selecione uma opção:</option>
                 <option value="Resultado">Resultado de exames</option>
                 <option value="Impressao">Impressão de exames</option>
-                <option value="Agendamento">Agendamento de consultas</option>
+                <option value="Agendamento">Agendamento</option>
                 <option value="Outros">Outros</option>
             </select>        
 

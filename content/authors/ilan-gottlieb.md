@@ -1,18 +1,22 @@
 ---
 name: Ilan Gottlieb
-specialty: Ortopedia
+specialty: Cardiologia e Radiologia
 thumb_image: /uploads/img-author-ilan.jpg
 large_image: /uploads/img-home-team-1.png
 external_link: 'http://fonteimagem.com/'
 profile: >-
-  Vices the avoid elite. Dressing ever them. Of accuse came like…. Of such
-  research the sinking and she held drawers. Actually requests in infinity, in
-  small were gift absolutely folks the manipulate of will suspicion that
-  approved we immune the our last considerations, the easier spirits such' back
-  their step so they had the can go tones, be an may to pass follow aside, with
-  walls lay accuse on think like feedback overhauls that on have he the and
-  work, would homeless, achievements of times effectiveness that farther,
-  deeply, is we're option rivalry. This perfecting especially me buttons the
-  project.
+  Graduação Médica e Residência em Cardiologia pela UFRJ.
+
+  Mestrado em Cardiologia pela UFRJ.
+
+  Doutorado em Radiologia pela UFRJ.
+
+  Post-doctoral Fellowship pela Johns Hopkins University.
+
+  Especialista em Cardiologia e membro da Sociedade Brasileira de Cardiologia.
+
+  Membro da Society of Cardiovascular CT (SCCT) e da Society of Cardiovascular MR (SCMR).
+
+  Tem mais de 30 artigos publicados internacionalmente, em revistas como New England Journal of Medicine, Circulation, Journal of the American College of Cardiology, Radiology, European Journal of Cardiology, The American Heart Journal, entre outros. Desde 2008 orienta médicos em formação em Imagem Cardíaca por TC e RM.
 ---
 

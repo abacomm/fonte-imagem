@@ -4,13 +4,14 @@
         <section id="hero-section">
             <div class="row hero">
                 <div class="col-lg-6 px-lg-0">
-                    <h1 class="big-h2">Exercendo a medicina com ética e competência</h1>
-                    <p>A clínica de diagnóstico por imagem com médicos que tem um sonho em comum: Inovação e ênfase na satisfação do cliente.</p>
+                    <h1 class="hero__title">Ética. Excelência. Dedicação e Acolhimento</h1>
+                    <p class="hero__subtitle">A clínica de diagnóstico por imagem com médicos que tem um sonho em comum: Inovação e ênfase na satisfação do cliente.</p>
                     <button @click="openTour">Faça um tour virtual</button>
                 </div>
                 <div class="col-lg-6 text-center text-lg-right mt-5 mt-lg-0">
                 <div class="hero__video">
-                    <iframe title="Vídeo sobre a clínica" src="https://www.youtube.com/embed/lM02vNMRRB0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <!-- <iframe title="Vídeo sobre a clínica" src="https://www.youtube.com/embed/MAqAbOPb-gA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                    <iframe title="Vídeo sobre a clínica" src="https://player.vimeo.com/video/391279746" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
                 </div>
                 </div>
             </div>
@@ -41,8 +42,10 @@ export default {
     left: 0;
     width: 100%;
     height: 65rem;
-    clip-path: polygon(0 0, 100% 0, 100% 74%, 0 59%);
+    // clip-path: polygon(0 0, 100% 0, 100% 74%, 0 59%);
+    clip-path: polygon(0 0, 100% 0, 100% 59%, 0 74%);
     background: linear-gradient(180deg, darken(#3ED6BE, 15%) 20%, #03756D 75%);
+    transform: translateY(-5rem);
     z-index: -999;
     overflow: hidden;
   
@@ -57,47 +60,78 @@ export default {
     }
 
     @media(min-width: 768px) {
-        width: 189%;
+        width: 200%;
         background-color: transparent;
         background: url("../../assets/images/img-hero-graphic_5.svg");
         background-size: contain;
         background-repeat: no-repeat;
-        background-position: top;         
+        background-position: top;
+        clip-path: none;         
     }
 
     @media(min-width: 992px) {
-        width: 144%;
+        width: 185%;
     }
+
+    @media(min-width: 1050px) {
+        width: 165%;
+    }    
 
     @media(min-width: 1200px) {
+        width: 130%;   
+    }
+
+    @media(min-width: 1340px) {
         width: 117%;   
     }
-    
-    @media(min-width: 1600px) {
-        transform: translateY(-3rem);
+
+    @media(min-width: 1440px) {
+        transform: translateY(-2rem);
     } 
-    
-    @media(min-width: 1700px) {
+
+    @media(min-width: 1535px) {
         transform: translateY(-5rem);
     }  
-    
-    @media(min-width: 1800px) {
-        transform: translateY(-9rem);
-    } 
-    
-    @media(min-width: 1900px) {
-        transform: translateY(-12.5rem);
-    }   
 
-    @media(min-width: 1921px) {
+    @media(min-width: 1635px) {
+        width: 110%;
+        transform: translateY(-4rem);
+    }  
+
+    // @media(min-width: 1600px) {
+    //     transform: translateY(-8rem);
+    // } 
+    
+    @media(min-width: 1700px) {
+        width: 120%;
+        transform: translateY(-13rem);
+    }  
+
+    // @media(min-width: 1740px) {
+    //     width: 150%;
+    //     transform: translateY(-23rem);
+    // }      
+    
+    // @media(min-width: 1800px) {
+    //     transform: translateY(-7rem);
+    // } 
+    
+    // @media(min-width: 1900px) {
+    //     width: 130%;
+    //     transform: translateY(-21.5rem);
+    // }   
+
+    //@media(min-width: 1921px) {
+    @media(min-width: 1800px) {        
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 85rem;
         background-image: none;
-        clip-path: polygon(0 0, 100% 0, 100% 74%, 0 59%);
-        background: linear-gradient(180deg, #3ED6BE 20%, #03756D 75%);
+        transform: translateY(-19rem);
+        clip-path: polygon(0 0, 100% 0, 100% 59%, 0 74%);
+        background: linear-gradient(180deg, darken(#3ED6BE, 10%) 20%, #03756D 75%);
     }
 }
 
@@ -105,25 +139,44 @@ export default {
     margin: 3rem 0 16rem 0;
     color: #fff;
 
-    h1 {
+    &__title {
         color: #fff;
-        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 1.5;
+        font-weight: 600;  
+
+        @media (min-width: 992px) {
+            font-size: 2.2222rem;
+            line-height: 1.3;
+            margin-bottom: 1.5rem;
+        }          
     }
 
     button {
-        @include outline-button(#fff, $accent-color-1);
+        @include outline-button-inverted($accent-color-1);
         min-width: 14.38rem;
-        margin-top: 3rem;
+        margin-top: 1.5rem;
+    }
+
+    &__subtitle {
+        color: #BBFFF7 !important;        
     }
 
     &__video {
         box-shadow: 0 2rem 4rem rgba($primary-color, .3);
         width: 100%;
-        max-width: 480px;
-        height: 286px;
+        height: 290px;
         display: flex;
+
+        @media(min-width: 768px) {
+            //width: 100%;
+            height: 390px;            
+        }
+
         @media(min-width: 992px) {
-            transform: translateY(-1.5rem);
+            max-width: 480px;
+            height: 270px;
+            transform: translate(1rem, .35rem);
             margin-left: auto;
         }
 
