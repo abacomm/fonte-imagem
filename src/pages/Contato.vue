@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <h1>Contato</h1>
-    <g-image alt="Imagem ilustrativa da página de contato" class="bg-contact-image d-none d-lg-block" src="https://images.unsplash.com/photo-1524758870432-af57e54afa26?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80" />
+    <g-image alt="Imagem ilustrativa da página de contato" class="bg-contact-image d-none d-lg-block" src="../assets/images/img-exames-contato.jpg" />
     <div class="row">
       <div class="col-lg-7">
         <p>Entre em contato para pedir informações <br>e tirar suas dúvidas.</p>
@@ -31,7 +31,7 @@
       </div>
     </div>
     <div class="map">
-      <iframe title="Mapa da Clínica" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.5680335046795!2d-43.20442518529677!3d-22.966130484981623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd56fbddc68f9%3A0xb95aa8bf850c7fad!2sR.%20Fonte%20da%20Saudade%2C%20277%20-%20Lagoa%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022471-210!5e0!3m2!1sen!2sbr!4v1576604318871!5m2!1sen!2sbr" width="100%" height="540" frameborder="0" style="border:0;" allowfullscreen="true"></iframe>
+      <iframe title="Mapa da Clínica" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.!2d-43.20442518529677!3d-22.966130484981623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd56fbddc68f9%3A0xb95aa8bf850c7fad!2sR.%20Fonte%20da%20Saudade%2C%20277%20-%20Lagoa%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022471-210!5e0!3m2!1sen!2sbr!4v1576604318871!5m2!1sen!2sbr" width="100%" height="540" frameborder="0" style="border:0;" allowfullscreen="true"></iframe>
     </div>
   </Layout>
 </template>

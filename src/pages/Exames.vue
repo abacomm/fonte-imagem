@@ -45,6 +45,17 @@
         </div>
       </div>
     </div> 
+    <div class="row mt-4">
+      <div class="col-md-6">
+        <g-image alt="Primeira imagem do rodapé" class="article-image-double" src="../assets/images/img-exames-exame2.jpg" width="1200" />
+      </div>
+      <div class="col-md-6">
+        <g-image alt="Segunda imagem do rodapé" class="article-image-double" src="../assets/images/img-exames-exame3.jpg" width="1200" />
+      </div> 
+      <div class="col-12">
+        <g-image alt="Terceira imagem do rodapé" class="article-image-single" src="../assets/images/img-exames-exame4.jpg" width="1800" />
+      </div>                  
+    </div>    
   </Layout>
 </template>
 
@@ -80,7 +91,7 @@ export default {
     ]    
   },
   data: () => ({
-    activeExam: "Cardiografia Nuclear",
+    activeExam: "Cardiologia Nuclear",
     search: ""
   }),
   methods: {
@@ -129,7 +140,7 @@ export default {
   @media(min-width: 992px) {
     padding-right: 3rem;
 
-    background-image: linear-gradient(#939CAF 50%, rgba(255,255,255,0) 0%);
+    background-image: linear-gradient(rgba(#939CAF, .3) 50%, rgba(255,255,255,0) 0%);
     background-position: right;
     background-size: 1px 18px;
     background-repeat: repeat-y;  
@@ -139,11 +150,15 @@ export default {
     color: $primary-color;
     font-weight: 700;
   }
+
+  p {
+    max-width: 30.5rem;
+  }
 }
 
 .exam-preparation {
   @media(min-width: 992px) {
-    padding-left: 1.5rem;
+    padding-left: 2.5rem !important;
   }
 
   &__title {
@@ -264,7 +279,7 @@ export default {
 .full-exam-image { 
   margin-left: calc(-100vw / 2 + 62.5rem / 2);
   margin-right: calc(-100vw / 2 + 62.5rem / 2);  
-  background: url("../assets/images/img-exames-bg.jpg") no-repeat center;
+  background: url("../assets/images/img-exames-exame.jpg") no-repeat center;
   background-size: cover;
   height: 25rem;
   margin-top: 1.5rem;

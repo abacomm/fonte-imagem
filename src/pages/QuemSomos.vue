@@ -18,7 +18,7 @@
 
 <br><br>O tripé que sustenta a Fonte é formado por Ciência (nossos médicos têm inúmeras publicações em importantes revistas, além de vários livros publicados), Educação (participação na formação de novos profissionais e aulas em congressos e cursos) e Assistência (máquinas de ponta e foco no atendimento ao paciente).</p> 
 
-      <g-image alt="Imagem de 'Quem Somos'" class="article-image" src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80" width="600" />
+      <g-image alt="Imagem de 'Quem Somos'" class="article-image" src="../assets/images/img-quem-somos-placa.jpg" width="1800" />
       <h2 class="article-subheader">O Palacete Tavares</h2>
 
 <p>O Príncipe D. João, após percorrer o caminho de São Clemente, chegava à praia de Piaçava, nos pés do Morro da Saudade. De lá ele percorria por canoas o caminho até o Jardim Botânico, pelas águas mansas da Lagoa (hoje Rodrigo de Freitas). Junto à praia de Piaçava havia uma fonte onde, dizem, as lavadeiras portuguesas lavavam as roupas chorando a saudade da terra natal. O prefeito Pedro Ernesto criou em 1936 o bairro Fonte da Saudade, e nesse mesmo ano, o Sr Jacy Tavares comprou os lotes 1, 3 e 5 da rua Fonte da Saudade. Ele era dono da Farmácia Jacy, no Catete, e chegou a fornecer medicamentos ao Palácio Real do Catete. Em 1936 foi erguida esta sua residência apalacetada, em estilo eclético, com inspiração na idade média italiana. Nela residiu por mais de 40 anos.
@@ -34,11 +34,20 @@
     </div>
     <div class="row">
       <div class="col-md-6">
-        <g-image alt="Primeira imagem do rodapé" class="article-image-double" src="https://images.unsplash.com/photo-1553322378-eb94e5966b0c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80" width="600" />
+        <g-image alt="Primeira imagem do rodapé" class="article-image-double" src="../assets/images/img-quem-somos-livro2.jpg" width="1200" />
       </div>
       <div class="col-md-6">
-        <g-image alt="Segunda imagem do rodapé" class="article-image-double" src="https://images.unsplash.com/photo-1564559496476-c228d03a635a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1498&q=80" width="600" />
+        <g-image alt="Segunda imagem do rodapé" class="article-image-double" src="../assets/images/img-quem-somos-livro.jpg" width="1200" />
       </div>
+      <div class="col-12">
+        <g-image alt="Terceira imagem do rodapé" class="article-image-single" src="../assets/images/img-quem-somos-livro3.jpg" width="1800" />
+      </div>      
+      <div class="col-md-6">
+        <g-image alt="Quarta imagem do rodapé" class="article-image-double" src="../assets/images/img-quem-somos-exame1.jpg" width="1200" />
+      </div>
+      <div class="col-md-6">
+        <g-image alt="Quinta imagem do rodapé" class="article-image-double" src="../assets/images/img-quem-somos-exame2.jpg" width="1200" />
+      </div>            
     </div>
     <div class="row">
       <div class="col-12">
@@ -72,7 +81,7 @@ export default {
 .full-image { 
   margin-left: calc(-100vw / 2 + 61.66rem / 2);
   margin-right: calc(-100vw / 2 + 61.66rem / 2);  
-  background: url("../assets/images/img-about-1.jpg") no-repeat center;
+  background: url("../assets/images/img-quem-somos-recepcao.jpg") no-repeat center;
   background-size: cover;
   height: 29rem;
   margin-bottom: 3rem;
@@ -107,19 +116,6 @@ export default {
       height: 10rem;
   }
 
-}
-
-.article-image {
-  margin: 3rem 0;
-  width: 100%;
-  max-height: 25.5rem;
-  box-shadow: 0 50px 100px -20px rgba(#445C79, .3);
-  object-fit: cover;
-}
-
-.article-image-double {
-  @extend .article-image;
-  margin-bottom: 0;
 }
 
 .article-subheader {

@@ -2,3 +2,23 @@
     opacity: 1;
     visibility: visible;
 }
+
+
+.article-image {
+    margin: 3rem 0;
+    width: 100%;
+    max-height: 25.5rem;
+    box-shadow: 0 50px 100px -20px rgba(#445C79, .3);
+    object-fit: cover;
+  }
+  
+  .article-image-double {
+    @extend .article-image;
+    margin-bottom: 0;
+  }
+  
+  .article-image-single {
+    @extend .article-image;
+    max-height: 35rem;
+    margin-bottom: 0;
+  }
