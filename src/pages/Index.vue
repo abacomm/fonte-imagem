@@ -12,7 +12,6 @@
     <Team />
     
     <Articles />
-
   </Landing>
 </template>
 
