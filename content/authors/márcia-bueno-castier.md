@@ -1,9 +1,9 @@
 ---
 name: Márcia Bueno Castier
-specialty: Cardiologia
-thumb_image: /uploads/img-author-luciana.jpg
+specialty: Imagem Cardiovascular
+thumb_image: /uploads/medic/img-author-marcia.jpg
 large_image: /uploads/img-home-team-2.png
-external_link: 'http://fonteimagem.com/'
+external_link: 'http://lattes.cnpq.br/1572060949131370'
 profile: >-
     Graduação em Medicina na UERJ
 

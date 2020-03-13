@@ -14,9 +14,9 @@
                 <p class="col-md-10 offset-md-1 single-post__excerpt" v-html="$page.post.excerpt"></p>
             </div>
             <div class="row single-post__content">
-                <div class="col-md-10 offset-md-1 col-md-10 offset-md-1">
+                <div class="col-md-10 offset-md-1 col-md-10 offset-md-1" data-text="teste">
                     <p align="justify" v-html="$page.post.content"></p>
-                    <SocialShare class="my-5" :url="'https://www.energyfuture.com.br'+ $page.post.path" />                    
+                    <SocialShare class="my-5" :url="'https://www.fonteimagem.com.br'+ $page.post.path" />                    
                     <p class="single-post__tag-title">tags:</p>
                     <div class="single-post__tag-list">
                         <g-link v-for="tag in $page.post.tags" :to="tag.path" :key="tag.id">{{ tag.id }}</g-link>

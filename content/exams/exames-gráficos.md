@@ -9,7 +9,7 @@ pdf_files:
     name: Holter
   - link_path: /uploads/exams/MAPA.pdf
     name: MAPA
-  - link_path: /uploads/exams/Teste_de_Esforço.pdf
+  - link_path: /uploads/exams/Teste_de_Esforco.pdf
     name: Teste De Esforço
 ---
 ## Sobre Exames Gráficos

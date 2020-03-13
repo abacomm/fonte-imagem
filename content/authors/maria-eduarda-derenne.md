@@ -1,9 +1,9 @@
 ---
 name: Márcia Eduarda Derenne
-specialty: Cardiologia e Ecocardiografia
-thumb_image: /uploads/img-author-luciana.jpg
+specialty: Imagem Cardiovascular e Ecocardiografia
+thumb_image: /uploads/medic/img-author-marcia-darenne.jpg
 large_image: /uploads/img-home-team-2.png
-external_link: 'http://fonteimagem.com/'
+external_link: ''
 profile: >-
     Graduação em medicina e residência em cardiologia com extensão em ecocardiografia pela UERJ.
 

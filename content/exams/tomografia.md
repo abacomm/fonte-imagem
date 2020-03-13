@@ -7,9 +7,9 @@ pdf_files:
     name: Angiotc Arterial Cerebral
   - link_path: /uploads/exams/Angiotc_Da_Aorta_Abdominal.pdf
     name: Angiotc Da Aorta Abdominal
-  - link_path: /uploads/exams/Angiotc_De_Aorta_Torácica.pdf
+  - link_path: /uploads/exams/Angiotc_De_Aorta_Toracica.pdf
     name: Angiotc De Aorta Torácica
-  - link_path: /uploads/exams/Angiotc_Do_Pescoço.pdf
+  - link_path: /uploads/exams/Angiotc_Do_Pescoco.pdf
     name: Angiotc Do Pescoço
   - link_path: /uploads/exams/Angiotc_Venosa_Cerebral.pdf
     name: Angiotc Venosa Cerebral
@@ -25,17 +25,17 @@ pdf_files:
     name: Tc Da Coluna Lombossacra
   - link_path: /uploads/exams/Tc_Da_Coxa.pdf
     name: Tc Da Coxa
-  - link_path: /uploads/exams/Tc_Da_Mão.pdf
+  - link_path: /uploads/exams/Tc_Da_Mao.pdf
     name: Tc Da Mão
-  - link_path: /uploads/exams/Tc_Da_Órbita.pdf
+  - link_path: /uploads/exams/Tc_Da_Orbita.pdf
     name: Tc Da Órbita
-  - link_path: /uploads/exams/Tc_Da_Parede_Torácica.pdf
+  - link_path: /uploads/exams/Tc_Da_Parede_Toracica.pdf
     name: Tc Da Parede Torácica
   - link_path: /uploads/exams/Tc_Da_Pelve.pdf
     name: Tc Da Pelve
   - link_path: /uploads/exams/Tc_Da_Perna.pdf
     name: Tc Da Perna
-  - link_path: /uploads/exams/Tc_Da_Sela_Hipófise.pdf
+  - link_path: /uploads/exams/Tc_Da_Sela_Hipofise.pdf
     name: Tc Da Sela Hipófise
   - link_path: /uploads/exams/Tc_Das_Mastoides.pdf
     name: Tc Das Mastoides
@@ -43,31 +43,31 @@ pdf_files:
     name: Tc Do Abdome Superior
   - link_path: /uploads/exams/Tc_Do_Abdome_Total.pdf
     name: Tc Do Abdome Total
-  - link_path: /uploads/exams/Tc_Do_Antebraço.pdf
+  - link_path: /uploads/exams/Tc_Do_Antebraco.pdf
     name: Tc Do Antebraço
   - link_path: /uploads/exams/Tc_Do_Cotovelo.pdf
     name: Tc Do Cotovelo
-  - link_path: /uploads/exams/Tc_Do_Crânio.pdf
+  - link_path: /uploads/exams/Tc_Do_Cranio.pdf
     name: Tc Do Crânio
   - link_path: /uploads/exams/Tc_Do_Joelho.pdf
     name: Tc Do Joelho
   - link_path: /uploads/exams/Tc_Do_Ombro.pdf
     name: Tc Do Ombro
-  - link_path: /uploads/exams/Tc_Do_Pescoço.pdf
+  - link_path: /uploads/exams/Tc_Do_Pescoco.pdf
     name: Tc Do Pescoço
   - link_path: /uploads/exams/Tc_Do_Punho.pdf
     name: Tc Do Punho
   - link_path: /uploads/exams/Tc_Do_Quadril.pdf
     name: Tc Do Quadril
-  - link_path: /uploads/exams/Tc_Do_Tórax.pdf
+  - link_path: /uploads/exams/Tc_Do_Torax.pdf
     name: Tc Do Tórax
   - link_path: /uploads/exams/Tc_Dos_Seios_Da_Face.pdf
     name: Tc Dos Seios Da Face
-  - link_path: /uploads/exams/Ultrassonografia_De_Próstata_Via_Abdominal.pdf
+  - link_path: /uploads/exams/Ultrassonografia_De_Prostata_Via_Abdominal.pdf
     name: Ultrassonografia De Próstata Via Abdominal
-  - link_path: /uploads/exams/Ultrassonografia_Do_Aparelho_Urinário.pdf
+  - link_path: /uploads/exams/Ultrassonografia_Do_Aparelho_Urinario.pdf
     name: Ultrassonografia Do Aparelho Urinário
-  - link_path: /uploads/exams/Urotc_Tc_Das_Vias_Urinárias.pdf
+  - link_path: /uploads/exams/Urotc_Tc_Das_Vias_Urinarias.pdf
     name: Urotc Tc Das Vias Urinárias
 ---
 ## Sobre a Tomografia

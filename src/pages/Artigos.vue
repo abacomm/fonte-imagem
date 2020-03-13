@@ -3,7 +3,7 @@
     <h1>Artigos</h1>
     <div class="row">
       <div class="col-lg-7">
-        <p>Nossos médicos têm inúmeras publicações em diversos veículos de mídia impressa e TV e este é o espaço onde eles se dedicam à compartilhar artigos e novidades com nossos clientes.</p>
+        <p>Nossos médicos têm inúmeras publicações nacionais e internacionais, em diversos veículos de mídia impressa e digital e este é o espaço onde eles se dedicam à compartilhar artigos e novidades com nossos clientes.</p>
       </div>
       <div class="col-lg-4 offset-xl-1">
         <div class="search-input">

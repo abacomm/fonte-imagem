@@ -13,10 +13,10 @@
                 <g-link to="/equipe/" tag="button" class="slide-details__button">Saiba Mais</g-link>
                 <div class="slide-details__arrows">
                   <div class="slide-details__previuos-btn" @click="goPrev"></div>
-                  <div class="slide-details__next-btn" @click="goNext"></div>
+                  <div class="slide-details__next-btn" @click="goNextAction"></div>
                 </div>
             </div>
-            <g-image alt="Imagem de destaque do médico" class="slide-image d-none d-lg-block" :src="getAllTeam[activeNewsId].node.large_image" width="430" />
+            <g-image alt="Imagem de destaque do médico" class="slide-image d-none d-lg-block" :src="getAllTeam[activeNewsId].node.thumb_image" width="430" />
             <g-image alt="Imagem de destaque do médico" class="thumb-image d-block d-lg-none" :src="getAllTeam[activeNewsId].node.thumb_image" width="200" />
             <div class="slide-line d-block d-sm-none" :style="'transform: scaleX(' + lineScale + ');'" />
             <div class="slide-counter d-none d-md-block">
@@ -30,7 +30,7 @@
 
 <static-query>
 {
-  allAuthor {
+  allAuthor(sortBy: "name", order: ASC) {
 	edges {
         node {
             id
@@ -49,19 +49,41 @@
 export default {
     data: () => ({
         activeNewsId: 0,
-        lineScale: 0.1
+        lineScale: 0.1,
+        interval: null
     }),    
     computed: {
         getAllTeam() {
+            // console.log(this.$static.allAuthor.edges)
             return this.$static.allAuthor.edges.filter(val => val.node.large_image !== null)
         },     
-    },      
+    },
+    mounted() {
+        this.timer()
+    },
     methods: {
+        timer() {
+            let that = this;
+            this.interval = setInterval(() => {
+                if(this.activeNewsId === (this.getAllTeam.length - 1)){
+                    this.activeNewsId = 0
+                }else {
+                    that.goNext();
+                }
+              
+            }, 6000)
+        },
         goPrev() {
             (this.activeNewsId <= 0) ? this.activeNewsId = 0 : this.activeNewsId --
         },
         goNext() {
             (this.activeNewsId >= this.getAllTeam.length - 1) ? this.activeNewsId = this.getAllTeam.length -1 : this.activeNewsId ++
+
+        },
+        goNextAction() {
+            this.goNext()
+            clearInterval(this.interval)
+            this.timer()
         }
     },
     watch: {
@@ -72,13 +94,8 @@ export default {
     filters: {
       getFirstTwoNames (value) {
         if (!value) return ''
-        let newValue = value
-        let totalNames = value.split(' ').length
-        if (totalNames === 2) {
-            return newValue  
-        } else {
-            return value.split(' ').slice(0, -1).join(' ')  
-        }
+        const name = value.split(' ')
+        return name[0]+" "+(name[1] != 'da' && name[1] != 'do' ? name[1] : name[2])
       } 
     }    
 }
@@ -92,10 +109,11 @@ export default {
     &::before {
         content: "";
         position: absolute;
-        width: 120%;
+        width: 100%;
         @media(min-width: 480px) {
             background-color: #F1F3F8;
         }
+       
         @media(min-width: 992px) {
             width: 100%;
         }
@@ -104,6 +122,10 @@ export default {
         left: 0;
         z-index: -20;        
     }
+     @media(max-width: 600px){
+            width: calc(100% + 40px);
+            margin-left: -20px;
+        }
 }
 
 .slide-image {
@@ -128,6 +150,10 @@ export default {
         //top: -1.5rem;
         width: 115px;
         height: 115px;        
+    }
+
+    @media(max-width: 600px){
+        right: 1rem;
     }
 
     @media(min-width: 768px) {
@@ -193,19 +219,39 @@ export default {
         background-color: #1B333F;
     }
 
+    @media(max-width: 600px){
+        width: 100%;
+        transform: none;
+        padding: 20px;
+    }
+
+    @media(max-width: 992px) {
+        min-height: 21rem;
+    }
+
+    @media(max-width: 768px) {
+        min-height: auto;
+    }
+
     &__category {
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 1.5px;
         font-size: .66rem;
+        @media(max-width: 600px){
+            width: calc(100% - 100px);
+        }
     }
 
     &__name {
         font-size: 1.5rem;
         font-weight: 500;
         @media(min-width: 480px) {
-            font-size: 3.33rem;
+             font-size: 2.22rem;
             font-weight: 400;
+        }
+        @media(min-width: 992px) {
+            font-size: 3.3rem;
         }
         line-height: 1.1;
         max-width: 300px;
@@ -233,7 +279,7 @@ export default {
         bottom: 4rem;
         border: 1px solid rgba(#fff, .12);
         
-        @media (min-width: 375px) {
+        @media (min-width: 310px) {
             right: 7rem;
             bottom: -4rem;
         }
@@ -243,7 +289,12 @@ export default {
             right: 0;
             bottom: 1rem;
             border-style: none;
-        }        
+        }
+        @media(max-width: 600px) {
+            right: 0;
+            left: none;
+            bottom: -4rem;
+        }    
         @media(min-width: 768px) {
             right: -4rem;
             left: none;

@@ -1,9 +1,9 @@
 ---
 name: Joyce Bêtta Sevilha
 specialty: Radiologia e Diagnóstico por Imagem
-thumb_image: /uploads/img-author-erica.jpg
+thumb_image: /uploads/medic/img-author-joyce.jpg
 large_image: /uploads/img-home-team-3.png
-external_link: 'http://fonteimagem.com/'
+external_link: ''
 profile: >-
     Graduação em Medicina pela Universidade Federal do Estado do Rio de Janeiro (UNIRIO).
 

@@ -1,7 +1,7 @@
 ---
 name: Cardiologia Nuclear
 pdf_files:
-  - link_path: /uploads/exams/Cintilografia_miocárdica.pdf
+  - link_path: /uploads/exams/Cintilografia_miocardica.pdf
     name: Cintilografia Miocárdica
 ---
 ## Sobre a Cardiologia Nuclear

@@ -1,9 +1,9 @@
 ---
 name: Adriana Lessa Brandão
 specialty: Clínico geral
-thumb_image: /uploads/img-author-adriana.jpg
+thumb_image: /uploads/medic/img-author-adriana.jpg
 large_image: /uploads/img-home-team-1.png
-external_link: 'http://fonteimagem.com/'
+external_link: ''
 profile: >-
   A achieves came derive has, build time, focus refinement better entered which
   have is the has quitting doing extended distributors. Of the his bidding he on

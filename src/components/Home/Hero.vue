@@ -1,11 +1,11 @@
 <template>
     <div>
         <div class="hero-svg"></div>
-        <section id="hero-section">
+        <section id="hero-section" class="hero-section">
             <div class="row hero">
-                <div class="col-lg-6 px-lg-0">
-                    <h1 class="hero__title">Ética. Excelência. Dedicação e Acolhimento</h1>
-                    <p class="hero__subtitle">A clínica de diagnóstico por imagem com médicos que tem um sonho em comum: Inovação e ênfase na satisfação do cliente.</p>
+                <div class="col-lg-5 px-lg-0">
+                    <h1 class="hero__title">Ética. Excelência. Dedicação e Acolhimento.</h1>
+                    <p class="hero__subtitle">A clínica de diagnóstico por imagem que foca em inovação em satisfação do cliente.</p>
                     <button @click="openTour">Faça um tour virtual</button>
                 </div>
                 <div class="col-lg-6 text-center text-lg-right mt-5 mt-lg-0">
@@ -112,17 +112,19 @@ export default {
     //     transform: translateY(-23rem);
     // }      
     
-    // @media(min-width: 1800px) {
-    //     transform: translateY(-7rem);
-    // } 
+    @media(min-width: 1800px) {
+        transform: translateY(-14.5rem);
+    } 
     
     // @media(min-width: 1900px) {
     //     width: 130%;
     //     transform: translateY(-21.5rem);
     // }   
-
-    //@media(min-width: 1921px) {
-    @media(min-width: 1800px) {        
+    // @media(min-width: 1921px) { 
+    //     transform: translateY(-15rem);     
+    //     width: 2300px;
+    // }
+     @media(min-width: 1921px) {        
         position: absolute;
         top: 0;
         left: 0;
@@ -130,14 +132,69 @@ export default {
         height: 85rem;
         background-image: none;
         transform: translateY(-19rem);
-        clip-path: polygon(0 0, 100% 0, 100% 59%, 0 74%);
+        clip-path: polygon(0 0, 100% 0, 100% 60%, 0 74%);
         background: linear-gradient(180deg, darken(#3ED6BE, 10%) 20%, #03756D 75%);
+    }
+
+}
+
+.hero-triangle{
+    display: none;
+}
+@media(min-width: 1921px){
+    .hero-section {
+        position: relative;
+        &::before{
+            content: '';
+            background-image: url('../../assets/images/fonte-imagem-path_cut.svg');
+            width: 432px;
+            height: 347px;
+            position: absolute;
+            z-index: 1;
+            left: 0;
+            bottom: -200px;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: auto;
+        }
+
+        .row{
+            position: relative;
+            z-index: 10;
+        }
+    }
+}
+@media(min-width: 2450px){
+    .hero-section::before{
+        bottom: -197px;
+    }
+}
+
+@media(min-width: 2900px){
+    .hero-section::before{
+        bottom: -194px;
+    }
+}
+
+@media(min-width: 3200px){
+    .hero-section::before{
+        bottom: -190px;
+    }
+}
+
+@media(min-width: 3600px){
+    .hero-section::before{
+        bottom: -188px;
     }
 }
 
 .hero {
     margin: 3rem 0 16rem 0;
     color: #fff;
+
+    @media(max-width: 880px){
+        margin-bottom: 8rem;
+    }
 
     &__title {
         color: #fff;
@@ -165,27 +222,33 @@ export default {
     &__video {
         box-shadow: 0 2rem 4rem rgba($primary-color, .3);
         width: 100%;
-        height: 290px;
+        // height: 290px;
+        padding-bottom: 56.25%;
         display: flex;
 
         @media(min-width: 768px) {
             //width: 100%;
-            height: 390px;            
+            // height: 390px;            
         }
 
         @media(min-width: 992px) {
-            max-width: 480px;
-            height: 270px;
-            transform: translate(1rem, .35rem);
-            margin-left: auto;
+            // max-width: 480px;
+            // height: 270px;
+            transform: translate(6rem, .35rem);
+            // margin-left: auto;
         }
 
         iframe {
-            width: inherit;
-            height: inherit;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
         }
     }
 }
+
+
 
 </style>
 

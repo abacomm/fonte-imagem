@@ -37,7 +37,7 @@
                   <font-awesome class="exam-list__icon" :icon="['fas', 'check-circle']"/>
                 </div>
                 <div class="col-10 pl-0 pl-md-2 pl-lg-3">
-                  <g-link to="/exames/" class="exam-list__link">Ressonância</g-link>
+                  <g-link to="/exames/#ressonancia" class="exam-list__link">Ressonância</g-link>
                 </div>
               </div>
             </div>
@@ -127,14 +127,30 @@
 .gallery {
 
     position: relative;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
-    flex-wrap: wrap;
+
+    // display: flex;
+    // align-items: flex-end;
+    // justify-content: space-around;
+    // flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+
+    figure {
+      margin-bottom: 0;
+    }
+
+    @media(max-width: 992px) {
+      margin-bottom: 2rem;
+    }
+
+    @media(max-width: 500px) {
+      grid-template-columns: 1fr 1fr;
+    }
 
     @media(min-width: 992px) {
 
-        margin-top: 8rem;
+        // margin-top: 8rem;
         
         &::before {
             content: "";
@@ -152,6 +168,7 @@
 
   @media(min-width: 992px) {
     transform: translateX(-1.5rem);
+    margin-bottom: 30px;
   }  
 
   @media(min-width: 1200px) {
@@ -160,39 +177,18 @@
 
   &__item {
 
-    margin-right: 1rem;
     box-shadow: 0 10px 28px -5px rgba($primary-color, .3);
-    margin-bottom: 3rem;
 
     &--1 {
-        width: 179px;
-        height: 150px;
+        grid-column: span 2;
+        grid-row: span 2;
     }
 
-    &--2 {
-        width: 123px;
-        height: 90px;      
-    }
-
-    &--3 {
-        width: 126px;
-        height: 126px;      
-    }
-
-    &--4 {
-        width: 138px;
-        height: 106px;      
-    }
-
-    &--5 {
-        width: 126px;
-        height: 126px;      
-    }
-
-    &--6 {
-        width: 90px;
-        height: 90px;      
-    }                
+    @media(max-width: 500px) {
+      &--2, &--3, &--4, &--5, &--6 {
+        display: none;
+      } 
+    }       
   
   }
 

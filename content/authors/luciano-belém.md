@@ -1,9 +1,9 @@
 ---
 name: Luciano Belém
-specialty: Cardiologia e Ecocardiografia
-thumb_image: /uploads/img-author-luciana.jpg
+specialty: Imagem Cardiovascular e Ecocardiografia
+thumb_image: /uploads/medic/img-author-luciano.jpg
 large_image: /uploads/img-home-team-2.png
-external_link: 'http://fonteimagem.com/'
+external_link: 'http://lattes.cnpq.br/7275348402002538'
 profile: >-
     Graduação em Medicina na UFRJ.
 

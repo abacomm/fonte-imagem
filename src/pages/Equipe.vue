@@ -20,18 +20,18 @@
         <div class="col-xl-6 col-lg-6 my-5" v-else>
           <div class="team-content">
             <h2 class="team-content__name">{{ edge.node.name }}</h2>
-            <h3 class="team-content__role">Especialidade: {{ edge.node.specialty }}</h3>
+            <h3 class="team-content__role">{{ edge.node.specialty }}</h3>
             <p class="team-content__resume" v-html="edge.node.profile"></p>
-            <g-link class="team-content__link" :href="edge.node.external_link" target="_blank" rel="noopener noreferrer"><font-awesome :icon="['fas', 'link']"/>&nbsp;&nbsp;Publicações científicas</g-link>
+            <g-link class="team-content__link" v-if="edge.node.external_link.length > 0" :href="edge.node.external_link" target="_blank" rel="noopener noreferrer"><font-awesome :icon="['fas', 'link']"/>&nbsp;&nbsp;Currículo Lattes</g-link>
           </div>          
         </div>
 
         <div class="col-xl-6 col-lg-6 offset-xl-2 my-5" v-if="(index % 2 === 0)">
           <div class="team-content">
             <h2 class="team-content__name">{{ edge.node.name }}</h2>
-            <h3 class="team-content__role">Especialidade: {{ edge.node.specialty }}</h3>
+            <h3 class="team-content__role">{{ edge.node.specialty }}</h3>
             <p class="team-content__resume" v-html="edge.node.profile"></p>
-            <a class="team-content__link" :href="edge.node.external_link" target="_blank" rel="noopener noreferrer"><font-awesome :icon="['fas', 'link']"/>&nbsp;&nbsp;Publicações científicas</a>
+            <a class="team-content__link" v-if="edge.node.external_link.length > 0" :href="edge.node.external_link" target="_blank" rel="noopener noreferrer"><font-awesome :icon="['fas', 'link']"/>&nbsp;&nbsp;Currículo Lattes</a>
           </div>
         </div>
 
@@ -51,8 +51,8 @@
 
 <static-query>
 {
-  allAuthor {
-    edges {
+  allAuthor(sortBy: "name", order: ASC)  {
+    edges  {
       node {
         id
         name

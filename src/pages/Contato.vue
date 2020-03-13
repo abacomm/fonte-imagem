@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <h1>Contato</h1>
-    <g-image alt="Imagem ilustrativa da página de contato" class="bg-contact-image d-none d-lg-block" src="../assets/images/img-exames-contato.jpg" />
+    <g-image alt="Imagem ilustrativa da página de contato" class="bg-contact-image d-none d-lg-block" src="../assets/images/Fomte-Imagem---Contato.jpg" />
     <div class="row">
       <div class="col-lg-7">
         <p>Entre em contato para pedir informações <br>e tirar suas dúvidas.</p>

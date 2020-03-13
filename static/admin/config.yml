@@ -1,6 +1,9 @@
 backend:
-  name: git-gateway
+  name: bitbucket
+  repo: Abacomm/ben4you-front
   branch: master # Branch to update (optional; defaults to master)
+  auth_type: implicit
+  app_id: cpeHqBaqgTqmVwztTp
 
   # This line should *not* be indented
 # publish_mode: editorial_workflow
@@ -36,7 +39,7 @@ collections:
         displayFields: ["name"]
         valueField: "name"      
       - {label: "Imagem de Destaque", name: "featured_image", widget: "image", hint: "Imagem que fica em destaque na parte superior do post"}
-      - {label: "Tags", name: "tags", widget: "list", allow_add: true, default: ["empreendedorismo", "fontes renováveis", "investimentos", "inovação", "setor elétrico", "startup", "tecnologias"], hint: "As tags ajudam à identificar o tipo do conteúdo. Separe-as com vírgula e utilize apenas aquelas que tiverem relação com o assunto publicado"}
+      - {label: "Tags", name: "tags", widget: "list", allow_add: true, hint: "As tags ajudam à identificar o tipo do conteúdo. Separe-as com vírgula e utilize apenas aquelas que tiverem relação com o assunto publicado"}
       - {label: "Corpo da mensagem", name: "body", widget: "markdown"}    
 
   - name: "exams" 

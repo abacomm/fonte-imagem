@@ -5,7 +5,7 @@
               <!-- <div class="container">
                 <div class="row">
                     <div class="col-12"> -->
-                        <small><font-awesome :icon="['fas', 'phone-alt']"/>&nbsp;(21) 3591-6886&nbsp;&nbsp;|&nbsp;&nbsp;<font-awesome :icon="['fab', 'whatsapp']"/>&nbsp;(21) 99789-7973&nbsp;&nbsp;|&nbsp;&nbsp;<font-awesome :icon="['fas', 'map-marker-alt']"/>&nbsp;Rua Fonte da Saudade, 277 - Lagoa, RJ&nbsp;&nbsp;&nbsp;<g-link to="https://netpacs.fonteimagem.com.br/Netpacs-web/login?"><button class="colored-button">Acesso do Médico</button></g-link></small>
+                        <small><font-awesome :icon="['fas', 'phone-alt']"/>&nbsp;(21) 3591-6886&nbsp;&nbsp;|&nbsp;&nbsp;<font-awesome :icon="['fab', 'whatsapp']"/>&nbsp;<a href="https://api.whatsapp.com/send?1=pt_BR&phone=5521997897973" target="_blank">(21) 99789-7973</a>&nbsp;&nbsp;|&nbsp;&nbsp; <a href="https://maps.google.com/maps?q=R.+Fonte+da+Saudade,+277+-+Lagoa,+Rio+de+Janeiro+-+RJ" target="_blank"><font-awesome :icon="['fas', 'map-marker-alt']"/>&nbsp;Rua Fonte da Saudade, 277 - Lagoa, RJ</a>&nbsp;&nbsp;&nbsp;<g-link to="https://netpacs.fonteimagem.com.br/Netpacs-web/login?"><button class="colored-button">Acesso do Médico</button></g-link></small>
                     <!-- </div>
                 </div>
               </div> -->
@@ -102,7 +102,11 @@ export default {
 
 
 <style lang="scss">
-
+// @media(min-width: 1921px){
+//     html, body {
+//         width: 1920px;
+//     }
+// }
 .colored-button {
     @include colored-button(darken($accent-color-1, 7%));
     padding: .4rem .5rem .35rem;
@@ -124,6 +128,12 @@ export default {
       width: 100%;
       height: 1px;
     }
+
+    a {
+      font-size: 14px;
+      font-weight: normal;
+    }
+
 }
 
 .fixed-top {
@@ -134,6 +144,9 @@ export default {
   padding: 0 .88rem;
   z-index: 900;
   transition: all .35s ease;
+  @media(min-width: 1921px){
+    width: 1920px;
+  }
 
   &.resized {
     &::before {
@@ -402,6 +415,8 @@ export default {
     transform: rotate(-135deg);
   }
 }
+
+
 
 </style>
 

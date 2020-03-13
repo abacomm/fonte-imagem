@@ -3,7 +3,7 @@
 
     <Hero />
 
-    <Mission />
+    <!-- <Mission /> -->
 
     <HelpCards />
 
@@ -12,6 +12,7 @@
     <Team />
     
     <Articles />
+    
   </Landing>
 </template>
 

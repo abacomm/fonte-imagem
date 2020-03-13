@@ -1,9 +1,9 @@
 ---
 name: John Berry
-specialty: Cardiologia
-thumb_image: /uploads/img-author-john.jpg
+specialty: Imagem Cardiovascular
+thumb_image: /uploads/medic/img-author-john.jpg
 large_image: /uploads/img-home-team-2.png
-external_link: 'http://fonteimagem.com/'
+external_link: 'http://lattes.cnpq.br/8714037431511739'
 profile: >-
   Graduação em Medicina pela Faculdade de Medicina de Teresópolis.
 

@@ -27,8 +27,8 @@ pdf_files:
     name: Preparo RM Bioopsia Mama
   - link_path: /uploads/exams/Preparo_Ressonancia_De_Corpo_Inteiro.pdf
     name: Preparo Ressonancia De Corpo Inteiro
-  - link_path: /uploads/exams/Preparo_Ressonancia_Magneetica_Da_Pelve_Para_Endometriose.pdf
-    name: Preparo Ressonancia Magneetica Da Pelve Para Endometriose
+  - link_path: /uploads/exams/Preparo_Ressonancia_Magnetica_Da_Pelve_Para_Endometriose.pdf
+    name: Preparo Ressonancia Magnetica Da Pelve Para Endometriose
   - link_path: /uploads/exams/Preparo_Ressonancia_Magnetica_Da_Coluna_Lombosacra.pdf
     name: Preparo Ressonancia Magnetica Da Coluna Lombosacra
   - link_path: /uploads/exams/Preparo_Ressonancia_Magnetica_Da_Pelve_Feminina.pdf
@@ -39,9 +39,9 @@ pdf_files:
     name: Preparo Ressonancia Magnetica Da Pelve Para Reto
   - link_path: /uploads/exams/Preparo_Ressonancia_Magnetica_De_Pescoco.pdf
     name: Preparo Ressonancia Magnetica De Pescoco
-  - link_path: /uploads/exams/Preparo_Ressonância_Magnética_De_Abdome_Superior.pdf
+  - link_path: /uploads/exams/Preparo_Ressonancia_Magnetica_De_Abdome_Superior.pdf
     name: Preparo Ressonância Magnética De Abdome Superior
-  - link_path: /uploads/exams/Preparo_Ressonância_Magnética_Para_Endometriose.pdf
+  - link_path: /uploads/exams/Preparo_Ressonancia_Magnetica_Para_Endometriose.pdf
     name: Preparo Ressonância Magnética Para Endometriose
   - link_path: /uploads/exams/Preparo_Rm_Abdome_Superior.pdf
     name: Preparo Rm Abdome Superior
@@ -69,7 +69,7 @@ pdf_files:
     name: Ressonancia Magnetica Do Quadril
   - link_path: /uploads/exams/Ressonancia_Magnetica_Do_Tornozelo.pdf
     name: Ressonancia Magnetica Do Tornozelo
-  - link_path: /uploads/exams/Ressonância_Magnética_Da_Coluna_Lombossacra.pdf
+  - link_path: /uploads/exams/Ressonancia_Magnetica_Da_Coluna_Lombossacra.pdf
     name: Ressonância Magnética Da Coluna Lombossacra
   - link_path: /uploads/exams/Rm_Da_Mama.pdf
     name: Rm Da Mama

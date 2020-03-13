@@ -279,9 +279,9 @@ export default {
 .full-exam-image { 
   margin-left: calc(-100vw / 2 + 62.5rem / 2);
   margin-right: calc(-100vw / 2 + 62.5rem / 2);  
-  background: url("../assets/images/img-exames-exame.jpg") no-repeat center;
+  background: url("../assets/images/header-exames.jpg") no-repeat center;
   background-size: cover;
-  height: 25rem;
+  height: 35rem;
   margin-top: 1.5rem;
   margin-bottom: 4.5rem;
 

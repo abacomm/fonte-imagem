@@ -1,9 +1,9 @@
 ---
 name: Fernando César C. Souza 
-specialty: Cardiologia e Ergometria
-thumb_image: /uploads/img-author-erica.jpg
+specialty: Imagem Cardiovascular e Ergometria
+thumb_image: /uploads/medic/img-author-fernando.jpg
 large_image: /uploads/img-home-team-3.png
-external_link: 'http://fonteimagem.com/'
+external_link: 'http://lattes.cnpq.br/8735598596831221'
 profile: >-
     Especialista em Cardiologia com Habilitação em Ergometria pela SBC. Chefe do Serviço de Ergometria do Instituto Nacional de Cardiologia. Mestre em Ciências Cardiovasculares pelo INC.
 

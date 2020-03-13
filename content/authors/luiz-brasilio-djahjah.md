@@ -1,9 +1,9 @@
 ---
 name: Luiz Brasilio Djahjah
 specialty: Radiologia
-thumb_image: /uploads/img-author-luciana.jpg
+thumb_image: /uploads/medic/img-author-djahjah.jpg
 large_image: /uploads/img-home-team-2.png
-external_link: 'http://fonteimagem.com/'
+external_link: ''
 profile: >-
     Graduação em Medicina pela Universidade Federal Fluminense.
 

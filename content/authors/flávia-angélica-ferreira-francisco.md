@@ -1,9 +1,9 @@
 ---
 name: Flávia Angélica Ferreira Francisco
 specialty: Radiologia
-thumb_image: /uploads/img-author-erica.jpg
+thumb_image: /uploads/medic/img-author-flavia-angelica.jpg
 large_image: /uploads/img-home-team-3.png
-external_link: 'http://fonteimagem.com/'
+external_link: ''
 profile: >-
     Graduação em Medicina pela Universidade Federal do Rio de Janeiro (UFRJ). Residência Médica em Radiologia pela Universidade Federal do Rio de Janeiro (UFRJ).
 

@@ -1,9 +1,9 @@
 ---
 name: Ilan Gottlieb
-specialty: Cardiologia e Radiologia
-thumb_image: /uploads/img-author-ilan.jpg
+specialty: Imagem Cardiovascular e Radiologia
+thumb_image: /uploads/medic/img-author-ilan.jpg
 large_image: /uploads/img-home-team-1.png
-external_link: 'http://fonteimagem.com/'
+external_link: 'http://lattes.cnpq.br/8617092925167197'
 profile: >-
   Graduação Médica e Residência em Cardiologia pela UFRJ.
 

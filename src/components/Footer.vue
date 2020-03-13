@@ -18,9 +18,9 @@
                 <h3 class="footer-title">A Clínica</h3>
                 <ul class="footer-nav">
                     <li class="fotter-nav__list"><g-link to="/quem-somos/" class="footer-nav__item">Quem Somos</g-link></li>
-                    <li class="fotter-nav__list"><g-link to="/equipe/" class="footer-nav__item">A Equipe</g-link></li>
-                    <li class="fotter-nav__list"><g-link to="/artigos/" class="footer-nav__item">Artigos</g-link></li>
                     <li class="fotter-nav__list"><g-link to="/exames/" class="footer-nav__item">Exames</g-link></li>
+                    <li class="fotter-nav__list"><g-link to="/artigos/" class="footer-nav__item">Artigos</g-link></li>
+                    <li class="fotter-nav__list"><g-link to="/equipe/" class="footer-nav__item">Equipe</g-link></li>
                     <li class="fotter-nav__list"><g-link to="/convenios/" class="footer-nav__item">Convênios</g-link></li>
                     <li class="fotter-nav__list"><g-link to="/contato/" class="footer-nav__item">Contato</g-link></li>
                 </ul>

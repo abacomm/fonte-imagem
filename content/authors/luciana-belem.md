@@ -1,9 +1,9 @@
 ---
 name: Luciana Belém
 specialty: Radiologia
-thumb_image: /uploads/img-author-luciana.jpg
+thumb_image: /uploads/medic/img-author-luciana.jpg
 large_image: /uploads/img-home-team-2.png
-external_link: 'http://fonteimagem.com/'
+external_link: 'http://lattes.cnpq.br/4848227402852321'
 profile: >-
   Graduação em Medicina e Residência em Radiologia pela UFRJ.
 

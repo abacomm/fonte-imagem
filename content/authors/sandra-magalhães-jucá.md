@@ -1,9 +1,9 @@
 ---
 name: Sandra Magalhães Jucá
 specialty: Radiologia
-thumb_image: /uploads/img-author-luciana.jpg
+thumb_image: /uploads/medic/img-author-sandra.jpg
 large_image: /uploads/img-home-team-2.png
-external_link: 'http://fonteimagem.com/'
+external_link: ''
 profile: >-
     Graduação Médica e Residência em Radiologia pela UERJ.
 

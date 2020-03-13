@@ -1,9 +1,9 @@
 ---
 name: Rodrigo Coelho Campos
 specialty: Ginecologia e Obstetrícia
-thumb_image: /uploads/img-author-luciana.jpg
+thumb_image: /uploads/medic/img-author-rodrigo-campos.jpg
 large_image: /uploads/img-home-team-2.png
-external_link: 'http://fonteimagem.com/'
+external_link: ''
 profile: >-
     Graduação em Medicina pela Faculdade de Ciências Médicas da Universidade do Estado do Rio de Janeiro (UERJ).
 
