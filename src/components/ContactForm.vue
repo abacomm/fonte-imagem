@@ -49,6 +49,7 @@ export default {
     data: () => ({
         formData: {
             assunto: "",
+            opcao: 'Impressao'
         },
     }),
     methods: {
