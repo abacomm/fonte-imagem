@@ -9,6 +9,7 @@
         netlify-honeypot="bot-field">
 
         <input type="hidden" name="form-name" value="contact" />
+        <input type="hidden" v-model="formData.opcao" name="opcao" value="Impressao" v-if="formData.assunto === 'Impressao'" />
         <p hidden>
             <label> Não preencha esse campo se você for um humano: <input name="bot-field" /> </label>
         </p>
