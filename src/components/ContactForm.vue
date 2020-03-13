@@ -57,7 +57,7 @@ export default {
             .join('&')
         },
         handleSubmit(e) {
-            if (this.formData.opcao === 'Resultado' && this.formData.protocolo != '') {
+            if (this.formData.assunto === 'Resultado' && this.formData.protocolo != '') {
                 window.open('https://netpacs.fonteimagem.com.br/Netpacs-paciente/#/login-externo/' + this.formData.protocolo, '_blank');
             } else {            
                 fetch('/', {
