@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="hero-svg"></div>
-        <section id="hero-section" class="hero-section">
+        <section id="hero-section" class="hero-section" data-github="true">
             <div class="row hero">
                 <div class="col-lg-5 px-lg-0">
                     <h1 class="hero__title">Ética. Excelência. Dedicação e Acolhimento.</h1>
