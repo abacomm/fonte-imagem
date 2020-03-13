@@ -1,9 +1,9 @@
 backend:
-  name: bitbucket
-  repo: Abacomm/ben4you-front
+  name: git-gateway
+  repo: abacomm/fonte-imagem
   branch: master # Branch to update (optional; defaults to master)
-  auth_type: implicit
-  app_id: cpeHqBaqgTqmVwztTp
+  # auth_type: implicit
+  # app_id: cpeHqBaqgTqmVwztTp
 
   # This line should *not* be indented
 # publish_mode: editorial_workflow
