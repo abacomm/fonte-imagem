@@ -67,7 +67,8 @@ export default {
                     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
                     body: this.encode({
                         'form-name': e.target.getAttribute('name'),
-                        ...this.formData,
+                        // ...this.formData,
+                        'html': '<p>Meu nome é Mateus</p>'
                     }),
                 })
                 .then(() => this.$router.push('/sucesso'))
