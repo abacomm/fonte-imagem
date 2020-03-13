@@ -1,7 +1,7 @@
 <template>
     <form 
         class="contact-form" 
-        name="contato" 
+        :name="formData.assunto === 'Impressao' ? 'rodape' : 'contato'" 
         method="post" 
         @submit.prevent="handleSubmit" 
         action="/sucesso/"
