@@ -50,31 +50,37 @@
         <p>Bacen</p>
       </div>
       <div class="convenio-item">
-        <p>Camperj</p>
+        <p>CAMPERJ</p>
       </div>
       <div class="convenio-item">
-        <p>AMS Petrobrás</p>
+        <p>FAPES</p>
       </div>
       <div class="convenio-item">
-        <p>GoldenCross</p>
+        <p>Golden Cross</p>
       </div>
       <div class="convenio-item">
-        <p>Media Service</p>
+        <p>Mediservice</p>
       </div>
       <div class="convenio-item">
-        <p>Unafisco Saúde</p>
+        <p>Mutua</p>
       </div>
       <div class="convenio-item">
         <p>OMINT</p>
       </div>
       <div class="convenio-item">
-        <p>World Medic Assist</p>
-      </div>
-      <div class="convenio-item">
-        <p>Fapes</p>
+        <p>Petrobrás</p>
       </div>
       <div class="convenio-item">
         <p>Real Grandeza</p>
+      </div>
+      <div class="convenio-item">
+        <p>Unafisco Saúde</p>
+      </div>
+      <div class="convenio-item">
+        <p>Vale</p>
+      </div>
+      <div class="convenio-item">
+        <p>World Medic Assist</p>
       </div>
       </div>
     </div>
