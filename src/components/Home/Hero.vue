@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="hero-svg"></div>
-        <section id="hero-section" class="hero-section" data-github="true">
+        <section id="hero-section" class="hero-section">
             <div class="row hero">
                 <div class="col-lg-5 px-lg-0">
                     <h1 class="hero__title">Ética. Excelência. Dedicação e Acolhimento.</h1>
@@ -10,7 +10,8 @@
                 </div>
                 <div class="col-lg-6 text-center text-lg-right mt-5 mt-lg-0">
                 <div class="hero__video">
-                    <iframe title="Vídeo sobre a clínica" src="https://player.vimeo.com/video/391279746" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                    <iframe title="Vídeo sobre a clínica" src="https://www.youtube.com/embed/weChCsLXCWk?rel=0&fs=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <!-- <iframe title="Vídeo sobre a clínica" src="https://player.vimeo.com/video/391279746" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> -->
                 </div>
                 </div>
             </div>

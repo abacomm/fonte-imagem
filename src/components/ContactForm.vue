@@ -1,15 +1,14 @@
 <template>
     <form 
         class="contact-form" 
-        :name="formData.assunto === 'Impressao' ? 'rodape' : 'contato'" 
+        name="contato" 
         method="post" 
         @submit.prevent="handleSubmit" 
         action="/sucesso/"
         data-netlify="true"
         netlify-honeypot="bot-field">
 
-        <input type="hidden" name="form-name" :value="formData.assunto === 'Impressao' ? 'rodape' : 'contato'"  />
-        <input type="hidden" v-model="formData.opcao" name="opcao" value="Impressao" v-if="formData.assunto === 'Impressao'" />
+        <input type="hidden" name="form-name" value="contact" />
         <p hidden>
             <label> Não preencha esse campo se você for um humano: <input name="bot-field" /> </label>
         </p>
@@ -49,7 +48,6 @@ export default {
     data: () => ({
         formData: {
             assunto: "",
-            opcao: 'Impressao'
         },
     }),
     methods: {
@@ -59,7 +57,7 @@ export default {
             .join('&')
         },
         handleSubmit(e) {
-            if (this.formData.assunto === 'Resultado' && this.formData.protocolo != '') {
+            if (this.formData.opcao === 'Resultado' && this.formData.protocolo != '') {
                 window.open('https://netpacs.fonteimagem.com.br/Netpacs-paciente/#/login-externo/' + this.formData.protocolo, '_blank');
             } else {            
                 fetch('/', {

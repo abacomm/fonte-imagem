@@ -5,36 +5,24 @@
 
         <div class="col-lg-6">
           <div class="gallery">
-            <picture class="gallery__item gallery__item--1">
-              <source srcset="../../assets/images/img-exams-01.webp" type="image/webp">
-              <source srcset="../../assets/images/img-exams-01.jpg" type="image/jpg">
+            <figure class="gallery__item gallery__item--1">
               <img src="../../assets/images/img-exams-01.jpg" class="gallery__img" alt="Imagem de exame 1">
-            </picture>
-            <picture class="gallery__item gallery__item--2">
-              <source srcset="../../assets/images/img-exams-02.webp" type="image/webp">
-              <source srcset="../../assets/images/img-exams-02.jpg" type="image/jpg">
+            </figure>
+            <figure class="gallery__item gallery__item--2">
               <img src="../../assets/images/img-exams-02.jpg" class="gallery__img" alt="Imagem de exame 2">
-            </picture>
-            <picture class="gallery__item gallery__item--3">
-              <source srcset="../../assets/images/img-exams-03.webp" type="image/webp">
-              <source srcset="../../assets/images/img-exams-03.jpg" type="image/jpg">
+            </figure>
+            <figure class="gallery__item gallery__item--3">
               <img src="../../assets/images/img-exams-03.jpg" class="gallery__img" alt="Imagem de exame 3">
-            </picture>
-            <picture class="gallery__item gallery__item--4">
-              <source srcset="../../assets/images/img-exams-04.webp" type="image/webp">
-              <source srcset="../../assets/images/img-exams-04.jpg" type="image/jpg">
+            </figure>
+            <figure class="gallery__item gallery__item--4">
               <img src="../../assets/images/img-exams-04.jpg" class="gallery__img" alt="Imagem de exame 4">
-            </picture>
-            <picture class="gallery__item gallery__item--5">
-              <source srcset="../../assets/images/img-exams-05.webp" type="image/webp">
-              <source srcset="../../assets/images/img-exams-05.jpg" type="image/jpg">
+            </figure>
+            <figure class="gallery__item gallery__item--5">
               <img src="../../assets/images/img-exams-05.jpg" class="gallery__img" alt="Imagem de exame 5">
-            </picture>
-            <picture class="gallery__item gallery__item--6">
-              <source srcset="../../assets/images/img-exams-06.webp" type="image/webp">
-              <source srcset="../../assets/images/img-exams-06.jpg" type="image/jpg">
+            </figure>
+            <figure class="gallery__item gallery__item--6">
               <img src="../../assets/images/img-exams-06.jpg" class="gallery__img" alt="Imagem de exame 6">
-            </picture>
+            </figure>
           </div>
         </div>
 
