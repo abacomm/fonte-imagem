@@ -2,7 +2,7 @@ backend:
   # name: bitbucket
   name: git-gateway
   repo: abacomm/fonte-imagem
-  branch: master # Branch to update (optional; defaults to master)
+  branch: master # Branch to update (optional; defaults to master) 
   # auth_type: implicit
   # app_id: cpeHqBaqgTqmVwztTp
 
