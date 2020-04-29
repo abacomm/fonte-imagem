@@ -16,4 +16,4 @@ tags:
 ---
 Segue estudo:
 
-[Link do estudo](https://fonteimagem-github.netlify.app/uploads/Artigo_Alice_3_doenças_pélvicas_avanços_de_imagem.pdf)
+[Link do estudo](https://fonteimagem-github.netlify.app/uploads/artigo_alice_3_doenças_pélvicas_avanços_de_imagem.pdf)
