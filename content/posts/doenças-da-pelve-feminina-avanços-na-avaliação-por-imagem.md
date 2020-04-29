@@ -14,6 +14,6 @@ tags:
   - câncer
   - preparo de exames
 ---
-Segue estudo:
+Segue estudo: 
 
 [Link do estudo](https://fonteimagem-github.netlify.app/uploads/artigo_alice_3_doencas_pelvicas_avancos_de_imagem.pdf)
