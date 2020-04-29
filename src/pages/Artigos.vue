@@ -65,7 +65,7 @@ query ($page: Int){
       node {
         id
         title
-        featured_image (quality: 80)
+        featured_image
         date (format: "DD/MM/YYYY", locale: "pt-BR")
         excerpt
         path

@@ -49,7 +49,7 @@ query($path: String!){
                 id
                 path
             }                        
-            featured_image (quality: 80, blur: 0)
+            featured_image
     }
 }
 </page-query>

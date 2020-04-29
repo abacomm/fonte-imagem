@@ -58,7 +58,7 @@ query($id: ID!){
                         path
                     }
                     path
-                    featured_image (quality: 80)
+                    featured_image
                 }
             }
             }
