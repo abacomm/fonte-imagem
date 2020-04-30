@@ -8,7 +8,7 @@
                 </div>
             </div>
             <div class="row mt-4">
-                <div class="col-md-10 offset-md-1"><g-image :alt="'Image de destaque do artigo: ' + $page.post.title" class="single-post__image" :src="$page.post.featured_image" /></div>
+                <div class="col-md-10 offset-md-1"><g-image :alt="'Image de destaque do artigo: ' + $page.post.title" class="single-post__image" :src="'/'+$page.post.featured_image" /></div>
             </div>
             <div class="row mt-3">
                 <p class="col-md-10 offset-md-1 single-post__excerpt" v-html="$page.post.excerpt"></p>
