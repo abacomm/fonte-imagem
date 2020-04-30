@@ -1,6 +1,6 @@
 ---
 name: Luciana Belém
-specialty: Radiologia
+specialty: Radiologia e Diagnóstico por Imagem
 thumb_image: /uploads/medic/img-author-luciana.jpg
 large_image: /uploads/img-home-team-2.png
 external_link: 'http://lattes.cnpq.br/4848227402852321'

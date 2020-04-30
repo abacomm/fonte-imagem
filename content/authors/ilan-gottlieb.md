@@ -1,6 +1,6 @@
 ---
 name: Ilan Gottlieb
-specialty: Imagem Cardiovascular e Radiologia
+specialty: Image Cardiovascular, Radiologia e Diagnóstico por Imagem
 thumb_image: /uploads/medic/img-author-ilan.jpg
 large_image: /uploads/img-home-team-1.png
 external_link: 'http://lattes.cnpq.br/8617092925167197'

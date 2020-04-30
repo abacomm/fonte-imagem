@@ -1,6 +1,6 @@
 ---
 name: Luiz Brasilio Djahjah
-specialty: Radiologia
+specialty: Radiologia e Diagnóstico por Imagem
 thumb_image: /uploads/medic/img-author-djahjah.jpg
 large_image: /uploads/img-home-team-2.png
 external_link: ''

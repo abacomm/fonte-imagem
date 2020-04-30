@@ -1,19 +1,20 @@
 ---
 name: Adriana Lessa Brandão
-specialty: Clínico geral
+specialty: Radiologia e Diagnóstico por Imagem
 thumb_image: /uploads/medic/img-author-adriana.jpg
 large_image: /uploads/img-home-team-1.png
 external_link: ''
 profile: >-
-  A achieves came derive has, build time, focus refinement better entered which
-  have is the has quitting doing extended distributors. Of the his bidding he on
-  or close distant didn't couple is nation one the intentionally all times quite
-  with took ran traveler have long now, writers, pay him their a exerted said
-  how left of are boss greatest
+  Graduação em Medicina pela Universidade Federal do Rio de Janeiro (UFRJ).
 
+	Residência Médica em Radiologia pela Universidade Federal do Rio de Janeiro (UFRJ).
 
-  A achieves came derive has, build time, focus refinement better entered which
-  have is the has quitting doing extended distributors. Of the his bidding he on
-  or close distant didn't couple is nation one the intentionally all times.
+	Mestrado em Radiologia pela Universidade Federal do Rio de Janeiro (UFRJ).
+
+	Título de Especialista em Radiologia e Diagnóstico por Imagem pela Associação Médica Brasileira e Colégio Brasileiro de Radiologia e Diagnóstico por Imagem.
+
+	Título de Especialista em Ultrassonografia Geral pela Associação Médica Brasileira e Colégio Brasileiro de Radiologia e Diagnóstico por Imagem.
+
+	Membro Titular do Colégio Brasileiro de Radiologia.
 ---
 

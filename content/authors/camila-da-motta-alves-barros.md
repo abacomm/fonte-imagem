@@ -1,6 +1,6 @@
 ---
 name: Camila da Motta Alves Barros
-specialty: Diagnóstico por Imagem
+specialty: Radiologia e Diagnóstico por Imagem
 thumb_image: /uploads/medic/img-author-camila.jpg
 large_image: /uploads/img-home-team-1.png
 external_link: ''
