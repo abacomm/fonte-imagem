@@ -4,7 +4,7 @@ excerpt: Um estudo sobre a doença da pelve feminina
 date: 2020-04-29T21:15:31.267Z
 author: Alice Brandão
 category: Ginecologia
-featured_image: uploads/ressonância_multiparamétrica_pelve_colo_uterino.jpg
+featured_image: uploads/ressonancia_multiparametrica_pelve_colo_uterino.jpg
 tags:
   - ginecologia
   - ressonância
