@@ -9,7 +9,7 @@
 
     <div class="row">
       
-      <div class="d-block d-lg-flex" v-for="(edge, index) in getAllTeam" :key="edge.node.id">
+      <div class="d-block d-lg-flex main-team-item" v-for="(edge, index) in getAllTeam" :key="edge.node.id">
 
         <div class="col-xl-4 col-lg-6 my-5 main-team-photo" v-if="(index % 2 === 0)">
           <div class="team-image">
@@ -137,7 +137,7 @@ export default {
 }
 
 @media all and (max-width: 600px){
-  .d-block{
+  .main-team-item.d-block{
     display: flex !important;
     flex-wrap: wrap;
     .main-team-photo{
