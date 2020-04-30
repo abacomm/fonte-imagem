@@ -1,7 +1,7 @@
 <template>
     <article class="article-card">
         <figure class="article-card__image">
-          <g-link :to="postPath"><g-image :src="image" :alt="'Imagem do artigo: ' + title" /></g-link>
+          <g-link :to="postPath"><g-image :src="'/'+image" :alt="'Imagem do artigo: ' + title" /></g-link>
         </figure>
         <div class="article-card__credits">
             <small class="article-card__date">{{ date }}</small>
