@@ -11,13 +11,13 @@
       
       <div class="d-block d-lg-flex" v-for="(edge, index) in getAllTeam" :key="edge.node.id">
 
-        <div class="col-xl-4 col-lg-6 my-5" v-if="(index % 2 === 0)">
+        <div class="col-xl-4 col-lg-6 my-5 main-team-photo" v-if="(index % 2 === 0)">
           <div class="team-image">
             <g-image :alt="'Imagem do médico(a): ' +  edge.node.name" class="team-image__img" :src="edge.node.thumb_image" />
             <g-image alt="Imagem apenas decorativa" class="team-image__pattern" src="../assets/images/img-pattern.svg" />
           </div>          
         </div>
-        <div class="col-xl-6 col-lg-6 my-5" v-else>
+        <div class="col-xl-6 col-lg-6 my-5 main-team-text" v-else>
           <div class="team-content">
             <h2 class="team-content__name">{{ edge.node.name }}</h2>
             <h3 class="team-content__role">{{ edge.node.specialty }}</h3>
@@ -26,7 +26,7 @@
           </div>          
         </div>
 
-        <div class="col-xl-6 col-lg-6 offset-xl-2 my-5" v-if="(index % 2 === 0)">
+        <div class="col-xl-6 col-lg-6 offset-xl-2 my-5 main-team-text" v-if="(index % 2 === 0)">
           <div class="team-content">
             <h2 class="team-content__name">{{ edge.node.name }}</h2>
             <h3 class="team-content__role">{{ edge.node.specialty }}</h3>
@@ -35,7 +35,7 @@
           </div>
         </div>
 
-        <div class="col-xl-4 offset-xl-1 col-lg-6 my-5" v-else>
+        <div class="col-xl-4 offset-xl-1 col-lg-6 my-5 main-team-photo" v-else>
           <div class="team-image">
             <g-image :alt="'Imagem do médico(a): ' +  edge.node.name" class="team-image__img" :src="edge.node.thumb_image"  />
             <g-image alt="Imagem apenas decorativa" class="team-image__pattern" src="../assets/images/img-pattern.svg" />
@@ -133,6 +133,22 @@ export default {
 
   &__link {
     font-size: .88rem;
+  }
+}
+
+@media all and (max-width: 600px){
+  .d-block{
+    display: flex !important;
+    flex-wrap: wrap;
+    .main-team-photo{
+      order: 1;
+    }
+    .main-team-text {
+      order: 2;
+    }
+    .mt-5.main-team-text, .my-5.main-team-text{
+      margin-top: 0 !important;
+    }
   }
 }
 
