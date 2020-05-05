@@ -15,4 +15,4 @@ tags:
   - câncer
   - preparo de exames
 ---
-[Clique aqui para acessar o link do artigo](https://fonteimagem-github.netlify.app/uploads/artigo_alice_3_doencas_pelvicas_avancos_de_imagem.pdf)
+[Clique aqui para acessar o artigo](https://fonteimagem-github.netlify.app/uploads/artigo_alice_3_doencas_pelvicas_avancos_de_imagem.pdf)
