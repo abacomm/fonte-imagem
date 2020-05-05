@@ -12,9 +12,14 @@ profile: >-
   Washington (EUA).
 
 
+
   Membro Titular do Colégio Brasileiro de Radiologia (CBR).
 
-  Autora/coautora de cerca de 30 obras, dentre elas: Atlas de Endometriose Profunda com correlação Ressonância e Laparoscopia (Revinter 2014), Ressonância Magnética na Mama (Revinter 2010) e Ressonância Magnética em Ginecologia e Obstetrícia (Revinter 2002). Coautora dos livros: Anorretal (Rubio 2010), Imaging Atlas of the Pelvic Floor and Anorectal Diseases (Springer 2008) e Modern imaging evaluation of the brain, body and spine (Magnetic Resonance Imaging Clinics of North America).
+  Autora/coautora de cerca de 30 obras, dentre elas: Atlas de Endometriose Profunda com correlação Ressonância e Laparoscopia (Revinter 2014), Ressonância Magnética na Mama (Revinter 2010) e Ressonância Magnética em Ginecologia e Obstetrícia (Revinter 2002). 
+
+
+
+  Coautora dos livros: Anorretal (Rubio 2010), Imaging Atlas of the Pelvic Floor and Anorectal Diseases (Springer 2008) e Modern imaging evaluation of the brain, body and spine (Magnetic Resonance Imaging Clinics of North America).
 
 
   Experiência de mais de vinte anos orientando a formação de novos radiologistas.
