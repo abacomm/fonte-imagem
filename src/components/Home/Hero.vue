@@ -4,8 +4,8 @@
         <section id="hero-section" class="hero-section">
             <div class="row hero">
                 <div class="col-lg-5 px-lg-0">
-                    <h1 class="hero__title">Ética. Excelência. Dedicação e Acolhimento.</h1>
-                    <p class="hero__subtitle">A clínica de diagnóstico por imagem que foca em inovação em satisfação do cliente.</p>
+                    <h1 class="hero__title">Ética. Excelência. Dedicação. Acolhimento.</h1>
+                    <p class="hero__subtitle">A clínica de diagnóstico por imagem que foca em inovação e na satisfação do cliente.</p>
                     <button @click="openTour">Faça um tour virtual</button>
                 </div>
                 <div class="col-lg-6 text-center text-lg-right mt-5 mt-lg-0">

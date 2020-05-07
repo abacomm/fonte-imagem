@@ -7,75 +7,43 @@
       </div>
     </div>
     <div class="row align-items-start">
-      <!-- <figure class="col-lg-3 col-md-4 col-sm-6">
-        <g-image class="logo" alt="Bradesco Saúde" src="~/assets/images/bradesco-saude-logo.png" width="200" />
-      </figure>
-      <figure class="col-lg-3 col-md-4 col-sm-6">
-        <g-image class="logo" alt="Bacen" src="~/assets/images/bacen.jpg.jpg" width="200" />
-      </figure>
-      <figure class="col-lg-3 col-md-4 col-sm-6">
-        <g-image class="logo" alt="Camperj" src="~/assets/images/medsculp-camperj.jpg" width="200" />
-      </figure> 
-      <figure class="col-lg-3 col-md-4 col-sm-6">
-        <g-image class="logo" alt="AMS Petrobrás" src="~/assets/images/ams.jpg" width="200" />
-      </figure>
-      <figure class="col-lg-3 col-md-4 col-sm-6">
-        <g-image class="logo" alt="GoldenCross" src="~/assets/images/1_linha_positiva.jpg" width="200" />
-      </figure>
-      <figure class="col-lg-3 col-md-4 col-sm-6">
-        <g-image class="logo" alt="Media Service" src="~/assets/images/medi-service.png" width="200" />
-      </figure> 
-      <figure class="col-lg-3 col-md-4 col-sm-6">
-        <g-image class="logo" alt="Unafisco Saúde" src="~/assets/images/marca-dourada.png" width="200" />
-      </figure> 
-      <figure class="col-lg-3 col-md-4 col-sm-6">
-        <g-image class="logo" alt="OMINT" src="~/assets/images/omint.png" width="200" />
-      </figure> 
-      <figure class="col-lg-3 col-md-4 col-sm-6">
-        <g-image class="logo" alt="World Medic Assist" src="~/assets/images/world-medic-assist-logo.png" width="200" />
-      </figure>                                    
-      <figure class="col-lg-3 col-md-4 col-sm-6">
-        <g-image class="logo" alt="World Medic Assist" src="~/assets/images/fapes.svg" width="200" />
-      </figure> 
-      <figure class="col-lg-3 col-md-4 col-sm-6">
-        <g-image class="logo" alt="World Medic Assist" src="~/assets/images/real-grandeza.png" width="200" />
-      </figure> --> 
       <div class="convenio-list">
-        
-      
-      <div class="convenio-item">
-        <p>Bradesco Saúde</p>
-      </div>
-      <div class="convenio-item">
-        <p>Bacen</p>
-      </div>
-      <div class="convenio-item">
-        <p>Camperj</p>
-      </div>
-      <div class="convenio-item">
-        <p>AMS Petrobrás</p>
-      </div>
-      <div class="convenio-item">
-        <p>GoldenCross</p>
-      </div>
-      <div class="convenio-item">
-        <p>Media Service</p>
-      </div>
-      <div class="convenio-item">
-        <p>Unafisco Saúde</p>
-      </div>
-      <div class="convenio-item">
-        <p>OMINT</p>
-      </div>
-      <div class="convenio-item">
-        <p>World Medic Assist</p>
-      </div>
-      <div class="convenio-item">
-        <p>Fapes</p>
-      </div>
-      <div class="convenio-item">
-        <p>Real Grandeza</p>
-      </div>
+        <div class="convenio-item">
+          <p>AMS Petrobrás</p>
+        </div>
+        <div class="convenio-item">
+          <p>Bacen</p>
+        </div>
+        <div class="convenio-item">
+          <p>Bradesco Saúde</p>
+        </div>
+        <div class="convenio-item">
+          <p>Camperj</p>
+        </div>
+        <div class="convenio-item">
+          <p>Fapes</p>
+        </div>
+        <div class="convenio-item">
+          <p>GoldenCross</p>
+        </div>
+        <div class="convenio-item">
+          <p>Media Service</p>
+        </div>
+        <div class="convenio-item">
+          <p>OMINT</p>
+        </div>
+        <div class="convenio-item">
+          <p>Real Grandeza</p>
+        </div>
+        <div class="convenio-item">
+          <p>Unafisco Saúde</p>
+        </div>
+        <div class="convenio-item">
+          <p>Unimed</p>
+        </div>
+        <div class="convenio-item">
+          <p>World Medic Assist</p>
+        </div>
       </div>
     </div>
   </Layout>
