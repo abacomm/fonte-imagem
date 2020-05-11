@@ -1,6 +1,6 @@
 ---
 name: Rodrigo Salomão
-specialty: Imagem Cardiovascular e Ecocardiografia
+specialty: Imagem Cardiovascular
 thumb_image: /uploads/medic/img-author-salomao.jpg
 large_image: /uploads/img-home-team-2.png
 external_link: 'http://lattes.cnpq.br/7897036155567256'

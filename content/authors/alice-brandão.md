@@ -1,11 +1,11 @@
 ---
 name: Alice Brandão
-specialty: Ressonância e Imagem da Mulher
+specialty: Ressonância e Diagnóstico por imagem
 thumb_image: /uploads/medic/img-author-alice.jpg
 large_image: /uploads/img-home-team-1.png
 external_link: http://lattes.cnpq.br/6643328807829176
 profile: >-
-  Graduação em Medicina e Residência em Radiologia pela UFRJ..
+  Especialista em Ressonância e Imagem da Mulher.
 
 
   Fellowship em Ressonância Magnética no Karolinska Hospital – Estocolmo (Suécia), no Departamento de Radiologia do Hospital Geral de Massachusetts – Boston (EUA) e no Departamento de Radiologia/Seattle Cancer Care Alliance da Universidade de Washington (EUA). Membro Titular do Colégio Brasileiro de Radiologia (CBR).

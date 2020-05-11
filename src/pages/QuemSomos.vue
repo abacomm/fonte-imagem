@@ -33,12 +33,12 @@
       </article>
     </div>
     <div class="row">
-      <div class="col-md-6">
+      <!-- <div class="col-md-6">
         <g-image alt="Primeira imagem do rodapé" class="article-image-double" src="../assets/images/img-quem-somos-livro2.jpg" width="1200" />
       </div>
       <div class="col-md-6">
         <g-image alt="Segunda imagem do rodapé" class="article-image-double" src="../assets/images/img-quem-somos-livro.jpg" width="1200" />
-      </div>
+      </div> -->
       <!-- <div class="col-12">
         <g-image alt="Terceira imagem do rodapé" class="article-image-single" src="../assets/images/img-quem-somos-livro3.jpg" width="1800" />
       </div> -->

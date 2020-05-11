@@ -21,7 +21,7 @@
           <div class="team-content">
             <h2 class="team-content__name">{{ edge.node.name }}</h2>
             <h3 class="team-content__role">{{ edge.node.specialty }}</h3>
-            <p class="team-content__resume" v-html="edge.node.profile"></p>
+            <p class="team-content__resume" v-html="edge.node.profile.replace(/(?:\r\n|\r|\n)/g, '<br>')"></p>
             <g-link class="team-content__link" v-if="edge.node.external_link.length > 0" :href="edge.node.external_link" target="_blank" rel="noopener noreferrer"><font-awesome :icon="['fas', 'link']"/>&nbsp;&nbsp;Currículo Lattes</g-link>
           </div>          
         </div>
@@ -30,7 +30,7 @@
           <div class="team-content">
             <h2 class="team-content__name">{{ edge.node.name }}</h2>
             <h3 class="team-content__role">{{ edge.node.specialty }}</h3>
-            <p class="team-content__resume" v-html="edge.node.profile"></p>
+            <p class="team-content__resume" v-html="edge.node.profile.replace(/(?:\r\n|\r|\n)/g, '<br>')"></p>
             <a class="team-content__link" v-if="edge.node.external_link.length > 0" :href="edge.node.external_link" target="_blank" rel="noopener noreferrer"><font-awesome :icon="['fas', 'link']"/>&nbsp;&nbsp;Currículo Lattes</a>
           </div>
         </div>
@@ -95,7 +95,8 @@ export default {
   &__img {
     object-fit: cover;
     width: 100%;
-    height: 16.66rem;
+    // height: 16.66rem;
+    height: 22.22rem;
     border-radius: .44rem;
     box-shadow: 0 30px 50px -20px rgba($primary-color, .3);
     max-width: 22.22rem;
@@ -111,7 +112,7 @@ export default {
       display: block;
       position: absolute;
       z-index: -100;
-      top: 1.8rem;
+      bottom: -2rem;
       left: 2rem;
     }
   }

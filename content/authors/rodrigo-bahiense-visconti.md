@@ -1,6 +1,6 @@
 ---
 name: Rodrigo Bahiense Visconti
-specialty: Imagem Cardiovascular e Ecocardiografia
+specialty: Imagem Cardiovascular
 thumb_image: /uploads/medic/img-author-rodrigo.jpg
 large_image: /uploads/img-home-team-2.png
 external_link: ''

@@ -1,11 +1,11 @@
 ---
 name: Ana Claudia Rodrigues
-specialty: Imaginologia mamária e procedimentos invasivos em mama
+specialty: Radiologia e diagnóstico por imagem
 thumb_image: /uploads/medic/img-author-ana-claudia.jpg
 large_image: /uploads/img-home-team-1.png
 external_link: ''
 profile: >-
-    Médica Radiologista Especialista em Imaginologia mamária e procedimentos invasivos em mama guiados por métodos de imagem.
+    Médica Radiologista Especialista em imaginologia mamária e procedimentos invasivos em mama guiados por métodos de imagem.
     Formação Universitária: Universidade Federal do Rio de Janeiro (UFRJ) – de 1989 a 1994.
 
     Residência Médica: Hospital de Base do Distrito Federal – de 1995 a 1998. Clinical Observer no Memorial Sloan Kettering Cancer Cente, NY, EUA, 2001. Título de Especialista em Radiologia pelo Colégio Brasileiro de Radiologia.

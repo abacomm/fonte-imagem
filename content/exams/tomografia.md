@@ -2,67 +2,67 @@
 name: Tomografia
 pdf_files:
   - link_path: /uploads/exams/Angio_Tc_De_Arterias_Coronarias.pdf
-    name: Angio Tc De Arterias Coronarias
+    name: Angiotomografia de Artérias Coronárias
   - link_path: /uploads/exams/Angiotc_Arterial_Cerebral.pdf
-    name: Angiotc Arterial Cerebral
+    name: Angiotomografia de Arterial Cerebral
   - link_path: /uploads/exams/Angiotc_Da_Aorta_Abdominal.pdf
-    name: Angiotc Da Aorta Abdominal
+    name: Angiotomografia de Da Aorta Abdominal
   - link_path: /uploads/exams/Angiotc_De_Aorta_Toracica.pdf
-    name: Angiotc De Aorta Torácica
+    name: Angiotomografia de De Aorta Torácica
   - link_path: /uploads/exams/Angiotc_Do_Pescoco.pdf
-    name: Angiotc Do Pescoço
+    name: Angiotomografia de Do Pescoço
   - link_path: /uploads/exams/Angiotc_Venosa_Cerebral.pdf
-    name: Angiotc Venosa Cerebral
+    name: Angiotomografia de Venosa Cerebral
   - link_path: /uploads/exams/Colonoscopia_Virtual_Preparo.pdf
     name: Colonoscopia Virtual Preparo
   - link_path: /uploads/exams/Preparo_Para_Entero_Tc.pdf
     name: Preparo Para Entero Tc
   - link_path: /uploads/exams/Tc_Da_Coluna_Cervical.pdf
-    name: Tc Da Coluna Cervical
+    name: Tomografia da Coluna Cervical
   - link_path: /uploads/exams/Tc_Da_Coluna_Dorsal.pdf
-    name: Tc Da Coluna Dorsal
+    name: Tomografia da Coluna Dorsal
   - link_path: /uploads/exams/Tc_Da_Coluna_Lombossacra.pdf
-    name: Tc Da Coluna Lombossacra
+    name: Tomografia da Coluna Lombossacra
   - link_path: /uploads/exams/Tc_Da_Coxa.pdf
-    name: Tc Da Coxa
+    name: Tomografia da Coxa
   - link_path: /uploads/exams/Tc_Da_Mao.pdf
-    name: Tc Da Mão
+    name: Tomografia da Mão
   - link_path: /uploads/exams/Tc_Da_Orbita.pdf
-    name: Tc Da Órbita
+    name: Tomografia da Órbita
   - link_path: /uploads/exams/Tc_Da_Parede_Toracica.pdf
-    name: Tc Da Parede Torácica
+    name: Tomografia da Parede Torácica
   - link_path: /uploads/exams/Tc_Da_Pelve.pdf
-    name: Tc Da Pelve
+    name: Tomografia da Pelve
   - link_path: /uploads/exams/Tc_Da_Perna.pdf
-    name: Tc Da Perna
+    name: Tomografia da Perna
   - link_path: /uploads/exams/Tc_Da_Sela_Hipofise.pdf
-    name: Tc Da Sela Hipófise
+    name: Tomografia da Sela Hipófise
   - link_path: /uploads/exams/Tc_Das_Mastoides.pdf
-    name: Tc Das Mastoides
+    name: Tomografia das Mastoides
   - link_path: /uploads/exams/Tc_Do_Abdome_Superior.pdf
-    name: Tc Do Abdome Superior
+    name: Tomografia do Abdome Superior
   - link_path: /uploads/exams/Tc_Do_Abdome_Total.pdf
-    name: Tc Do Abdome Total
+    name: Tomografia do Abdome Total
   - link_path: /uploads/exams/Tc_Do_Antebraco.pdf
-    name: Tc Do Antebraço
+    name: Tomografia do Antebraço
   - link_path: /uploads/exams/Tc_Do_Cotovelo.pdf
-    name: Tc Do Cotovelo
+    name: Tomografia do Cotovelo
   - link_path: /uploads/exams/Tc_Do_Cranio.pdf
-    name: Tc Do Crânio
+    name: Tomografia do Crânio
   - link_path: /uploads/exams/Tc_Do_Joelho.pdf
-    name: Tc Do Joelho
+    name: Tomografia do Joelho
   - link_path: /uploads/exams/Tc_Do_Ombro.pdf
-    name: Tc Do Ombro
+    name: Tomografia do Ombro
   - link_path: /uploads/exams/Tc_Do_Pescoco.pdf
-    name: Tc Do Pescoço
+    name: Tomografia do Pescoço
   - link_path: /uploads/exams/Tc_Do_Punho.pdf
-    name: Tc Do Punho
+    name: Tomografia do Punho
   - link_path: /uploads/exams/Tc_Do_Quadril.pdf
-    name: Tc Do Quadril
+    name: Tomografia do Quadril
   - link_path: /uploads/exams/Tc_Do_Torax.pdf
-    name: Tc Do Tórax
+    name: Tomografia do Tórax
   - link_path: /uploads/exams/Tc_Dos_Seios_Da_Face.pdf
-    name: Tc Dos Seios Da Face
+    name: Tomografia dos Seios Da Face
   - link_path: /uploads/exams/Ultrassonografia_De_Prostata_Via_Abdominal.pdf
     name: Ultrassonografia De Próstata Via Abdominal
   - link_path: /uploads/exams/Ultrassonografia_Do_Aparelho_Urinario.pdf

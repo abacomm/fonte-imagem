@@ -52,8 +52,11 @@
       <div class="col-md-6">
         <g-image alt="Segunda imagem do rodapé" class="article-image-double" src="../assets/images/img-exames-exame3.jpg" width="1200" />
       </div> 
-      <div class="col-12">
+      <!-- <div class="col-12">
         <g-image alt="Terceira imagem do rodapé" class="article-image-single" src="../assets/images/img-exames-exame4.jpg" width="1800" />
+      </div>  -->
+      <div class="col-12">
+        <g-image alt="Quarta imagem do rodapé" class="article-image-single" src="../assets/images/fonte-imagem-39.jpg" width="1800" />
       </div>                  
     </div>    
   </Layout>
@@ -230,23 +233,34 @@ export default {
   position: absolute;
   left: 0;
   bottom: 0;
+  justify-content: space-between;
   display: flex;
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
   text-align: center;
+  width: 100%;
   background-color: $off-white;
   
   &__list {
     //transform: translateY(-.5rem);
     padding: .47rem 0;
+    @media(max-width: 600px) {
+        width: 100%;
+        text-align: left;
+      }
   }
   
   &__item {
-    padding: .6rem 1rem;
+    padding: .6rem 15px;
     transition: all .2s ease;
     background-color: $off-white;
     position: relative;
+    font-size: 16px;
+
+    @media(max-width: 1200px) {
+      font-size: 14px;
+    }
     
     &:hover, &.active {
 
