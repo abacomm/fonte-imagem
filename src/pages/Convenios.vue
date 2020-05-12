@@ -27,7 +27,10 @@
           <p>GoldenCross</p>
         </div>
         <div class="convenio-item">
-          <p>Media Service</p>
+          <p>Mediservice</p>
+        </div>
+        <div class="convenio-item">
+          <p>Mútua dos Magistrados</p>
         </div>
         <div class="convenio-item">
           <p>OMINT</p>
@@ -40,6 +43,9 @@
         </div>
         <div class="convenio-item">
           <p>Unimed</p>
+        </div>
+        <div class="convenio-item">
+          <p>Vale do Rio Doce</p>
         </div>
         <div class="convenio-item">
           <p>World Medic Assist</p>

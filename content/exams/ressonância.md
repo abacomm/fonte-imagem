@@ -193,12 +193,12 @@ Bomba de insulina implantada cirurgicamente
 
 **Materiais que devem ser informados na marcação do seu exame, devendo ser avaliado previamente pelo médico assistente/radiologista para a segurança do procedimento:**
 
-- \- Expansor para reconstrução de Mama (\*\)
-- \- Sistema de Neuroestimulação
-- \- Bomba de insulina externa (\*\*)
-- \- Stent e filtro intravascular (\*\*\*)
-- \- Válvula cardíaca
-- \- Aparelhos auditivos com componentes externos (\*\*\*\*)
+* Expansor para reconstrução de Mama (\*\)
+* Sistema de Neuroestimulação
+* Bomba de insulina externa (\*\*)
+* Stent e filtro intravascular (\*\*\*)
+* Válvula cardíaca
+* Aparelhos auditivos com componentes externos (\*\*\*\*)
 
 Atualmente existem materiais inertes ao campo magnético, permitindo realizar o exame com segurança. Todas as dúvidas podem e devem ser resolvidas com o médico radiologista.
 
