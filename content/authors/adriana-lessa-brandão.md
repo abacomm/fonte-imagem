@@ -4,7 +4,8 @@ specialty: Radiologia e Diagnóstico por Imagem
 thumb_image: /uploads/medic/img-author-adriana.jpg
 large_image: /uploads/img-home-team-1.png
 external_link: ''
-profile: >-
+profile: ''
+---
   Graduação em Medicina pela Universidade Federal do Rio de Janeiro (UFRJ).
 
   Residência Médica em Radiologia pela Universidade Federal do Rio de Janeiro (UFRJ).
@@ -16,5 +17,4 @@ profile: >-
   Título de Especialista em Ultrassonografia Geral pela Associação Médica Brasileira e Colégio Brasileiro de Radiologia e Diagnóstico por Imagem.
 
   Membro Titular do Colégio Brasileiro de Radiologia.
----
 

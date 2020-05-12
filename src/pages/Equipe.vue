@@ -21,7 +21,7 @@
           <div class="team-content">
             <h2 class="team-content__name">{{ edge.node.name }}</h2>
             <h3 class="team-content__role">{{ edge.node.specialty }}</h3>
-            <p class="team-content__resume" v-html="edge.node.profile.replace(/(?:\r\n|\r|\n)/g, '<br>')"></p>
+            <div class="team-content__resume" v-html="edge.node.content.replace(/(?:\r\n|\r|\n)/g, '<br>')"></div>
             <g-link class="team-content__link" v-if="edge.node.external_link.length > 0" :href="edge.node.external_link" target="_blank" rel="noopener noreferrer"><font-awesome :icon="['fas', 'link']"/>&nbsp;&nbsp;Currículo Lattes</g-link>
           </div>          
         </div>
@@ -30,7 +30,7 @@
           <div class="team-content">
             <h2 class="team-content__name">{{ edge.node.name }}</h2>
             <h3 class="team-content__role">{{ edge.node.specialty }}</h3>
-            <p class="team-content__resume" v-html="edge.node.profile.replace(/(?:\r\n|\r|\n)/g, '<br>')"></p>
+            <div class="team-content__resume" v-html="edge.node.content.replace(/(?:\r\n|\r|\n)/g, '<br>')"></div>
             <a class="team-content__link" v-if="edge.node.external_link.length > 0" :href="edge.node.external_link" target="_blank" rel="noopener noreferrer"><font-awesome :icon="['fas', 'link']"/>&nbsp;&nbsp;Currículo Lattes</a>
           </div>
         </div>
@@ -51,7 +51,7 @@
 
 <static-query>
 {
-  allAuthor(sortBy: "name", order: ASC)  {
+  allAuthor(sortBy: "name", order: ASC, filter: { id: {ne: "Alice Brandão"}}) {
     edges  {
       node {
         id
@@ -59,7 +59,7 @@
         specialty
         external_link
         thumb_image
-        profile
+        content
       }
     }
   }
@@ -130,6 +130,9 @@ export default {
     margin-top: 1.5rem;
     font-size: .88rem;
     line-height: 1.5;
+    p {
+      margin: 0
+    }
   }
 
   &__link {

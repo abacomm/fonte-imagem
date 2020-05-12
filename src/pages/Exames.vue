@@ -148,6 +148,13 @@ export default {
     background-size: 1px 18px;
     background-repeat: repeat-y;  
   }
+  ul {
+    padding-left: 20px;
+    list-style-type: disc;
+    li {
+      margin-bottom: 20px
+    }
+  }
 
   &__title {
     color: $primary-color;
