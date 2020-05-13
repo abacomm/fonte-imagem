@@ -18,7 +18,7 @@ pdf_files:
   - link_path: /uploads/exams/Preparo_Defecografia_Por_Ressonancia_Magnetica.pdf
     name: Defecografia por Ressônancia Magnética
   - link_path: /uploads/exams/Preparo_Neurografia_Por_Rm_De_Plexo_Lombosacro_E_Braquial.pdf
-    name: Neurografia por Rm de Plexo Lombosacro E Braquial
+    name: Neurografia por Ressonância do Plexo Lombossacro e Braquial
   - link_path: /uploads/exams/Preparo_Para_Entero_Rm.pdf
     name: Enterorressonância
   - link_path: /uploads/exams/Preparo_Para_Exame_De_Ressonaancia_Magnetica_De_Abdome_Superior.pdf
@@ -30,7 +30,7 @@ pdf_files:
   - link_path: /uploads/exams/Preparo_Ressonancia_Magnetica_Da_Pelve_Para_Endometriose.pdf
     name: Ressonância Magnética da Pelve para Endometriose
   - link_path: /uploads/exams/Preparo_Ressonancia_Magnetica_Da_Coluna_Lombosacra.pdf
-    name: Ressonância Magnética da Coluna Lombosacra
+    name: Ressonância Magnética da Coluna Lombossacra
   - link_path: /uploads/exams/Preparo_Ressonancia_Magnetica_Da_Pelve_Feminina.pdf
     name: Ressonância Magnética da Pelve Feminina
   - link_path: /uploads/exams/Preparo_Ressonancia_Magnetica_Da_Pelve_Masculina.pdf
@@ -52,7 +52,7 @@ pdf_files:
   - link_path: /uploads/exams/Ressonancia_Magnetica_Da_Coxa.pdf
     name: Ressonância Magnética da Coxa
   - link_path: /uploads/exams/Ressonancia_Magnetica_Da_Parede_Toracica.pdf
-    name: Ressonância Magnética da Parede Toracica
+    name: Ressonância Magnética da Parede Torácica
   - link_path: /uploads/exams/Ressonancia_Magnetica_Da_Perna.pdf
     name: Ressonância Magnética da Perna
   - link_path: /uploads/exams/Ressonancia_Magnetica_Do_Antebraco.pdf
@@ -94,11 +94,11 @@ pdf_files:
   - link_path: /uploads/exams/Rm_Do_Cranio.pdf
     name: Ressonância Magnética do Crânio
   - link_path: /uploads/exams/Rm_Do_Cranio_Com_Espectroscopia.pdf
-    name: Ressonância Magnética do Crânio Com Espectroscopia
+    name: Ressonância Magnética do Crânio com Espectroscopia
   - link_path: /uploads/exams/Rm_Do_Cranio_Com_Protocolo_De_Neuronavegacao.pdf
-    name: Ressonância Magnética do Crânio Com Protocolo de Neuronavegação
+    name: Ressonância Magnética do Crânio com Protocolo de Neuronavegação
   - link_path: /uploads/exams/Rm_Do_Cranio_Com_Volumetria_De_Hipocampo.pdf
-    name: Ressonância Magnética do Crânio Com Volumetria de Hipocampo
+    name: Ressonância Magnética do Crânio com Volumetria de Hipocampo
   - link_path: /uploads/exams/Rm_Do_Penis.pdf
     name: Ressonância Magnética do Pênis
   - link_path: /uploads/exams/Rm_Do_Punho.pdf
