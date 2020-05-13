@@ -4,71 +4,71 @@ pdf_files:
   - link_path: /uploads/exams/Angio_Tc_De_Arterias_Coronarias.pdf
     name: Angiotomografia de Artérias Coronárias
   - link_path: /uploads/exams/Angiotc_Arterial_Cerebral.pdf
-    name: Angiotomografia de Arterial Cerebral
+    name: Angiotomografia Arterial do Crânio
   - link_path: /uploads/exams/Angiotc_Da_Aorta_Abdominal.pdf
-    name: Angiotomografia de Da Aorta Abdominal
+    name: Angiotomografia de Aorta Abdominal
   - link_path: /uploads/exams/Angiotc_De_Aorta_Toracica.pdf
-    name: Angiotomografia de De Aorta Torácica
+    name: Angiotomografia de Aorta Torácica
   - link_path: /uploads/exams/Angiotc_Do_Pescoco.pdf
-    name: Angiotomografia de Do Pescoço
+    name: Angiotomografia do Pescoço
   - link_path: /uploads/exams/Angiotc_Venosa_Cerebral.pdf
-    name: Angiotomografia de Venosa Cerebral
+    name: Angiotomografia Venosa do Crânio
   - link_path: /uploads/exams/Colonoscopia_Virtual_Preparo.pdf
-    name: Colonoscopia Virtual Preparo
+    name: Colonoscopia Virtual por Tomografia
   - link_path: /uploads/exams/Preparo_Para_Entero_Tc.pdf
-    name: Preparo Para Entero Tc
+    name: Enterotomografia
   - link_path: /uploads/exams/Tc_Da_Coluna_Cervical.pdf
-    name: Tomografia da Coluna Cervical
+    name: Tomografia Computadorizada da Coluna Cervical
   - link_path: /uploads/exams/Tc_Da_Coluna_Dorsal.pdf
-    name: Tomografia da Coluna Dorsal
+    name: Tomografia Computadorizada da Coluna Dorsal
   - link_path: /uploads/exams/Tc_Da_Coluna_Lombossacra.pdf
-    name: Tomografia da Coluna Lombossacra
+    name: Tomografia Computadorizada da Coluna Lombossacra
   - link_path: /uploads/exams/Tc_Da_Coxa.pdf
-    name: Tomografia da Coxa
+    name: Tomografia Computadorizada da Coxa
   - link_path: /uploads/exams/Tc_Da_Mao.pdf
-    name: Tomografia da Mão
+    name: Tomografia Computadorizada da Mão
   - link_path: /uploads/exams/Tc_Da_Orbita.pdf
-    name: Tomografia da Órbita
+    name: Tomografia Computadorizada da Órbita
   - link_path: /uploads/exams/Tc_Da_Parede_Toracica.pdf
-    name: Tomografia da Parede Torácica
+    name: Tomografia Computadorizada da Parede Torácica
   - link_path: /uploads/exams/Tc_Da_Pelve.pdf
-    name: Tomografia da Pelve
+    name: Tomografia Computadorizada da Pelve
   - link_path: /uploads/exams/Tc_Da_Perna.pdf
-    name: Tomografia da Perna
+    name: Tomografia Computadorizada da Perna
   - link_path: /uploads/exams/Tc_Da_Sela_Hipofise.pdf
-    name: Tomografia da Sela Hipófise
+    name: Tomografia Computadorizada da Sela Turca
   - link_path: /uploads/exams/Tc_Das_Mastoides.pdf
-    name: Tomografia das Mastoides
+    name: Tomografia Computadorizada das Mastoides
   - link_path: /uploads/exams/Tc_Do_Abdome_Superior.pdf
-    name: Tomografia do Abdome Superior
+    name: Tomografia Computadorizada do Abdome Superior
   - link_path: /uploads/exams/Tc_Do_Abdome_Total.pdf
-    name: Tomografia do Abdome Total
+    name: Tomografia Computadorizada do Abdome Total
   - link_path: /uploads/exams/Tc_Do_Antebraco.pdf
-    name: Tomografia do Antebraço
+    name: Tomografia Computadorizada do Antebraço
   - link_path: /uploads/exams/Tc_Do_Cotovelo.pdf
-    name: Tomografia do Cotovelo
+    name: Tomografia Computadorizada do Cotovelo
   - link_path: /uploads/exams/Tc_Do_Cranio.pdf
-    name: Tomografia do Crânio
+    name: Tomografia Computadorizada do Crânio
   - link_path: /uploads/exams/Tc_Do_Joelho.pdf
-    name: Tomografia do Joelho
+    name: Tomografia Computadorizada do Joelho
   - link_path: /uploads/exams/Tc_Do_Ombro.pdf
-    name: Tomografia do Ombro
+    name: Tomografia Computadorizada do Ombro
   - link_path: /uploads/exams/Tc_Do_Pescoco.pdf
-    name: Tomografia do Pescoço
+    name: Tomografia Computadorizada do Pescoço
   - link_path: /uploads/exams/Tc_Do_Punho.pdf
-    name: Tomografia do Punho
+    name: Tomografia Computadorizada do Punho
   - link_path: /uploads/exams/Tc_Do_Quadril.pdf
-    name: Tomografia do Quadril
+    name: Tomografia Computadorizada do Quadril
   - link_path: /uploads/exams/Tc_Do_Torax.pdf
-    name: Tomografia do Tórax
+    name: Tomografia Computadorizada do Tórax
   - link_path: /uploads/exams/Tc_Dos_Seios_Da_Face.pdf
-    name: Tomografia dos Seios Da Face
-  - link_path: /uploads/exams/Ultrassonografia_De_Prostata_Via_Abdominal.pdf
-    name: Ultrassonografia De Próstata Via Abdominal
-  - link_path: /uploads/exams/Ultrassonografia_Do_Aparelho_Urinario.pdf
-    name: Ultrassonografia Do Aparelho Urinário
+    name: Tomografia Computadorizada dos Seios da Face
+  # - link_path: /uploads/exams/Ultrassonografia_De_Prostata_Via_Abdominal.pdf
+  #   name: Ultrassonografia De Próstata Via Abdominal
+  # - link_path: /uploads/exams/Ultrassonografia_Do_Aparelho_Urinario.pdf
+  #   name: Ultrassonografia Do Aparelho Urinário
   - link_path: /uploads/exams/Urotc_Tc_Das_Vias_Urinarias.pdf
-    name: Urotc Tc Das Vias Urinárias
+    name: Urotomografia Computadorizada
 ---
 ## Sobre a Tomografia
 

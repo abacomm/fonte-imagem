@@ -2,7 +2,7 @@
 name: Ecocardiografia e Doppler
 pdf_files:
   - link_path: /uploads/exams/Doppler_Arterial_De_Membros_Inferiores_Color.pdf
-    name: Doppler Arterial De Membros Inferiores Colorido
+    name: Doppler Arterial De Membros Inferiores
   - link_path: /uploads/exams/Doppler_Colorido_De_Aorta_Abdominal.pdf
     name: Doppler Colorido De Aorta Abdominal
   - link_path: /uploads/exams/Doppler_Colorido_De_Aorta_Ascendente.pdf
@@ -30,7 +30,7 @@ pdf_files:
   - link_path: /uploads/exams/Doppler_Colorido_De_Veias_Subclavias_E_Jugulares.pdf
     name: Doppler Colorido De Veias Subclávias e Jugulares
   - link_path: /uploads/exams/Doppler_Venoso_De_Membros_Inferiores_Color.pdf
-    name: Doppler Venoso De Membros Inferiores Color
+    name: Doppler Colorido Venoso De Membros Inferiores
   - link_path: /uploads/exams/Ecocardiograma_Com_Doppler_Colorido_Uni_Bi_E_Tridimensional.pdf
     name: Ecocardiograma com Doppler Colorido Uni, Bi e Tridimensional
   - link_path: /uploads/exams/Ecocardiograma_Com_Microbolhas.pdf
@@ -49,26 +49,26 @@ pdf_files:
     name: Ecocardiograma Transesofágico com Microbolhas
   - link_path: /uploads/exams/Ecodoppler_De_Esforco.pdf
     name: Ecodoppler De Esforço
-  - link_path: /uploads/exams/Preparo_Doppler_Colorido_De_Aorta_Abdominal.pdf
-    name: Preparo Doppler Colorido De Aorta Abdominal
-  - link_path: /uploads/exams/Preparo_Doppler_Colorido_De_Arterias_E_Veias_Iliacas.pdf
-    name: Preparo Doppler Colorido De Artérias e Veias Iliacas
-  - link_path: /uploads/exams/Preparo_Doppler_Colorido_De_Arterias_Renais.pdf
-    name: Preparo Doppler Colorido De Artérias Renais
-  - link_path: /uploads/exams/Preparo_Doppler_Colorido_De_Arterias_Viscerais.pdf
-    name: Preparo Doppler Colorido De Artérias Viscerais
-  - link_path: /uploads/exams/Preparo_Doppler_Colorido_De_Mesenterica_Superior_E_Inferior_E_Tronco_Celiaco.pdf
-    name: Preparo Doppler Colorido De Mesentérica Superior e Inferior e Tronco Celíaco
-  - link_path: /uploads/exams/Preparo_Doppler_Colorido_De_Veia_Cava.pdf
-    name: Preparo Doppler Colorido De Veia Cava
-  - link_path: /uploads/exams/Preparo_Doppler_Colorido_De_Veia_Porta.pdf
-    name: Preparo Doppler Colorido De Veia Porta
-  - link_path: /uploads/exams/Preparo_Doppler_Colorido_De_Veia_Renal.pdf
-    name: Preparo Doppler Colorido De Veia Renal
+  # - link_path: /uploads/exams/Preparo_Doppler_Colorido_De_Aorta_Abdominal.pdf
+  #   name: Preparo Doppler Colorido De Aorta Abdominal
+  # - link_path: /uploads/exams/Preparo_Doppler_Colorido_De_Arterias_E_Veias_Iliacas.pdf
+  #   name: Preparo Doppler Colorido De Artérias e Veias Iliacas
+  # - link_path: /uploads/exams/Preparo_Doppler_Colorido_De_Arterias_Renais.pdf
+  #   name: Preparo Doppler Colorido De Artérias Renais
+  # - link_path: /uploads/exams/Preparo_Doppler_Colorido_De_Arterias_Viscerais.pdf
+  #   name: Preparo Doppler Colorido De Artérias Viscerais
+  # - link_path: /uploads/exams/Preparo_Doppler_Colorido_De_Mesenterica_Superior_E_Inferior_E_Tronco_Celiaco.pdf
+  #   name: Preparo Doppler Colorido De Mesentérica Superior e Inferior e Tronco Celíaco
+  # - link_path: /uploads/exams/Preparo_Doppler_Colorido_De_Veia_Cava.pdf
+  #   name: Preparo Doppler Colorido De Veia Cava
+  # - link_path: /uploads/exams/Preparo_Doppler_Colorido_De_Veia_Porta.pdf
+  #   name: Preparo Doppler Colorido De Veia Porta
+  # - link_path: /uploads/exams/Preparo_Doppler_Colorido_De_Veia_Renal.pdf
+  #   name: Preparo Doppler Colorido De Veia Renal
   - link_path: /uploads/exams/Preparo_Doppler_Obstetrico.pdf
-    name: Preparo Doppler Obstétrico
-  - link_path: /uploads/exams/Preparo_Para_Ecocardiograma_Com_Stress_Farmacologico_Com_Dipiridamol.pdf
-    name: Preparo Para Ecocardiograma com Stress Farmacológico com Dipiridamol
+    name: Doppler Obstétrico
+  # - link_path: /uploads/exams/Preparo_Para_Ecocardiograma_Com_Stress_Farmacologico_Com_Dipiridamol.pdf
+  #   name: Preparo Para Ecocardiograma com Stress Farmacológico com Dipiridamol
 
 ---
 ## Sobre a Ecocardiografia e Doppler
