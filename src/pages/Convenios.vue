@@ -39,6 +39,9 @@
           <p>Real Grandeza</p>
         </div>
         <div class="convenio-item">
+          <p>Salud Valor</p>
+        </div>
+        <div class="convenio-item">
           <p>Unafisco Saúde</p>
         </div>
         <div class="convenio-item">
