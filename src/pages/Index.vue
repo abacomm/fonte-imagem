@@ -1,6 +1,7 @@
 <template>
   <Landing>
 
+    <ModalCovid :open="open" @close="closeModal" />
     <Hero />
 
     <!-- <Mission /> -->
@@ -18,6 +19,7 @@
 
 <script>
 
+import ModalCovid from '~/components/ModalCovid'
 import Exams from '~/components/Home/Exams.vue'
 import Articles from '~/components/Home/Articles.vue'
 import Hero from '~/components/Home/Hero.vue'
@@ -37,7 +39,30 @@ export default {
       { key: 'twitter:title', name: 'twitter:title', content: 'Fonte Imagem - Home' }      
     ]    
   },
-  components: { Team, Mission, HelpCards, Articles, Exams, Hero }
+  components: { 
+    Team, 
+    Mission, 
+    HelpCards, 
+    Articles, 
+    Exams, 
+    Hero, 
+    ModalCovid
+  },
+  // quando tirar o componente, remover aqui embaixo tb
+  data () {
+    return {
+      open: true
+    }
+  },
+  mounted () {
+    this.open = (JSON.parse(window.sessionStorage.getItem('userViewed'))) ? false : true
+  },
+  methods: {
+      closeModal () {
+        this.open = false
+        window.sessionStorage.setItem('userViewed', JSON.stringify(true))
+      }
+    }
 }
 </script>
 
