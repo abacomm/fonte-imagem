@@ -88,10 +88,11 @@
     margin: 30px auto 0;
     border: 1px solid #057E7D;
     border-radius: 50px;
-    padding: 1rem;
+    padding: 0 1rem;
     background: #fff;
     color: #057E7D;
     height: 54px;
+    line-height: 52px;
     width: 90px;
     display: flex;
     align-items: center;
