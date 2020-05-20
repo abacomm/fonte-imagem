@@ -45,7 +45,7 @@
           <p>Unafisco Saúde</p>
         </div>
         <div class="convenio-item">
-          <p>Unimed</p>
+          <p>Unimed (endometriose)</p>
         </div>
         <div class="convenio-item">
           <p>Vale do Rio Doce</p>

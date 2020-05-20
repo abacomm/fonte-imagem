@@ -1,6 +1,6 @@
 ---
 name: Alice Brandão
-specialty: Ressonância e Diagnóstico por imagem
+specialty: Radiologia e Diagnóstico por Imagem
 thumb_image: /uploads/medic/img-author-alice.jpg
 large_image: /uploads/img-home-team-1.png
 external_link: http://lattes.cnpq.br/6643328807829176

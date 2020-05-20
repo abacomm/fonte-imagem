@@ -52,10 +52,10 @@
       <div class="col-md-6">
         <g-image alt="Segunda imagem do rodapé" class="article-image-double" src="../assets/images/img-exames-exame3.jpg" width="1200" />
       </div> 
-      <!-- <div class="col-12">
-        <g-image alt="Terceira imagem do rodapé" class="article-image-single" src="../assets/images/img-exames-exame4.jpg" width="1800" />
-      </div>  -->
-      <div class="col-12">
+      <div class="col-md-6">
+        <g-image alt="Terceira imagem do rodapé" class="article-image-single" src="../assets/images/fonte-imagem-exame-1.jpeg" width="1800" />
+      </div>
+      <div class="col-md-6">
         <g-image alt="Quarta imagem do rodapé" class="article-image-single" src="../assets/images/fonte-imagem-39.jpg" width="1800" />
       </div>                  
     </div>    

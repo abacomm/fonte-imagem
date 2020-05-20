@@ -1,6 +1,6 @@
 ---
 name: Ana Claudia Rodrigues
-specialty: Radiologia e diagnóstico por imagem
+specialty: Radiologia e Diagnóstico por Imagem
 thumb_image: /uploads/medic/img-author-ana-claudia.jpg
 large_image: /uploads/img-home-team-1.png
 external_link: ''
