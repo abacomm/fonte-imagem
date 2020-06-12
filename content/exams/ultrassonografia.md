@@ -61,6 +61,8 @@ pdf_files:
     name: Ultrassonografia de Partes Moles
   - link_path: /uploads/exams/Preparo_Ultrassonografia_De_Prostata_Via_Abdominal.pdf
     name: Ultrassonografia de Próstata Via Abdominal
+  - link_path: /uploads/exams/Preparo_US_Prostata_Transretal.pdf
+    name: Ultrassonografia de Próstata Transretal
   - link_path: /uploads/exams/Preparo_Ultrassonografia_De_Regiao_Inguinal.pdf
     name: Ultrassonografia de Regiao Inguinal
   - link_path: /uploads/exams/Preparo_Ultrassonografia_De_Tireoide.pdf
