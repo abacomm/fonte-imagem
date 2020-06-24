@@ -27,6 +27,8 @@ pdf_files:
   #   name: RM Bioopsia Mama
   - link_path: /uploads/exams/Preparo_Ressonancia_De_Corpo_Inteiro.pdf
     name: Ressonância de Corpo Inteiro
+  - link_path: /uploads/exams/Rm_Do_Cranio_Com_Tractografia.pdf
+    name: Ressonância Magnética do Crânio com Tractografia
   - link_path: /uploads/exams/Preparo_Ressonancia_Magnetica_Da_Pelve_Para_Endometriose.pdf
     name: Ressonância Magnética da Pelve para Endometriose
   - link_path: /uploads/exams/Preparo_Ressonancia_Magnetica_Da_Coluna_Lombosacra.pdf

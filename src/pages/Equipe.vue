@@ -51,7 +51,7 @@
 
 <static-query>
 {
-  allAuthor(sortBy: "name", order: ASC, filter: { id: {ne: "Alice Brandão"}}) {
+  allAuthor(sortBy: "name", order: ASC, filter: { id: { nin: ["Alice Brandão", "Ilan Gottlieb"] } } ) {
     edges  {
       node {
         id
