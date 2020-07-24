@@ -7,7 +7,7 @@ author: Ilan Gottlieb
 category: COVID-19
 featured_image: uploads/webinar.jpeg
 tags:
-  - "#covid-19"
+  - covid-19
 ---
 Como usar os exames diagnósticos de Covid-19 na retomada da atividade econômica?
 
