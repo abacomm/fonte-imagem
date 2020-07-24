@@ -13,7 +13,6 @@
     <Team />
     
     <Articles />
-    
   </Landing>
 </template>
 
