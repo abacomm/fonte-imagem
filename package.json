@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@gridsome/source-filesystem": "^0.6.2",
-    "@gridsome/transformer-remark": "^0.6.1",
+    "@gridsome/transformer-remark": "^0.6.2",
     "bootstrap-scss": "^4.5.0",
     "gridsome": "^0.7.19",
     "typeface-montserrat": "0.0.75",

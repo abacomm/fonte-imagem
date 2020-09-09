@@ -16,7 +16,7 @@
           <div class="help-box__section">
             <h4 class="help-box__title pt-5">Concierge</h4>
             <div class="help-box__item"><font-awesome :icon="['fas', 'phone-alt']"/>&nbsp;&nbsp;(21) 3591-6886</div>
-            <div class="help-box__item"><font-awesome :icon="['fab', 'whatsapp']"/>&nbsp;&nbsp;(21) 99789-7993</div>
+            <div class="help-box__item"><font-awesome :icon="['fab', 'whatsapp']"/>&nbsp;&nbsp;(21) 99789-7973</div>
           </div>
           <div class="help-box__section">
             <h4 class="help-box__title">E-mail</h4>
