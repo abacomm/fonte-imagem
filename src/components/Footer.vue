@@ -1,6 +1,6 @@
 <template>
   <footer id="footer">
-    <div class="row">
+    <div class="row you-know">
       <div class="col-lg-8 offset-lg-2 px-md-0 text-md-center">
         <div class="dashed-header"></div>
         <h2>Você Sabia?</h2>
@@ -199,7 +199,11 @@ export default {
 }
 
 footer {
-  margin-top: 6rem;
+  margin-top: 4rem;
+}
+
+.you-know {
+  margin-bottom: 85px;
 }
 
 .copyright p {
