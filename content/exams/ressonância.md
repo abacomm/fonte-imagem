@@ -117,6 +117,8 @@ pdf_files:
     name: Uroressonância
   - link_path: /uploads/exams/Tractografia_Por_Ressonancia_Do_Cerebro.pdf    
     name: Ressonância Magnética do Crânio com Tractografia
+  - link_path: /uploads/exams/Ressonancia_Histerossalpingo.pdf    
+    name: Ressonância Histerossalpingo
 ---
 ## Sobre a Ressonância
 
