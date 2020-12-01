@@ -118,7 +118,7 @@ pdf_files:
   - link_path: /uploads/exams/Tractografia_Por_Ressonancia_Do_Cerebro.pdf    
     name: Ressonância Magnética do Crânio com Tractografia
   - link_path: /uploads/exams/Ressonancia_Histerossalpingo.pdf    
-    name: Ressonância Histerossalpingo
+    name: Histerossalpingografia por Ressonância
 ---
 ## Sobre a Ressonância
 
