@@ -29,7 +29,7 @@ pdf_files:
     name: Ressonância de Corpo Inteiro
   - link_path: /uploads/exams/Rm_Do_Cranio_Com_Tractografia.pdf
     name: Ressonância Magnética do Crânio com Tractografia
-  - link_path: /uploads/exams/Preparo_Ressonancia_Magnetica_Da_Pelve_Para_Endometriose.pdf
+  - link_path: /uploads/exams/Ressonancia_Preparo_Rm_Pelve.pdf
     name: Ressonância Magnética da Pelve para Endometriose
   - link_path: /uploads/exams/Preparo_Ressonancia_Magnetica_Da_Coluna_Lombosacra.pdf
     name: Ressonância Magnética da Coluna Lombossacra
@@ -119,8 +119,6 @@ pdf_files:
     name: Ressonância Magnética do Crânio com Tractografia
   - link_path: /uploads/exams/Ressonancia_Histerossalpingo.pdf    
     name: Histerossalpingografia por Ressonância
-  - link_path: /uploads/exams/Ressonancia_Preparo_Rm_Pelve.pdf
-    name: Ressonância com preparo intestinal para investigação de endometriose
 ---
 ## Sobre a Ressonância
 
