@@ -119,6 +119,8 @@ pdf_files:
     name: Ressonância Magnética do Crânio com Tractografia
   - link_path: /uploads/exams/Ressonancia_Histerossalpingo.pdf    
     name: Histerossalpingografia por Ressonância
+  - link_path: /uploads/exams/Ressonancia_Preparo_Rm_Pelve.pdf
+    name: Ressonância com preparo intestinal para investigação de endometriose
 ---
 ## Sobre a Ressonância
 
