@@ -21,6 +21,9 @@
           <p>Camperj</p>
         </div>
         <div class="convenio-item">
+          <p>CAMARJ</p>
+        </div>
+        <div class="convenio-item">
           <p>Fapes</p>
         </div>
         <div class="convenio-item">
@@ -55,9 +58,6 @@
         </div>
         <div class="convenio-item">
           <p>World Medic Assist</p>
-        </div>
-        <div class="convenio-item">
-          <p>CAMARJ</p>
         </div>
       </div>
     </div>
