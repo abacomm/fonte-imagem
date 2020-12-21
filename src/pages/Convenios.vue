@@ -56,6 +56,9 @@
         <div class="convenio-item">
           <p>World Medic Assist</p>
         </div>
+        <div class="convenio-item">
+          <p>CAMARJ</p>
+        </div>
       </div>
     </div>
   </Layout>
