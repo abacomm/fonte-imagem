@@ -99,10 +99,10 @@ pdf_files:
     name: Uroressonância
   - link_path: /uploads/exams/Tractografia_Por_Ressonancia_Do_Cerebro.pdf
     name: Ressonância Magnética do Crânio com Tractografia
-  - link_path: /uploads/exams/Ressonancia_Histerossalpingo.pdf
-    name: Histerossalpingografia por Ressonância
   - name: Teste
     link_path: uploads/artigo_alice_3_doencas_pelvicas_avancos_de_imagem.pdf
+  - link_path: /uploads/exams/Ressonancia_Histerossalpingo.pdf
+    name: Histerossalpingografia por Ressonância
 ---
 ## Sobre a Ressonância
 
