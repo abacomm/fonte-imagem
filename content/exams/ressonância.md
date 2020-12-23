@@ -3,8 +3,6 @@ name: Ressonância
 pdf_files:
   - link_path: /uploads/exams/Angioressonancia_De_Aorta_Toracica.pdf
     name: Angioressonancia de Aorta Toracica
-  # - link_path: /uploads/exams/Angiorressonancia_Magnetica.pdf
-  #   name: Angiorressônancia Magnetica
   - link_path: /uploads/exams/Angiorressonancia_Magnetica_Da_Aorta_Abdominal.pdf
     name: Angiorressonância Magnética da Aorta Abdominal
   - link_path: /uploads/exams/Angiorressonancia_Magnetica_Do_Pescoco.pdf
@@ -23,8 +21,6 @@ pdf_files:
     name: Enterorressonância
   - link_path: /uploads/exams/Preparo_Para_Exame_De_Ressonaancia_Magnetica_De_Abdome_Superior.pdf
     name: Ressonância do Abdome Superior
-  # - link_path: /uploads/exams/Preparo_RM_Bioopsia_Mama.pdf
-  #   name: RM Bioopsia Mama
   - link_path: /uploads/exams/Preparo_Ressonancia_De_Corpo_Inteiro.pdf
     name: Ressonância de Corpo Inteiro
   - link_path: /uploads/exams/Rm_Do_Cranio_Com_Tractografia.pdf
@@ -41,12 +37,6 @@ pdf_files:
     name: Ressonância Magnética da Pelve para Reto
   - link_path: /uploads/exams/Preparo_Ressonancia_Magnetica_De_Pescoco.pdf
     name: Ressonância Magnética do Pescoço
-  # - link_path: /uploads/exams/Preparo_Ressonancia_Magnetica_De_Abdome_Superior.pdf
-  #   name: Ressonância Magnética de Abdome Superior
-  # - link_path: /uploads/exams/Preparo_Ressonancia_Magnetica_Para_Endometriose.pdf
-  #   name: Ressonância Magnética Para Endometriose
-  # - link_path: /uploads/exams/Preparo_Rm_Abdome_Superior.pdf
-  #   name: Rm Abdome Superior
   - link_path: /uploads/exams/Ressonancia_Magnetica_Da_Coluna_Cervical.pdf
     name: Ressonância Magnética da Coluna Cervical
   - link_path: /uploads/exams/Ressonancia_Magnetica_Da_Coluna_Dorsal.pdf
@@ -71,20 +61,12 @@ pdf_files:
     name: Ressonância Magnética do Quadril
   - link_path: /uploads/exams/Ressonancia_Magnetica_Do_Tornozelo.pdf
     name: Ressonância Magnética do Tornozelo
-  # - link_path: /uploads/exams/Ressonancia_Magnetica_Da_Coluna_Lombossacra.pdf
-  #   name: Ressonância Magnética da Coluna Lombossacra
   - link_path: /uploads/exams/Rm_Da_Mama.pdf
     name: Ressonância Magnética das Mamas
   - link_path: /uploads/exams/Rm_Da_Mao.pdf
     name: Ressonância Magnética da Mão
   - link_path: /uploads/exams/Rm_Da_Orbita.pdf
     name: Ressonância Magnética da Órbita
-  # - link_path: /uploads/exams/Rm_Da_Pelve_Feminina.pdf
-  #   name: Ressonância Magnética da Pelve Feminina
-  # - link_path: /uploads/exams/Rm_Da_Pelve_Masculina.pdf
-  #   name: Ressonância Magnética da Pelve Masculina
-  # - link_path: /uploads/exams/Rm_Da_Pelve_Para_Reto.pdf
-  #   name: Ressonância Magnética da Pelve Para Reto
   - link_path: /uploads/exams/Rm_Da_Sela_Turca.pdf
     name: Ressonância Magnética da Sela Turca
   - link_path: /uploads/exams/Rm_Das_Mastoides.pdf
@@ -115,10 +97,12 @@ pdf_files:
     name: Ressonância Magnética Multiparamétrica da Prostata
   - link_path: /uploads/exams/Rm_Uro_Rm.pdf
     name: Uroressonância
-  - link_path: /uploads/exams/Tractografia_Por_Ressonancia_Do_Cerebro.pdf    
+  - link_path: /uploads/exams/Tractografia_Por_Ressonancia_Do_Cerebro.pdf
     name: Ressonância Magnética do Crânio com Tractografia
-  - link_path: /uploads/exams/Ressonancia_Histerossalpingo.pdf    
+  - link_path: /uploads/exams/Ressonancia_Histerossalpingo.pdf
     name: Histerossalpingografia por Ressonância
+  - name: Teste
+    link_path: uploads/artigo_alice_3_doencas_pelvicas_avancos_de_imagem.pdf
 ---
 ## Sobre a Ressonância
 
