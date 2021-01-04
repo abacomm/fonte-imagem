@@ -9,7 +9,7 @@ pdf_files:
     name: Angiorressonância Magnética do Pescoço
   - link_path: /uploads/exams/Angiorressonancia_Magnetica_Venosa_Cerebral.pdf
     name: Angiorressonância Magnética Venosa Cerebral
-  - link_path: /uploads/exams/Colangio_Rm.pdf
+  - link_path: uploads/colangio_rm.pdf
     name: Colangiorressonância
   - link_path: /uploads/exams/Preparo_Biopsia_De_Mama_Guiada_Por_Ressonancia_Magnetica.pdf
     name: Biopsia de Mama Guiada por Ressônancia Magnética
