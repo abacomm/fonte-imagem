@@ -1,9 +1,9 @@
 ---
 name: Roberto Perrotta
 specialty: Radiologia e Diagnóstico por Imagem
-thumb_image: uploads/image0.jpeg
-large_image: uploads/image0.jpeg
-external_link: " "
+thumb_image: /uploads/medic/image0.jpeg
+large_image: /uploads/medic/image0.jpeg
+external_link: ""
 ---
 Graduação em medicina pela Universidade Estadual do Rio de Janeiro (UERJ)\
 Residência médica em radiologia no Hospital Universitário Clementino Fraga Filho (HUCFF) da Universidade federal do Rio de Janeiro (UFRJ)\
