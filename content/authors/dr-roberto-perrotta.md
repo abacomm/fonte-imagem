@@ -1,6 +1,6 @@
 ---
 name: Dr. Roberto Perrotta
-specialty: Radiologista
+specialty: Radiologia e Diagnóstico por Imagem
 thumb_image: uploads/image0.jpeg
 large_image: uploads/image0.jpeg
 external_link: " "
