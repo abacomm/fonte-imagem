@@ -6,6 +6,8 @@ date: 2021-02-12T13:05:34.743Z
 author: Ronaldo Leão
 category: COVID-19
 featured_image: uploads/image-from-ios.jpg
+tags:
+  - Covid-19
 ---
 A pandemia de COVID-19 representa um evento sem precedentes. Devido aos recursos necessários para tratar pacientes infectados e esforços para prevenir sua propagação, a capacidade dos sistemas mundiais de saúde de diagnosticar e tratar concomitantemente as doenças não transmissíveis foi colocado em xeque. Antes da pandemia, declínios na mortalidade por doenças cardíacas tinham sido demonstrados em muitas regiões do mundo. Exames de imagem para detectar doenças cardiovasculares são amplamente utilizados no diagnóstico e para guiar terapêuticas mais eficazes que salvam vidas. 
 
