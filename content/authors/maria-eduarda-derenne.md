@@ -1,10 +1,10 @@
 ---
-name: Márcia Eduarda Derenne
+name: Maria Eduarda Derenne
 specialty: Imagem Cardiovascular
 thumb_image: /uploads/medic/img-author-marcia-darenne.jpg
 large_image: /uploads/img-home-team-2.png
-external_link: ''
-profile: ''
+external_link: " "
+profile: ""
 ---
   Graduação em medicina e residência em cardiologia com extensão em ecocardiografia pela UERJ.
 
