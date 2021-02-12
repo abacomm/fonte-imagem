@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-md-10 offset-md-1">
                     <h1 class="single-post__title">{{ $page.post.title }}</h1>
-                    <small class="single-post__credits">Por: <g-link :to="$page.post.author.path">{{ $page.post.author.id }}</g-link>&nbsp;&nbsp;|&nbsp;&nbsp;<font-awesome class="single-post__icon" :icon="['fas', 'clock']"/>&nbsp;&nbsp;{{ $page.post.date }}</small>
+                    <small class="single-post__credits"><span v-if="$page.post.author">Por: <g-link :to="$page.post.author.path">{{ $page.post.author.id }}</g-link>&nbsp;&nbsp;|</span>&nbsp;&nbsp;<font-awesome class="single-post__icon" :icon="['fas', 'clock']"/>&nbsp;&nbsp;{{ $page.post.date }}</small>
                 </div>
             </div>
             <div class="row mt-4">

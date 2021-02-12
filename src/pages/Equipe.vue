@@ -59,6 +59,7 @@
         specialty
         external_link
         thumb_image
+        content
       }
     }
   }

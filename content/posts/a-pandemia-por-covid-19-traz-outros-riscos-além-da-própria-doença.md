@@ -3,7 +3,7 @@ title: A pandemia por COVID-19 traz outros riscos além da própria doença
 excerpt: Por conta da pandemia, pesquisas apontam uma queda acentuada nos
   serviços de diagnóstico em todo o mundo
 date: 2021-02-12T13:05:34.743Z
-author: Ronaldo Leão
+author: 
 category: COVID-19
 featured_image: uploads/image-from-ios.jpg
 tags:
