@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-md-10 offset-md-1">
                     <h1 class="single-post__title">{{ $page.post.title }}</h1>
-                    <small class="single-post__credits"><span v-if="$page.post.author">Por: <g-link :to="$page.post.author.path">{{ $page.post.author.id }}</g-link>&nbsp;&nbsp;|</span>&nbsp;&nbsp;<font-awesome class="single-post__icon" :icon="['fas', 'clock']"/>&nbsp;&nbsp;{{ $page.post.date }}</small>
+                    <small class="single-post__credits"><span v-if="$page && $page.post && $page.post.author">Por: <g-link :to="$page.post.author.path">{{ $page.post.author.id }}</g-link>&nbsp;&nbsp;|</span>&nbsp;&nbsp;<font-awesome class="single-post__icon" :icon="['fas', 'clock']"/>&nbsp;&nbsp;{{ $page.post.date }}</small>
                 </div>
             </div>
             <div class="row mt-4">
@@ -15,7 +15,7 @@
             </div>
             <div class="row single-post__content">
                 <div class="col-md-10 offset-md-1 col-md-10 offset-md-1" data-text="teste">
-                    <p align="justify" v-html="$page.post.content"></p>
+                    <div class="single-post__content_html" v-html="$page.post.content"></div>
                     <SocialShare class="my-5" :url="'https://www.fonteimagem.com.br'+ $page.post.path" />                    
                     <p class="single-post__tag-title">tags:</p>
                     <div class="single-post__tag-list">
@@ -104,6 +104,7 @@ export default {
         margin-bottom: 1.5rem;
     }
 
+
     &__credits {
         text-transform: uppercase;
         font-size: .77rem;
@@ -154,6 +155,10 @@ export default {
             @media (min-width: 1200px) {
                 width: 115%;
             }
+        }
+
+        &_html {
+            text-align: justify;
         }
         
         blockquote p {
