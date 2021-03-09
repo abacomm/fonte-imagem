@@ -1,8 +1,8 @@
 ---
 name: John Berry
 specialty: Imagem Cardiovascular
-thumb_image: /img-author-john.jpg
-large_image: /uploads/img-home-team-2.png
+thumb_image: /uploads/img-author-john.jpg
+large_image: /uploads/img-author-john.jpg
 external_link: 'http://lattes.cnpq.br/8714037431511739'
 profile: ''
 ---
