@@ -1,8 +1,8 @@
 ---
 name: Roberto Perrotta
 specialty: Radiologia e Diagnóstico por Imagem
-thumb_image: /uploads/medic/image0.jpeg
-large_image: /uploads/medic/image0.jpeg
+thumb_image: /uploads/image0.jpeg
+large_image: /uploads/image0.jpeg
 external_link: https://wwws.cnpq.br/cvlattesweb/PKG_MENU.menu?f_cod=9391B02CDDBF44241C10720FC2A12779#
 ---
 Graduação em medicina pela Universidade Estadual do Rio de Janeiro (UERJ)\

@@ -1,7 +1,7 @@
 ---
 name: Rodrigo Coelho Campos
 specialty: Ultrassonografia em Ginecologia e Obstetrícia 
-thumb_image: /uploads/medic/img-author-rodrigo-campos.jpg
+thumb_image: /uploads/img-author-rodrigo-campos.jpg
 large_image: /uploads/img-home-team-2.png
 external_link: ''
 profile: ''

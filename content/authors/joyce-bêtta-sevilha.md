@@ -1,7 +1,7 @@
 ---
 name: Joyce Bêtta Sevilha
 specialty: Radiologia e Diagnóstico por Imagem
-thumb_image: /uploads/medic/img-author-joyce.jpg
+thumb_image: /uploads/img-author-joyce.jpg
 large_image: /uploads/img-home-team-3.png
 external_link: ''
 profile: ''

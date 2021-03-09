@@ -1,7 +1,7 @@
 ---
 name: Adriana Lessa Brandão
 specialty: Radiologia e Diagnóstico por Imagem
-thumb_image: /uploads/medic/img-author-adriana.jpg
+thumb_image: /uploads/img-author-adriana.jpg
 large_image: /uploads/img-home-team-1.png
 external_link: ''
 profile: ''

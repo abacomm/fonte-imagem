@@ -1,7 +1,7 @@
 ---
 name: Flávia Angélica Ferreira Francisco
 specialty: Radiologia e Diagnóstico por Imagem
-thumb_image: /uploads/medic/img-author-flavia-angelica.jpg
+thumb_image: /uploads/img-author-flavia-angelica.jpg
 large_image: /uploads/img-home-team-3.png
 external_link: ''
 profile: ''

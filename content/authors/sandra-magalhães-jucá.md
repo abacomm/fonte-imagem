@@ -1,7 +1,7 @@
 ---
 name: Sandra Magalhães Jucá
 specialty: Radiologia e Diagnóstico por Imagem
-thumb_image: /uploads/medic/img-author-sandra.jpg
+thumb_image: /uploads/img-author-sandra.jpg
 large_image: /uploads/img-home-team-2.png
 external_link: ''
 profile: ''

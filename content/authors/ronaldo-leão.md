@@ -1,7 +1,7 @@
 ---
 name: Ronaldo Leão
 specialty: Imagem Cardiovascular
-thumb_image: /uploads/medic/img-author-ronaldo.jpg
+thumb_image: /uploads/img-author-ronaldo.jpg
 large_image: /uploads/img-home-team-2.png
 external_link: 'http://lattes.cnpq.br/8366953938754943'
 profile: ''

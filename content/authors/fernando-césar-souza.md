@@ -1,7 +1,7 @@
 ---
 name: Fernando César C. Souza 
 specialty: Imagem Cardiovascular
-thumb_image: /uploads/medic/img-author-fernando.jpg
+thumb_image: /uploads/img-author-fernando.jpg
 large_image: /uploads/img-home-team-3.png
 external_link: 'http://lattes.cnpq.br/8735598596831221'
 profile: ''

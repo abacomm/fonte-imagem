@@ -1,7 +1,7 @@
 ---
 name: Márcia Bueno Castier
 specialty: Imagem Cardiovascular
-thumb_image: /uploads/medic/img-author-marcia.jpg
+thumb_image: /uploads/img-author-marcia.jpg
 large_image: /uploads/img-home-team-2.png
 external_link: 'http://lattes.cnpq.br/1572060949131370'
 profile: ''
