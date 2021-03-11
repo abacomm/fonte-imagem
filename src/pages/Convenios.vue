@@ -12,6 +12,12 @@
           <p>AMS Petrobrás</p>
         </div>
         <div class="convenio-item">
+          <p>Amil Lincx</p>
+        </div>
+        <div class="convenio-item">
+          <p>Amil One Health</p>
+        </div>
+        <div class="convenio-item">
           <p>Bacen</p>
         </div>
         <div class="convenio-item">
